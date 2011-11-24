@@ -3,6 +3,18 @@
 //--------------------------------------------------------------
 void testApp::setup(){
 
+	if( !xmlConfig.loadFile("skylight.xml") ) {
+		printf("config not found");
+		exit();
+	}
+
+	// get config values from XML file in ./data
+	displayTests = xmlConfig.getValue("test:display", false);
+	displayChat = xmlConfig.getValue("chat:display", false);
+	cameraUrl = xmlConfig.getValue("camera:url", "http://192.168.0.6/jpeg.cgi?0");
+	displayWidth = xmlConfig.getValue("display:width", 1280);
+	displayHeight = xmlConfig.getValue("display:height", 1024);
+	fontPath = xmlConfig.getValue("font:path", "mono.ttf");
 
 }
 

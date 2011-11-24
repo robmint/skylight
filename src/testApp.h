@@ -6,7 +6,7 @@
 //#include "ofxThread.h"
 #include "util.h"
 
-#define CONFIG_FILE = "data/skylight.conf"
+#define CONFIG_FILE "data/skylight.xml"
 
 class testApp : public ofBaseApp{
 
@@ -24,12 +24,12 @@ class testApp : public ofBaseApp{
 		void windowResized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
-		char *cameraUrl, *fontPath;
+		string cameraUrl, fontPath;
 		int displayWidth, displayHeight;
 		int yCursor, m;
 		long freeSpace;
 		
-		ofxXmlSettings XmlConfig;
+		ofxXmlSettings xmlConfig;
 		
 		ofImage remoteImage, testImage;
 		ofImage movieBuffer[3600];
