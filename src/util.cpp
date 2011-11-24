@@ -9,3 +9,10 @@
 
 #include "util.h"
 
+
+Util::Util() {
+}
+
+void Util::foo() {
+	printf("<#message#>");
+}

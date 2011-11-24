@@ -12,6 +12,7 @@
 		CBF69550147DEC0200F8881D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954A147DEC0200F8881D /* tinyxmlerror.cpp */; };
 		CBF69551147DEC0200F8881D /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954B147DEC0200F8881D /* tinyxmlparser.cpp */; };
 		CBF69552147DEC0200F8881D /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954D147DEC0200F8881D /* ofxXmlSettings.cpp */; };
+		CBF69592147DF9F100F8881D /* ofxThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69590147DF9F100F8881D /* ofxThread.cpp */; };
 		E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE0A90E8CC67C009D7055 /* GLee.a */; };
 		E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE2E30E8CC69C009D7055 /* rtAudio.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -93,6 +94,10 @@
 		CBF6954B147DEC0200F8881D /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxmlparser.cpp; sourceTree = "<group>"; };
 		CBF6954D147DEC0200F8881D /* ofxXmlSettings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxXmlSettings.cpp; sourceTree = "<group>"; };
 		CBF6954E147DEC0200F8881D /* ofxXmlSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxXmlSettings.h; sourceTree = "<group>"; };
+		CBF6958D147DF9F100F8881D /* Instructions.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Instructions.txt; sourceTree = "<group>"; };
+		CBF6958E147DF9F100F8881D /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
+		CBF69590147DF9F100F8881D /* ofxThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxThread.cpp; sourceTree = "<group>"; };
+		CBF69591147DF9F100F8881D /* ofxThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxThread.h; sourceTree = "<group>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -172,6 +177,7 @@
 		CBF6953D147DEBDC00F8881D /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				CBF6958B147DF9F100F8881D /* ofxThread */,
 				CBF69545147DEC0200F8881D /* ofxXmlSettings */,
 			);
 			name = addons;
@@ -205,6 +211,34 @@
 			children = (
 				CBF6954D147DEC0200F8881D /* ofxXmlSettings.cpp */,
 				CBF6954E147DEC0200F8881D /* ofxXmlSettings.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CBF6958B147DF9F100F8881D /* ofxThread */ = {
+			isa = PBXGroup;
+			children = (
+				CBF6958C147DF9F100F8881D /* docs */,
+				CBF6958E147DF9F100F8881D /* install.xml */,
+				CBF6958F147DF9F100F8881D /* src */,
+			);
+			name = ofxThread;
+			path = ../../../addons/ofxThread;
+			sourceTree = SOURCE_ROOT;
+		};
+		CBF6958C147DF9F100F8881D /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				CBF6958D147DF9F100F8881D /* Instructions.txt */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		CBF6958F147DF9F100F8881D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CBF69590147DF9F100F8881D /* ofxThread.cpp */,
+				CBF69591147DF9F100F8881D /* ofxThread.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -582,6 +616,7 @@
 				CBF69550147DEC0200F8881D /* tinyxmlerror.cpp in Sources */,
 				CBF69551147DEC0200F8881D /* tinyxmlparser.cpp in Sources */,
 				CBF69552147DEC0200F8881D /* ofxXmlSettings.cpp in Sources */,
+				CBF69592147DF9F100F8881D /* ofxThread.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

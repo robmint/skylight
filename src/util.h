@@ -6,6 +6,14 @@
  *  Copyright 2011 createrevolutionaryart.net. All rights reserved.
  *
  */
-	#pragma once
-	#include "ofxXmlSettings.h"
 
+#pragma once
+#include "ofxXmlSettings.h"
+
+class Util {
+	
+public:	
+	Util();
+	void foo();
+	
+};

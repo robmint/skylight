@@ -3,6 +3,7 @@
 
 
 #include "ofMain.h"
+//#include "ofxThread.h"
 #include "util.h"
 
 #define CONFIG_FILE = "data/skylight.conf"
@@ -30,15 +31,15 @@ class testApp : public ofBaseApp{
 		
 		ofxXmlSettings XmlConfig;
 		
-	/*	PImage remoteImage, testImage;
-		PImage[] movieBuffer = new PImage[3600];
+		ofImage remoteImage, testImage;
+		ofImage movieBuffer[3600];
 		
-		ArrayList output = new ArrayList(); 
+/*		ArrayList output = new ArrayList(); 
 		ArrayList chat = new ArrayList(); 
+*/		
+		ofTrueTypeFont font;
 		
-		PFont font;
-		
-		HttpThread httpThread;
+/*		HttpThread httpThread;
 		CameraThread cameraThread;
 		ImageLoaderThread imageLoaderThread;
 		MoviePlayer moviePlayer;
