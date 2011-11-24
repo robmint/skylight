@@ -31,7 +31,6 @@ void testApp::keyReleased(int key){
 
 //--------------------------------------------------------------
 void testApp::mouseMoved(int x, int y ){
-	insect.setPan(ofMap(x, 0, ofGetScreenWidth(), 0, 1));
 
 }
 
