@@ -4,6 +4,7 @@
 
 #include "ofMain.h"
 //#include "ofxThread.h"
+#include "ofxFileLoader.h"
 #include "util.h"
 
 #define CONFIG_FILE "data/skylight.xml"
@@ -26,9 +27,11 @@ class testApp : public ofBaseApp{
 		bool displayTests, displayChat, moviePlaying;
 		string cameraUrl, fontPath;
 		int displayWidth, displayHeight;
-		int yCursor, m;
+		int yCursor, m, time;
 		long freeSpace;
 		
+		ofxFileLoader imageLoader;
+
 		ofxXmlSettings xmlConfig;
 		
 		//ofImage remoteImage, testImage;

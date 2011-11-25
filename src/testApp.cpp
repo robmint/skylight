@@ -31,12 +31,24 @@ void testApp::setup(){
 	
 
 	ofBackground(0,0,0);
+	
+	time = 0;
 
 }
 
 //--------------------------------------------------------------
 void testApp::update(){
-	//videoPlayer.idleMovie();
+	videoPlayer.idleMovie();
+	if(time%500==0) {
+		// loads a file from a url and saves it with a specific name
+		// the resulting file can be loaded into a ofImage for display
+
+		if(imageLoader.loadFromUrl(cameraUrl,"bob.jpg"))
+			printf("Got image and saved: %i\n", time);
+	}
+
+	time++;
+		
 }
 
 //--------------------------------------------------------------
