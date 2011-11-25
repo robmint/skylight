@@ -21,7 +21,7 @@ class testApp : public ofBaseApp{
 		void mouseDragged(int x, int y, int button);
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
-		void windowResized(int w, int h);
+		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
 		string cameraUrl, fontPath;
@@ -31,9 +31,12 @@ class testApp : public ofBaseApp{
 		
 		ofxXmlSettings xmlConfig;
 		
-		ofImage remoteImage, testImage;
-		ofImage movieBuffer[3600];
+		//ofImage remoteImage, testImage;
+		//ofImage movieBuffer[3600];
 		
+		ofVideoPlayer videoPlayer;
+
+	
 /*		ArrayList output = new ArrayList(); 
 		ArrayList chat = new ArrayList(); 
 */		
