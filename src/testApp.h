@@ -5,6 +5,7 @@
 #include "ofMain.h"
 //#include "ofxThread.h"
 #include "ofxFileLoader.h"
+// #include "ofFileUtils.h" 007 only
 #include "util.h"
 
 #define CONFIG_FILE "data/skylight.xml"
@@ -30,6 +31,8 @@ class testApp : public ofBaseApp{
 		int yCursor, m, time;
 		long freeSpace;
 		
+		char imgPath[1000];
+
 		ofxFileLoader imageLoader;
 
 		ofxXmlSettings xmlConfig;

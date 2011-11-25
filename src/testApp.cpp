@@ -33,7 +33,8 @@ void testApp::setup(){
 	ofBackground(0,0,0);
 	
 	time = 0;
-
+	
+	//ofDirectory::createDirectory("1/2/3");
 }
 
 //--------------------------------------------------------------
@@ -43,8 +44,13 @@ void testApp::update(){
 		// loads a file from a url and saves it with a specific name
 		// the resulting file can be loaded into a ofImage for display
 
-		if(imageLoader.loadFromUrl(cameraUrl,"bob.jpg"))
-			printf("Got image and saved: %i\n", time);
+		sprintf(imgPath, "%i/%i/%i/%i-%i-%i.jpg\n", ofGetYear(),ofGetMonth(),ofGetDay(),ofGetHours(),ofGetMinutes(),ofGetSeconds());
+		
+		if(imageLoader.loadFromUrl(cameraUrl,"1/2/3/data.jpg")) {
+			printf(imgPath, "%i");
+		}
+		
+		system("mkdir -p /Volumes/external-drive/skylight/images/2011/11/25");
 	}
 
 	time++;
