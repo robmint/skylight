@@ -50,7 +50,8 @@ void testApp::update(){
 			printf(imgPath, "%i");
 		}
 		
-		system("mkdir -p /Volumes/external-drive/skylight/images/2011/11/25");
+		// for this to work you need to set finder permissions for the user to read/write on the external drive path
+		system("mkdir -p /Volumes/brick2/skylight/images/2011/11/25");
 	}
 
 	time++;
