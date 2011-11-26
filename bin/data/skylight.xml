@@ -7,6 +7,9 @@
 <camera>
 	<url>http://192.168.0.4/rcar004/skylight/image.php</url>
 </camera>
+<storage>
+    <path>/Volumes/brick2/skylight</path>
+</storage>
 <display>
 	<width>1366</width>
 	<height>768</width>

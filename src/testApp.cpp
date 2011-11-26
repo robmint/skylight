@@ -18,6 +18,8 @@ void testApp::setup(){
 	displayTests = xmlConfig.getValue("test:display", false);
 	displayChat = xmlConfig.getValue("chat:display", false);
 	cameraUrl = xmlConfig.getValue("camera:url", "http://192.168.0.6/jpeg.cgi?0");
+	storagePath = xmlConfig.getValue("storage:path", "/Volumes/brick2/skylight");
+
 	displayWidth = xmlConfig.getValue("display:width", 1280);
 	displayHeight = xmlConfig.getValue("display:height", 1024);
 	fontPath = xmlConfig.getValue("font:path", "mono.ttf");

@@ -26,7 +26,7 @@ class testApp : public ofBaseApp{
 		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
-		string cameraUrl, fontPath;
+		string cameraUrl, fontPath, storagePath;
 		int displayWidth, displayHeight;
 		int yCursor, m, time;
 		long freeSpace;
