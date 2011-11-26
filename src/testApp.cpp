@@ -28,15 +28,14 @@ void testApp::setup(){
 	font.loadFont(fontPath, 32);
 
 	
-	videoPlayer.loadMovie("movies/ironsand.mov");
-	videoPlayer.play();
+	//videoPlayer.loadMovie("movies/ironsand.mov");
+	//videoPlayer.play();
 	
 
 	ofBackground(0,0,0);
 	
 	time = 0;
 	
-	//ofDirectory::createDirectory("1/2/3");
 }
 
 //--------------------------------------------------------------
@@ -46,14 +45,19 @@ void testApp::update(){
 		// loads a file from a url and saves it with a specific name
 		// the resulting file can be loaded into a ofImage for display
 
-		sprintf(imgPath, "%i/%i/%i/%i-%i-%i.jpg\n", ofGetYear(),ofGetMonth(),ofGetDay(),ofGetHours(),ofGetMinutes(),ofGetSeconds());
+		sprintf(buffer, "mkdir -p %s/images/%i/%i/%i/%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+		system(buffer);
+		printf("%s\n", buffer);
 		
-		if(imageLoader.loadFromUrl(cameraUrl,"1/2/3/data.jpg")) {
-			printf(imgPath, "%i");
-		}
+		//sprintf(buffer, "%i/%i/%i/%i-%i-%i.jpg\n", ofGetYear(),ofGetMonth(),ofGetDay(),ofGetHours(),ofGetMinutes(),ofGetSeconds());
+		
+//		if(imageLoader.loadFromUrl(cameraUrl,"1/2/3/data.jpg")) {
+//			printf(buffer, "%i\n");
+//		}
 		
 		// for this to work you need to set finder permissions for the user to read/write on the external drive path
-		system("mkdir -p /Volumes/brick2/skylight/images/2011/11/25");
+//		sprintf(buffer, storagePath.c_str(), "mkdir -p %s/images/2011/11/25" );
+//		system(buffer);
 	}
 
 	time++;
@@ -64,7 +68,7 @@ void testApp::update(){
 void testApp::draw(){
 	ofBackground(0,0,0);
 
-	videoPlayer.draw(0,0,displayWidth,displayHeight);
+	//videoPlayer.draw(0,0,displayWidth,displayHeight);
 
 	string str = ofToString(ofGetFrameRate(), 2)+"fps";
 	font.drawString(str, 5, 40);
