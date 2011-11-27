@@ -33,33 +33,27 @@ class testApp : public ofBaseApp{
 		string cameraUrl, fontPath, storagePath;
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
-		long freeSpace;
 	
+		int xpos, ypos;
+		double xscale, yscale;
+		bool lockAspect;
+	
+		long freeSpace;
+
 		vector<string> files;
+		
+		string message;
 		
 		char buffer[1024], path[500], imgPath[1000];
 
+		ofTexture *frameTexture;
 		ofxFileLoader imageLoader;
 		ofxImageSequence sequence;
 		ofxXmlSettings xmlConfig;
 		ofxDirList dir;
 		
-		//ofImage remoteImage, testImage;
-		//ofImage movieBuffer[3600];
-		
 		ofVideoPlayer videoPlayer;
-
-	
-/*		ArrayList output = new ArrayList(); 
-		ArrayList chat = new ArrayList(); 
-*/		
 		ofTrueTypeFont font;
-		
-/*		HttpThread httpThread;
-		CameraThread cameraThread;
-		ImageLoaderThread imageLoaderThread;
-		MoviePlayer moviePlayer;
-	*/	
 
 };
 

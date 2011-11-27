@@ -15,15 +15,22 @@ void testApp::setup(){
 		exit();
 	}
 
-	displayTests = xmlConfig.getValue("display:test", false);
-	displayChat = xmlConfig.getValue("display:chat", false);
-	cameraUrl = xmlConfig.getValue("camera:url", "http://192.168.0.6/jpeg.cgi?0");
-	captureFreq = xmlConfig.getValue("camera:freq", 500);
-	storagePath = xmlConfig.getValue("storage:path", "/Volumes/brick2/skylight");
+	displayTests = xmlConfig.getValue("config:display:test", false);
+	displayChat = xmlConfig.getValue("config:display:chat", false);
 
-	displayWidth = xmlConfig.getValue("display:width", 1280);
-	displayHeight = xmlConfig.getValue("display:height", 1024);
-	fontPath = xmlConfig.getValue("font:path", "mono.ttf");
+	xpos = xmlConfig.getValue("config:display:xpos", 0);
+	ypos = xmlConfig.getValue("config:display:ypos", 0);
+	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
+	yscale = xmlConfig.getValue("config:display:yscale", 1.0f);
+	lockAspect = xmlConfig.getValue("config:display:lockaspect", true);
+	
+	cameraUrl = xmlConfig.getValue("config:camera:url", "http://192.168.0.6/jpeg.cgi?0");
+	captureFreq = xmlConfig.getValue("config:camera:freq", 500);
+	storagePath = xmlConfig.getValue("config:storage:path", "/Volumes/brick2/skylight");
+
+	displayWidth = xmlConfig.getValue("config:display:width", 1280);
+	displayHeight = xmlConfig.getValue("config:display:height", 1024);
+	fontPath = xmlConfig.getValue("config:font:path", "mono.ttf");
 
 	// load font
 	font.loadFont(fontPath, 12);
@@ -33,11 +40,10 @@ void testApp::setup(){
 	
 	// directory listing
 	dir.allowExt("jpg");
-	dir.setVerbose(true);
 	
 	int numFiles = dir.listDir("/Volumes/brick2/skylight/images/2011/11/27/15/");
 	for(int i = 0; i < numFiles; i++){
-		cout<<"name: "<<dir.getName(i)<<" dir: "<<dir.getPath(i)<<"\n";
+		//cout<<"name: "<<dir.getName(i)<<" dir: "<<dir.getPath(i)<<"\n";
 	}
 	
 	// initialise imageSequence
@@ -54,6 +60,7 @@ void testApp::setup(){
 	// initial values
 	time = 0;
 	networkCapture = true;
+	message = "";
 	ofSetFrameRate(25);
 	
 }
@@ -96,10 +103,12 @@ void testApp::draw(){
 
 	//videoPlayer.draw(0,0,displayWidth,displayHeight);
 
-	sequence.getFrame(time%sequence.getTotalFrames())->draw(0, 0);
+	frameTexture = sequence.getFrame(time%sequence.getTotalFrames());
+	frameTexture->draw(xpos, ypos, frameTexture->getWidth()*xscale, frameTexture->getHeight()*yscale );
 
 	string str = ofToString(ofGetFrameRate(), 0)+"fps";
 	font.drawString(str, 5, 18);
+	font.drawString(message, 5, 600);
 	
 
 }
@@ -107,6 +116,47 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 
+	if(key=='s') {
+		xmlConfig.saveFile("skylight.xml");
+		message = "Saved config file";
+	}
+	
+	if(key==OF_KEY_RIGHT) {
+		if (glutGetModifiers() == GLUT_ACTIVE_SHIFT) {  
+			xscale+=0.1;
+			if(lockAspect) yscale+=0.1;
+			xmlConfig.setValue("config:display:xscale", xscale);
+			xmlConfig.setValue("config:display:yscale", yscale, 0);
+			message = "xscale="+ofToString(xscale);
+		} else {
+			xpos++;
+			xmlConfig.setValue("config:display:xpos", xpos, 0);
+		}
+	}
+	
+	if(key==OF_KEY_LEFT) {
+		if (glutGetModifiers() == GLUT_ACTIVE_SHIFT) {  
+			xscale-=0.1;
+			if(lockAspect) yscale-=0.1;
+			xmlConfig.setValue("config:display:xscale", xscale, 0);
+			xmlConfig.setValue("config:display:yscale", yscale, 0);
+			message = "xscale="+ofToString(xscale);
+		} else {
+			xpos--;
+			xmlConfig.setValue("config:display:xpos", xpos, 0);
+		}
+	}
+	
+	if(key==OF_KEY_UP) {
+		ypos--;
+		xmlConfig.setValue("config:display:ypos", ypos, 0);
+	}
+	
+	if(key==OF_KEY_DOWN) {
+		ypos++;
+		xmlConfig.setValue("config:display:ypos", ypos, 0);
+	}
+	
 }
 
 //--------------------------------------------------------------

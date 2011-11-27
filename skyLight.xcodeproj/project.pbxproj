@@ -205,8 +205,8 @@
 		CBF69545147DEC0200F8881D /* ofxXmlSettings */ = {
 			isa = PBXGroup;
 			children = (
-				CBF69546147DEC0200F8881D /* install.xml */,
 				CBF69547147DEC0200F8881D /* libs */,
+				CBF69546147DEC0200F8881D /* install.xml */,
 				CBF6954C147DEC0200F8881D /* src */,
 			);
 			name = ofxXmlSettings;
