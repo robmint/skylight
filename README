@@ -9,9 +9,9 @@ Part of Digital Art Live, in association with the Aotea Centre, CoLab and AUT Un
 
 Addons used:
 
-ofxFileLoader
+ofxFileLoader https://github.com/vtron/ofxVtron/tree/master/ofxFileLoader
 ofxImageSequence https://github.com/Flightphase/ofxImageSequence
-ofxXmlSettings
+ofxXmlSettings https://github.com/openframeworks/ofxXmlSettings
 
 
 Thanks to the people who answered my questions on the oF forums.

@@ -26,17 +26,25 @@ void testApp::setup(){
 	fontPath = xmlConfig.getValue("font:path", "mono.ttf");
 
 	// load font
-	font.loadFont(fontPath, 32);
+	font.loadFont(fontPath, 12);
 
 	//videoPlayer.loadMovie("movies/ironsand.mov");
 	//videoPlayer.play();
 	
+	// directory listing
+	dir.allowExt("jpg");
+	dir.setVerbose(true);
+	
+	int numFiles = dir.listDir("/Volumes/brick2/skylight/images/2011/11/27/15/");
+	for(int i = 0; i < numFiles; i++){
+		cout<<"name: "<<dir.getName(i)<<" dir: "<<dir.getPath(i)<<"\n";
+	}
 	
 	// initialise imageSequence
-/*	sequence.loadSequence(storagePath, "jpg", 0, 20, 2);
-	sequence.preloadAllFrames();	//this way there is no stutter when loading frames
-	sequence.setFrameRate(10); //set to ten frames per second for Muybridge's horse.
-*/	
+	sequence.loadSequence("/Volumes/brick2/skylight/images/2011/11/27/15/ironsand", "jpg", 1, 80, 4);
+	sequence.preloadAllFrames();
+	sequence.setFrameRate(4);
+	
 	
 	
 	// set bg to black
@@ -46,6 +54,7 @@ void testApp::setup(){
 	// initial values
 	time = 0;
 	networkCapture = true;
+	ofSetFrameRate(25);
 	
 }
 
@@ -75,6 +84,7 @@ void testApp::update(){
 		}
 		
 	}
+	
 
 	time++;
 		
@@ -86,8 +96,10 @@ void testApp::draw(){
 
 	//videoPlayer.draw(0,0,displayWidth,displayHeight);
 
+	sequence.getFrame(time%sequence.getTotalFrames())->draw(0, 0);
+
 	string str = ofToString(ofGetFrameRate(), 0)+"fps";
-	font.drawString(str, 5, 40);
+	font.drawString(str, 5, 18);
 	
 
 }

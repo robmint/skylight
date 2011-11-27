@@ -3,12 +3,13 @@
 
 
 #include "ofMain.h"
-//#include "ofxThread.h"
 #include "ofxFileLoader.h"
 // #include "ofFileUtils.h" 007 only
+#include "ofxDirList.h"
 #include "ofxImageSequence.h" 
 #include "util.h"
 #include <string.h>
+#include <vector.h>
 
 #define CONFIG_FILE "data/skylight.xml"
 
@@ -33,12 +34,15 @@ class testApp : public ofBaseApp{
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
 		long freeSpace;
+	
+		vector<string> files;
 		
 		char buffer[1024], path[500], imgPath[1000];
 
 		ofxFileLoader imageLoader;
 		ofxImageSequence sequence;
 		ofxXmlSettings xmlConfig;
+		ofxDirList dir;
 		
 		//ofImage remoteImage, testImage;
 		//ofImage movieBuffer[3600];
