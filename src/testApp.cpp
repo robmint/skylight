@@ -5,21 +5,13 @@ void testApp::setup(){
 	camWidth = 320;
 	camHeight = 240;
 	
-	//camera.videoSettings();
-	//camera.listDevices();
-	//camera.videoSettings();
+	camera.videoSettings();
+	camera.listDevices();
+	camera.videoSettings();
 	
-	//camera.setVerbose(true);
+	camera.setVerbose(true);
 	camera.initGrabber(camWidth,camHeight);
 	
-	
-	videoPlayer.loadMovie("movies/fingers.mov");
-	bool loaded = videoPlayer.bLoaded;
-	if(loaded) 	printf("movie loaded\n");
-
-	videoPlayer.play();
-	//videoPlayer.setPaused(false);
-
 	// get config values from XML file in ./data
 	if( !xmlConfig.loadFile("skylight.xml") ) {
 		printf("config not found");
@@ -44,9 +36,6 @@ void testApp::setup(){
 
 	// load font
 	font.loadFont(fontPath, 12);
-
-	//videoPlayer.loadMovie("movies/ironsand.mov");
-	//videoPlayer.play();
 	
 	// directory listing
 	dir.allowExt("jpg");
@@ -76,7 +65,6 @@ void testApp::setup(){
 
 //--------------------------------------------------------------
 void testApp::update(){
-	videoPlayer.idleMovie();
 	/* TODO captureFreq relates to how often update() is called (ie framerate) but
 	   should be related to time (elapsed millis) so it is the same frequency
 	   regardless of a fast or slow computer */

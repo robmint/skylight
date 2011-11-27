@@ -57,7 +57,6 @@ class testApp : public ofBaseApp{
 		ofxXmlSettings xmlConfig;
 		ofxDirList dir;
 		
-		ofVideoPlayer videoPlayer;
 		ofTrueTypeFont font;
 
 };
