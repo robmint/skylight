@@ -6,6 +6,7 @@
 //#include "ofxThread.h"
 #include "ofxFileLoader.h"
 // #include "ofFileUtils.h" 007 only
+#include "ofxImageSequence.h" 
 #include "util.h"
 #include <string.h>
 
@@ -27,16 +28,16 @@ class testApp : public ofBaseApp{
 		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
+		bool networkCapture;
 		string cameraUrl, fontPath, storagePath;
 		int displayWidth, displayHeight;
 		int yCursor, m, time;
 		long freeSpace;
 		
-		char buffer[1024];
-		char imgPath[1000];
+		char buffer[1024], path[500], imgPath[1000];
 
 		ofxFileLoader imageLoader;
-
+		ofxImageSequence sequence;
 		ofxXmlSettings xmlConfig;
 		
 		//ofImage remoteImage, testImage;

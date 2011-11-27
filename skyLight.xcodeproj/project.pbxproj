@@ -15,6 +15,7 @@
 		CBF69592147DF9F100F8881D /* ofxThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69590147DF9F100F8881D /* ofxThread.cpp */; };
 		CBF6988A147F3B4C00F8881D /* ofxFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69888147F3B4C00F8881D /* ofxFileLoader.cpp */; };
 		CBF69927147F59F700F8881D /* ofxDirList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69925147F59F700F8881D /* ofxDirList.cpp */; };
+		CBF69A771481C53E00F8881D /* ofxImageSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */; };
 		E45BE0AA0E8CC67C009D7055 /* GLee.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE0A90E8CC67C009D7055 /* GLee.a */; };
 		E45BE2E40E8CC69C009D7055 /* rtAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE2E30E8CC69C009D7055 /* rtAudio.a */; };
 		E45BE97B0E8CC7DD009D7055 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45BE9710E8CC7DD009D7055 /* AGL.framework */; };
@@ -106,6 +107,11 @@
 		CBF69923147F59F700F8881D /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		CBF69925147F59F700F8881D /* ofxDirList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDirList.cpp; sourceTree = "<group>"; };
 		CBF69926147F59F700F8881D /* ofxDirList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDirList.h; sourceTree = "<group>"; };
+		CBF69A711481C53E00F8881D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxImageSequence.cpp; sourceTree = "<group>"; };
+		CBF69A741481C53E00F8881D /* ofxImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxImageSequence.h; sourceTree = "<group>"; };
+		CBF69AAA1481CE3300F8881D /* mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mono.ttf; sourceTree = "<group>"; };
+		CBF69AAF1481CE3300F8881D /* skylight.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = skylight.xml; sourceTree = "<group>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -185,6 +191,7 @@
 		CBF6953D147DEBDC00F8881D /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				CBF699D01481C53D00F8881D /* ofxImageSequence */,
 				CBF69920147F59F700F8881D /* ofxDirList */,
 				CBF69887147F3B4C00F8881D /* ofxFileLoader */,
 				CBF6958B147DF9F100F8881D /* ofxThread */,
@@ -289,6 +296,43 @@
 				CBF69926147F59F700F8881D /* ofxDirList.h */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		CBF699D01481C53D00F8881D /* ofxImageSequence */ = {
+			isa = PBXGroup;
+			children = (
+				CBF69A711481C53E00F8881D /* README */,
+				CBF69A721481C53E00F8881D /* src */,
+			);
+			name = ofxImageSequence;
+			path = ../../../addons/ofxImageSequence;
+			sourceTree = SOURCE_ROOT;
+		};
+		CBF69A721481C53E00F8881D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */,
+				CBF69A741481C53E00F8881D /* ofxImageSequence.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CBF69AA91481CE3300F8881D /* data */ = {
+			isa = PBXGroup;
+			children = (
+				CBF69AAA1481CE3300F8881D /* mono.ttf */,
+				CBF69AAB1481CE3300F8881D /* movies */,
+				CBF69AAF1481CE3300F8881D /* skylight.xml */,
+			);
+			name = data;
+			path = bin/data;
+			sourceTree = "<group>";
+		};
+		CBF69AAB1481CE3300F8881D /* movies */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = movies;
 			sourceTree = "<group>";
 		};
 		E45BE0360E8CC5DE009D7055 /* libs */ = {
@@ -474,6 +518,7 @@
 				E4B69B5B0A3A1756003C02F2 /* skyLightDebug.app */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				CBF69525147DE77000F8881D /* README */,
+				CBF69AA91481CE3300F8881D /* data */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
 				E4C2422310CC54B6004149E2 /* openFrameworks */,
 				CBF6953D147DEBDC00F8881D /* addons */,
@@ -667,6 +712,7 @@
 				CBF69592147DF9F100F8881D /* ofxThread.cpp in Sources */,
 				CBF6988A147F3B4C00F8881D /* ofxFileLoader.cpp in Sources */,
 				CBF69927147F59F700F8881D /* ofxDirList.cpp in Sources */,
+				CBF69A771481C53E00F8881D /* ofxImageSequence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

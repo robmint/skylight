@@ -1,0 +1,24 @@
+Skylight
+
+Robert Carter 2011
+
+An interactive installation for the The Edge, Auckland. 
+Part of Digital Art Live, in association with the Aotea Centre, CoLab and AUT University.
+
+Addons used:
+
+ofxFileLoader
+ofxImageSequence https://github.com/Flightphase/ofxImageSequence
+ofxXmlSettings
+
+
+Thanks to the people who answered my questions on the oF forums.
+
+Kyle http://twitter.com/kcimc
+Joshua http://twitter.com/factoryfactory
+
+Also thanks to these people who helped in various ways.
+
+Christine Probert 
+Kim Newall
+Nolwenn Hugain-Lacire
