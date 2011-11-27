@@ -265,6 +265,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>E4B69B4A0A3A1720003C02F2</string>
+								<string>CBF69AA91481CE3300F8881D</string>
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
@@ -272,8 +273,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
-									<integer>4</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -297,7 +297,7 @@
 							<real>186</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>211 65 1152 768 0 0 1440 878 </string>
+						<string>213 68 1152 768 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -315,7 +315,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.cpp</string>
+								<string>README</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,21 +323,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.cpp</string>
+										<string>README</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF69AA81481CE0200F8881D</string>
+										<string>CBF69AB41481CF4A00F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
 											<string>CBF69882147F38AE00F8881D</string>
 											<string>CBF698AD147F3E5900F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
-											<string>CBF69AA01481CDBB00F8881D</string>
 											<string>CBF69AA11481CDBB00F8881D</string>
-											<string>CBF69AA71481CE0200F8881D</string>
-											<string>CBF69AA21481CDBB00F8881D</string>
+											<string>CBF69AB01481CF4A00F8881D</string>
+											<string>CBF69AB11481CF4A00F8881D</string>
+											<string>CBF69AB21481CF4A00F8881D</string>
+											<string>CBF69AB31481CF4A00F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -351,7 +352,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {944, 703}}</string>
 								<key>RubberWindowFrame</key>
-								<string>211 65 1152 768 0 0 1440 878 </string>
+								<string>213 68 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -371,7 +372,7 @@
 								<key>Frame</key>
 								<string>{{0, 708}, {944, 19}}</string>
 								<key>RubberWindowFrame</key>
-								<string>211 65 1152 768 0 0 1440 878 </string>
+								<string>213 68 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -544,7 +545,7 @@
 		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>211 65 1152 768 0 0 1440 878 </string>
+	<string>213 68 1152 768 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
