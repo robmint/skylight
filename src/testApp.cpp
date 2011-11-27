@@ -2,6 +2,17 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
+	camWidth = 320;
+	camHeight = 240;
+	
+	//camera.videoSettings();
+	//camera.listDevices();
+	//camera.videoSettings();
+	
+	//camera.setVerbose(true);
+	camera.initGrabber(camWidth,camHeight);
+	
+	
 	videoPlayer.loadMovie("movies/fingers.mov");
 	bool loaded = videoPlayer.bLoaded;
 	if(loaded) 	printf("movie loaded\n");
@@ -17,7 +28,6 @@ void testApp::setup(){
 
 	displayTests = xmlConfig.getValue("config:display:test", false);
 	displayChat = xmlConfig.getValue("config:display:chat", false);
-
 	xpos = xmlConfig.getValue("config:display:xpos", 0);
 	ypos = xmlConfig.getValue("config:display:ypos", 0);
 	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
@@ -50,7 +60,6 @@ void testApp::setup(){
 	sequence.loadSequence("/Volumes/brick2/skylight/images/2011/11/27/15/ironsand", "jpg", 1, 80, 4);
 	sequence.preloadAllFrames();
 	sequence.setFrameRate(4);
-	
 	
 	
 	// set bg to black
@@ -93,6 +102,8 @@ void testApp::update(){
 	}
 	
 
+	camera.grabFrame();
+
 	time++;
 		
 }
@@ -106,6 +117,8 @@ void testApp::draw(){
 	frameTexture = sequence.getFrame(time%sequence.getTotalFrames());
 	frameTexture->draw(xpos, ypos, frameTexture->getWidth()*xscale, frameTexture->getHeight()*yscale );
 
+	camera.draw(20,20);
+	
 	string str = ofToString(ofGetFrameRate(), 0)+"fps";
 	font.drawString(str, 5, 18);
 	font.drawString(message, 5, 600);

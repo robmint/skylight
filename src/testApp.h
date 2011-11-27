@@ -7,6 +7,7 @@
 // #include "ofFileUtils.h" 007 only
 #include "ofxDirList.h"
 #include "ofxImageSequence.h" 
+#include "ofxOpenCv.h"
 #include "util.h"
 #include <string.h>
 #include <vector.h>
@@ -47,6 +48,10 @@ class testApp : public ofBaseApp{
 		char buffer[1024], path[500], imgPath[1000];
 
 		ofTexture *frameTexture;
+
+		ofVideoGrabber camera;
+		int camWidth, camHeight;
+
 		ofxFileLoader imageLoader;
 		ofxImageSequence sequence;
 		ofxXmlSettings xmlConfig;
