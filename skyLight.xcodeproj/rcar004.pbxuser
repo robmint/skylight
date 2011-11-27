@@ -51,7 +51,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 23";
 		rLen = 0;
-		rLoc = 1288;
+		rLoc = 1301;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 119;
@@ -141,7 +141,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 21";
 		rLen = 0;
-		rLoc = 1288;
+		rLoc = 1301;
 		rType = 0;
 		vrLen = 435;
 		vrLoc = 0;
@@ -149,7 +149,7 @@
 	CBF69525147DE77000F8881D /* README */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {883, 671}}";
-			sepNavSelRange = "{82, 0}";
+			sepNavSelRange = "{588, 0}";
 			sepNavVisRange = "{0, 588}";
 		};
 	};
@@ -456,7 +456,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1147;
+		rLoc = 1160;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 36;
@@ -466,7 +466,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1147;
+		rLoc = 1160;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 36;
@@ -476,7 +476,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1151;
+		rLoc = 1164;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 0;
@@ -526,7 +526,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 183;
 		vrLoc = 662;
@@ -644,7 +644,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 32";
 		rLen = 0;
-		rLoc = 937;
+		rLoc = 950;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 38;
@@ -1033,7 +1033,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 11;
-		rLoc = 1036;
+		rLoc = 1049;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 38;
@@ -1321,7 +1321,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 32";
 		rLen = 0;
-		rLoc = 919;
+		rLoc = 932;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 18;
@@ -1341,7 +1341,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 178;
@@ -1351,7 +1351,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1381,7 +1381,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1431,7 +1431,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1461,7 +1461,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 990;
+		rLoc = 1003;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 101;
@@ -1531,7 +1531,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 43";
 		rLen = 4;
-		rLoc = 1152;
+		rLoc = 1165;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 142;
@@ -1631,7 +1631,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 43";
 		rLen = 4;
-		rLoc = 1152;
+		rLoc = 1165;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1822,7 +1822,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 11;
-		rLoc = 877;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 0;
@@ -1872,7 +1872,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 11;
-		rLoc = 877;
+		rLoc = 890;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 0;
@@ -1882,7 +1882,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 0;
-		rLoc = 888;
+		rLoc = 901;
 		rType = 0;
 		vrLen = 1029;
 		vrLoc = 58;
@@ -1892,7 +1892,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 30";
 		rLen = 0;
-		rLoc = 790;
+		rLoc = 803;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 38;
@@ -1932,7 +1932,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 30";
 		rLen = 0;
-		rLoc = 790;
+		rLoc = 803;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 0;
@@ -2072,7 +2072,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 7;
-		rLoc = 845;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -2391,7 +2391,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 36";
 		rLen = 0;
-		rLoc = 843;
+		rLoc = 856;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 0;
@@ -2849,7 +2849,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 39";
 		rLen = 86;
-		rLoc = 861;
+		rLoc = 874;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 257;
@@ -2919,7 +2919,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 813;
+		rLoc = 826;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 196;
@@ -2929,7 +2929,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 196;
@@ -2956,7 +2956,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 845;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 196;
@@ -3000,6 +3000,56 @@
 		rType = 0;
 		vrLen = 588;
 		vrLoc = 0;
+	};
+	CBF69AB91481CFAC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 62";
+		rLen = 0;
+		rLoc = 1833;
+		rType = 0;
+		vrLen = 510;
+		vrLoc = 422;
+	};
+	CBF69ABA1481CFAC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69888147F3B4C00F8881D /* ofxFileLoader.cpp */;
+		name = "ofxFileLoader.cpp: 15";
+		rLen = 49;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 415;
+		vrLoc = 131;
+	};
+	CBF69ABB1481CFB200F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69525147DE77000F8881D /* README */;
+		name = "README: 26";
+		rLen = 0;
+		rLoc = 588;
+		rType = 0;
+		vrLen = 588;
+		vrLoc = 0;
+	};
+	CBF69ABC1481CFB200F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 21";
+		rLen = 11;
+		rLoc = 620;
+		rType = 0;
+		vrLen = 1590;
+		vrLoc = 0;
+	};
+	CBF69ABD1481CFB200F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 22";
+		rLen = 0;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 1117;
+		vrLoc = 196;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -3351,6 +3401,11 @@
 			CBF69AB21481CF4A00F8881D /* PBXTextBookmark */ = CBF69AB21481CF4A00F8881D /* PBXTextBookmark */;
 			CBF69AB31481CF4A00F8881D /* PBXTextBookmark */ = CBF69AB31481CF4A00F8881D /* PBXTextBookmark */;
 			CBF69AB41481CF4A00F8881D /* PBXTextBookmark */ = CBF69AB41481CF4A00F8881D /* PBXTextBookmark */;
+			CBF69AB91481CFAC00F8881D /* PBXTextBookmark */ = CBF69AB91481CFAC00F8881D /* PBXTextBookmark */;
+			CBF69ABA1481CFAC00F8881D /* PBXTextBookmark */ = CBF69ABA1481CFAC00F8881D /* PBXTextBookmark */;
+			CBF69ABB1481CFB200F8881D /* PBXTextBookmark */ = CBF69ABB1481CFB200F8881D /* PBXTextBookmark */;
+			CBF69ABC1481CFB200F8881D /* PBXTextBookmark */ = CBF69ABC1481CFB200F8881D /* PBXTextBookmark */;
+			CBF69ABD1481CFB200F8881D /* PBXTextBookmark */ = CBF69ABD1481CFB200F8881D /* PBXTextBookmark */;
 		};
 		sourceControlManager = CB2A43ED11A7D541007D3DBC /* Source Control */;
 		userBuildSettings = {
@@ -3371,16 +3426,16 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {883, 1391}}";
-			sepNavSelRange = "{662, 0}";
-			sepNavVisRange = "{0, 1565}";
+			sepNavIntBoundsRect = "{{0, 0}, {681, 1404}}";
+			sepNavSelRange = "{1833, 0}";
+			sepNavVisRange = "{422, 510}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {883, 819}}";
-			sepNavSelRange = "{845, 0}";
-			sepNavVisRange = "{196, 1104}";
+			sepNavSelRange = "{374, 0}";
+			sepNavVisRange = "{196, 1117}";
 			sepNavWindowFrame = "{{65, 273}, {750, 558}}";
 		};
 	};

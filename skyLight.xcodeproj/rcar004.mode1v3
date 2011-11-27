@@ -273,7 +273,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>10</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -315,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>README</string>
+								<string>testApp.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,11 +324,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>README</string>
+										<string>testApp.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF69AB41481CF4A00F8881D</string>
+										<string>CBF69ABD1481CFB200F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
@@ -335,10 +336,10 @@
 											<string>CBF698AD147F3E5900F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
 											<string>CBF69AA11481CDBB00F8881D</string>
-											<string>CBF69AB01481CF4A00F8881D</string>
-											<string>CBF69AB11481CF4A00F8881D</string>
 											<string>CBF69AB21481CF4A00F8881D</string>
-											<string>CBF69AB31481CF4A00F8881D</string>
+											<string>CBF69ABB1481CFB200F8881D</string>
+											<string>CBF69ABC1481CFB200F8881D</string>
+											<string>CBF69AB01481CF4A00F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -637,7 +638,7 @@
 			<key>WindowToolGUID</key>
 			<string>CB2A43F611A7D544007D3DBC</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

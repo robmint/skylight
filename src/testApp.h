@@ -30,7 +30,7 @@ class testApp : public ofBaseApp{
 		bool displayTests, displayChat, moviePlaying;
 		bool networkCapture;
 		string cameraUrl, fontPath, storagePath;
-		int displayWidth, displayHeight;
+		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
 		long freeSpace;
 		
