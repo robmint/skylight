@@ -28,13 +28,22 @@ void testApp::setup(){
 	// load font
 	font.loadFont(fontPath, 32);
 
-	
 	//videoPlayer.loadMovie("movies/ironsand.mov");
 	//videoPlayer.play();
 	
-
+	
+	// initialise imageSequence
+/*	sequence.loadSequence(storagePath, "jpg", 0, 20, 2);
+	sequence.preloadAllFrames();	//this way there is no stutter when loading frames
+	sequence.setFrameRate(10); //set to ten frames per second for Muybridge's horse.
+*/	
+	
+	
+	// set bg to black
 	ofBackground(0,0,0);
 	
+	
+	// initial values
 	time = 0;
 	networkCapture = true;
 	
@@ -43,6 +52,9 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 	videoPlayer.idleMovie();
+	/* TODO captureFreq relates to how often update() is called (ie framerate) but
+	   should be related to time (elapsed millis) so it is the same frequency
+	   regardless of a fast or slow computer */
 	if(time%captureFreq==0 && networkCapture) {
 
 		// for this to work you need to set finder permissions for the user to read/write on the external drive path
@@ -57,7 +69,6 @@ void testApp::update(){
 		
 		// loads a file from a url and saves it with a specific name
 		// the resulting file can be loaded into a ofImage for display
-		
 		sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
 		if(imageLoader.loadFromUrl(cameraUrl,(string)imgPath)) {
 			printf("%s\n", imgPath);
