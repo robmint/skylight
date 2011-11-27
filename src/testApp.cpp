@@ -43,20 +43,24 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
 	videoPlayer.idleMovie();
-	if(time%500==0 && networkCapture) {
+	if(time%captureFreq==0 && networkCapture) {
 
 		// for this to work you need to set finder permissions for the user to read/write on the external drive path
 		sprintf(path, "%s/images/%i/%i/%i/%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-		printf("%s\n",buffer);
+		//printf("%s\n",buffer);
 		
 		sprintf(buffer, "mkdir -p %s", path);
-		printf("%s\n",buffer);
+		//printf("%s\n",buffer);
+		// TODO this should probably done in a non-blocking way
+		// eg ofDirectory using of007
 		system(buffer);
 		
 		// loads a file from a url and saves it with a specific name
 		// the resulting file can be loaded into a ofImage for display
-		if(imageLoader.loadFromUrl(cameraUrl,"1/2/3/data.jpg")) {
-			printf(buffer, "%i\n");
+		
+		sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+		if(imageLoader.loadFromUrl(cameraUrl,(string)imgPath)) {
+			printf("%s\n", imgPath);
 		}
 		
 	}
