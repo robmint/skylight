@@ -27,8 +27,11 @@ void testApp::setup(){
 	lockAspect = xmlConfig.getValue("config:display:lockaspect", true);
 	startHour = xmlConfig.getValue("config:display:starthour", 6);
 	endHour = xmlConfig.getValue("config:display:endhour", 21);
-	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", networkCapture, true);
-	webcamCapture = xmlConfig.getValue("config:camera:webcamcapture", webcamCapture, false);
+	
+	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", true);
+	
+	webcamCapture = xmlConfig.getValue("config:camera:webcamcapture", false);
+	
 	cameraUrl = xmlConfig.getValue("config:camera:url", "http://192.168.0.6/jpeg.cgi?0");
 	captureFreq = xmlConfig.getValue("config:camera:freq", 500);
 	storagePath = xmlConfig.getValue("config:storage:path", "/Volumes/skylight");

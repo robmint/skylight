@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>CBF6A02214859CBD00F8881D</string>
+						<string>CBF6A0531485A13300F8881D</string>
 						<key>history</key>
 						<array>
 							<string>CBF69FA01485925900F8881D</string>
@@ -310,6 +310,7 @@
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>CBF6953D147DEBDC00F8881D</string>
 								<string>CBF69FE0148598EE00F8881D</string>
+								<string>CBF69545147DEC0200F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
@@ -359,7 +360,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>httpThread.h</string>
+								<string>testApp.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -367,19 +368,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>httpThread.h</string>
+										<string>testApp.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF6A02114859CBD00F8881D</string>
+										<string>CBF6A0521485A13300F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
 											<string>CBF69882147F38AE00F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
 											<string>CBF69B021481DA0400F8881D</string>
-											<string>CBF69C0A1482300300F8881D</string>
-											<string>CBF69C601482371300F8881D</string>
 											<string>CBF69CA014823B4E00F8881D</string>
 											<string>CBF69CDE14823EC100F8881D</string>
 											<string>CBF69F2114857E4600F8881D</string>
@@ -396,12 +395,14 @@
 											<string>CBF69FA41485926F00F8881D</string>
 											<string>CBF69FC11485960B00F8881D</string>
 											<string>CBF69FC21485960B00F8881D</string>
-											<string>CBF69FDB1485979F00F8881D</string>
 											<string>CBF69FDC1485979F00F8881D</string>
 											<string>CBF6A01714859CAC00F8881D</string>
-											<string>CBF6A01814859CAC00F8881D</string>
-											<string>CBF6A01914859CAC00F8881D</string>
-											<string>CBF6A01A14859CAC00F8881D</string>
+											<string>CBF6A02514859F1300F8881D</string>
+											<string>CBF6A03F14859FE500F8881D</string>
+											<string>CBF6A0461485A07000F8881D</string>
+											<string>CBF6A04F1485A13300F8881D</string>
+											<string>CBF6A0501485A13300F8881D</string>
+											<string>CBF6A0511485A13300F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -599,15 +600,15 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CBF6A01D14859CAC00F8881D</string>
+		<string>CBF6A0541485A13300F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>CB2A43F611A7D544007D3DBC</string>
 		<string>CBF69FA71485926F00F8881D</string>
-		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>128 50 1152 768 0 0 1440 878 </string>

@@ -36,17 +36,17 @@ class testApp : public ofBaseApp{
 		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
+		bool lockAspect, networkCapture, webcamCapture;
+		
 		string cameraUrl, fontPath, storagePath, seqPath;
+
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
 		int startHour, endHour;
 	
 		int xpos, ypos;
 		double xscale, yscale;
-		bool lockAspect, networkCapture, webcamCapture;
-	
-		long freeSpace;
-		
+			
 		SimpleThread HttpThread;
 
 

@@ -4,8 +4,8 @@
         <chat>1</chat>
         <xpos>1</xpos>
         <ypos>-7</ypos>
-        <xscale>0.700000</xscale>
-        <yscale>0.700000</yscale>
+        <xscale>1.200000</xscale>
+        <yscale>1.200000</yscale>
         <lockaspect>1</lockaspect>
     </display>
     <camera>
