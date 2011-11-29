@@ -30,14 +30,14 @@ class testApp : public ofBaseApp{
 		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
-		bool networkCapture;
 		string cameraUrl, fontPath, storagePath;
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
+		int startHour, endHour;
 	
 		int xpos, ypos;
 		double xscale, yscale;
-		bool lockAspect;
+		bool lockAspect, networkCapture, webcamCapture;
 	
 		long freeSpace;
 

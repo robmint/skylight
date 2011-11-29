@@ -268,15 +268,14 @@
 								<string>CBF69AA91481CE3300F8881D</string>
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>CBF6953D147DEBDC00F8881D</string>
-								<string>CBF69D9A148242F900F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>11</integer>
-									<integer>9</integer>
+									<integer>8</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -300,7 +299,7 @@
 							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>190 69 1152 768 0 0 1440 878 </string>
+						<string>170 79 1152 768 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,7 +317,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.cpp</string>
+								<string>skylight.xml</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,16 +325,15 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.cpp</string>
+										<string>skylight.xml</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF69DE9148245E500F8881D</string>
+										<string>CBF69F1C1484CF2900F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
 											<string>CBF69882147F38AE00F8881D</string>
-											<string>CBF698AD147F3E5900F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
 											<string>CBF69B021481DA0400F8881D</string>
 											<string>CBF69B0E1481DCFC00F8881D</string>
@@ -344,15 +342,15 @@
 											<string>CBF69BEB14822C7A00F8881D</string>
 											<string>CBF69C0A1482300300F8881D</string>
 											<string>CBF69C601482371300F8881D</string>
-											<string>CBF69C9F14823B4E00F8881D</string>
 											<string>CBF69CA014823B4E00F8881D</string>
-											<string>CBF69CA914823C1700F8881D</string>
-											<string>CBF69CDD14823EC100F8881D</string>
 											<string>CBF69CDE14823EC100F8881D</string>
-											<string>CBF69CF714823F9200F8881D</string>
 											<string>CBF69DD1148243A800F8881D</string>
-											<string>CBF69DE7148245E500F8881D</string>
-											<string>CBF69DE8148245E500F8881D</string>
+											<string>CBF69E25148465F100F8881D</string>
+											<string>CBF69E26148465F100F8881D</string>
+											<string>CBF69EA314846CFC00F8881D</string>
+											<string>CBF69EFA1484CBD600F8881D</string>
+											<string>CBF69F1B1484CF2900F8881D</string>
+											<string>CBF69F111484CE4D00F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -366,7 +364,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {899, 703}}</string>
 								<key>RubberWindowFrame</key>
-								<string>190 69 1152 768 0 0 1440 878 </string>
+								<string>170 79 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -386,7 +384,7 @@
 								<key>Frame</key>
 								<string>{{0, 708}, {899, 19}}</string>
 								<key>RubberWindowFrame</key>
-								<string>190 69 1152 768 0 0 1440 878 </string>
+								<string>170 79 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -550,7 +548,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CBF69DEA148245E500F8881D</string>
+		<string>CBF69F1D1484CF2900F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>
@@ -560,7 +558,7 @@
 		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>190 69 1152 768 0 0 1440 878 </string>
+	<string>170 79 1152 768 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -900,7 +898,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1036, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>7 112 1036 259 0 0 1440 878 </string>
+								<string>4 127 1036 259 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -929,7 +927,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>7 112 1036 259 0 0 1440 878 </string>
+			<string>4 127 1036 259 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

@@ -2,20 +2,18 @@
     <display>
         <test>1</test>
         <chat>1</chat>
-        <xpos>21</xpos>
-        <ypos>8</ypos>
-        <xscale>1.300000</xscale>
-        <yscale>1.300000</yscale>
+        <xpos>1</xpos>
+        <ypos>-7</ypos>
+        <xscale>1.500000</xscale>
+        <yscale>1.500000</yscale>
+        <lockaspect>1</lockaspect>
     </display>
     <camera>
-        <url>http://192.168.0.4/rcar004/skylight/image.php</url>
-        <freq>1000</freq>
+        <url>http://localhost/rcar004/skylight/image.php</url>
+        <freq>100</freq>
+        <starthour>7</starthour>
+        <endhour>21</endhour>
+        <networkcapture>1</networkcapture>
+        <webcamcapture>0</webcamcapture>
     </camera>
-    <storage>
-        <path>/Volumes/brick2/skylight</path>
-    </storage>
-    <display>
-        <width>1366</width>
-        <height>768</height>
-    </display>
 </config>
