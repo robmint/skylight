@@ -270,18 +270,22 @@
 								<string>CBF6953D147DEBDC00F8881D</string>
 								<string>CBF699D01481C53D00F8881D</string>
 								<string>CBF69A721481C53E00F8881D</string>
+								<string>CBF69920147F59F700F8881D</string>
+								<string>CBF69921147F59F700F8881D</string>
+								<string>CBF69924147F59F700F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>3</integer>
+									<integer>11</integer>
+									<integer>9</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {231, 709}}</string>
+							<string>{{0, 104}, {231, 709}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -300,7 +304,7 @@
 							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>170 79 1152 768 0 0 1440 878 </string>
+						<string>158 110 1152 768 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -318,7 +322,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>README</string>
+								<string>testApp.cpp</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -326,20 +330,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>README</string>
+										<string>testApp.cpp</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF69F2614857E4600F8881D</string>
+										<string>CBF69F6E148587CB00F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
 											<string>CBF69882147F38AE00F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
 											<string>CBF69B021481DA0400F8881D</string>
-											<string>CBF69BD914822BF800F8881D</string>
-											<string>CBF69BEA14822C7A00F8881D</string>
-											<string>CBF69BEB14822C7A00F8881D</string>
 											<string>CBF69C0A1482300300F8881D</string>
 											<string>CBF69C601482371300F8881D</string>
 											<string>CBF69CA014823B4E00F8881D</string>
@@ -347,14 +348,19 @@
 											<string>CBF69E25148465F100F8881D</string>
 											<string>CBF69E26148465F100F8881D</string>
 											<string>CBF69EA314846CFC00F8881D</string>
-											<string>CBF69EFA1484CBD600F8881D</string>
-											<string>CBF69F1B1484CF2900F8881D</string>
 											<string>CBF69F2014857E4600F8881D</string>
 											<string>CBF69F2114857E4600F8881D</string>
-											<string>CBF69F2214857E4600F8881D</string>
-											<string>CBF69F2314857E4600F8881D</string>
 											<string>CBF69F2414857E4600F8881D</string>
-											<string>CBF69F2514857E4600F8881D</string>
+											<string>CBF69F281485833500F8881D</string>
+											<string>CBF69F36148583C100F8881D</string>
+											<string>CBF69F471485855700F8881D</string>
+											<string>CBF69F481485855800F8881D</string>
+											<string>CBF69F491485855800F8881D</string>
+											<string>CBF69F4A1485855800F8881D</string>
+											<string>CBF69F5B1485866A00F8881D</string>
+											<string>CBF69F5C1485866A00F8881D</string>
+											<string>CBF69F60148586F700F8881D</string>
+											<string>CBF69F61148586F700F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -368,7 +374,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {899, 703}}</string>
 								<key>RubberWindowFrame</key>
-								<string>170 79 1152 768 0 0 1440 878 </string>
+								<string>158 110 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -388,7 +394,7 @@
 								<key>Frame</key>
 								<string>{{0, 708}, {899, 19}}</string>
 								<key>RubberWindowFrame</key>
-								<string>170 79 1152 768 0 0 1440 878 </string>
+								<string>158 110 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -552,6 +558,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CBF69F6D148587B200F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>
@@ -561,7 +568,7 @@
 		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>170 79 1152 768 0 0 1440 878 </string>
+	<string>158 110 1152 768 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>

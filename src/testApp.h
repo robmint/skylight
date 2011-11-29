@@ -30,7 +30,7 @@ class testApp : public ofBaseApp{
 		void resized(int w, int h);
 		
 		bool displayTests, displayChat, moviePlaying;
-		string cameraUrl, fontPath, storagePath;
+		string cameraUrl, fontPath, storagePath, seqPath;
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
 		int startHour, endHour;

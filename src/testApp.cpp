@@ -39,22 +39,22 @@ void testApp::setup(){
 
 	// load font
 	font.loadFont(fontPath, 12);
-
-	//videoPlayer.loadMovie("movies/ironsand.mov");
-	//videoPlayer.play();
+	
+	seqPath = "/images/2011/11/29/21/";
 	
 	// directory listing
-	dir.allowExt("jpg");
-	
-	/*
-	int numFiles = dir.listDir("/Volumes/brick2/skylight/images/2011/11/27/15/");
+	dir.allowExt("jpg");	
+	int numFiles = dir.listDir(storagePath+seqPath);
+	if(numFiles==0) cout<<"ERROR: no files found in "<<storagePath<<seqPath;
+
+	// push the file names into a vector of strings
 	for(int i = 0; i < numFiles; i++){
-		cout<<"name: "<<dir.getName(i)<<" dir: "<<dir.getPath(i)<<"\n";
+		files.push_back(dir.getPath(i));
 	}
-	*/
+
 	
 	// initialise imageSequence
-	sequence.loadSequence("images/2011/11/17/16/ironsand", "jpg", 1, 80, 4);
+	sequence.loadSequence(storagePath+"/images/2011/11/29/21/ironsand", "jpg", 1, 80, 4);
 	sequence.preloadAllFrames();
 	sequence.setFrameRate(4);
 	
@@ -131,6 +131,13 @@ void testApp::draw(){
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 
+	if(key=='p') {
+		message = "Play new sequence";
+		
+	}
+	
+	
+	
 	if(key=='h') {
 		if(message=="") {
 			message = "Help: [s]ave config, lock[a]spect, [arrows] position, [shift+arrows] xy scale\n";

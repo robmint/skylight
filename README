@@ -7,7 +7,7 @@ http://createrevolutionaryart.net
 An interactive installation for the The Edge, Auckland. 
 Part of Digital Art Live, in association with the Aotea Centre, CoLab and AUT University.
 
-Made using openframeworks
+Made using openframeworks, a toolkit for creative coding.
 http://www.openframeworks.cc
 
 Addons used:
@@ -15,7 +15,7 @@ Addons used:
 ofxFileLoader https://github.com/vtron/ofxVtron/tree/master/ofxFileLoader
 ofxImageSequence https://github.com/Flightphase/ofxImageSequence
 ofxXmlSettings https://github.com/openframeworks/ofxXmlSettings
-ofxOpenCv
+ofxOpenCv 
 
 Thanks to the people who answered my questions on the oF forums.
 
