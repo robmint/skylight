@@ -40,7 +40,7 @@ void testApp::setup(){
 	// load font
 	font.loadFont(fontPath, 12);
 	
-	seqPath = "/images/2011/11/29/21/";
+	seqPath = "/images/2011/11/30/11/";
 	
 	// directory listing
 	dir.allowExt("jpg");	
@@ -56,7 +56,7 @@ void testApp::setup(){
 	// initialise imageSequence
 	sequence.loadSequence(files);
 	sequence.preloadAllFrames();
-	sequence.setFrameRate(4);
+	sequence.setFrameRate(25);
 	
 	
 	// set bg to black
@@ -66,8 +66,11 @@ void testApp::setup(){
 	// initial values
 	time = 0;
 	message = "";
-	ofSetFrameRate(25);
-	
+	ofSetFrameRate(30);
+		
+	// start thread
+	HttpThread.initAndSleep();
+
 }
 
 //--------------------------------------------------------------
@@ -94,6 +97,7 @@ void testApp::update(){
 			if(imageLoader.loadFromUrl(cameraUrl,imgPath)) {
 				printf("%s\n", imgPath);
 			}
+			
 		}
 		
 		if(webcamCapture) {
@@ -104,8 +108,9 @@ void testApp::update(){
 		}
 		
 	}
+	HttpThread.updateOnce();
 	
-
+	
 	time++;
 		
 }

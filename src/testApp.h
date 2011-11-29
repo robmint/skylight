@@ -4,13 +4,19 @@
 
 #include "ofMain.h"
 #include "ofxFileLoader.h"
-// #include "ofFileUtils.h" 007 only
 #include "ofxDirList.h"
 #include "ofxImageSequence.h" 
 #include "ofxOpenCv.h"
+#include "ofxThread.h"
+
+
+#include "httpThread.h"
 #include "util.h"
+
+
 #include <string.h>
 #include <vector.h>
+
 
 #define CONFIG_FILE "data/skylight.xml"
 
@@ -40,6 +46,9 @@ class testApp : public ofBaseApp{
 		bool lockAspect, networkCapture, webcamCapture;
 	
 		long freeSpace;
+		
+		SimpleThread HttpThread;
+
 
 		vector<string> files;
 		
