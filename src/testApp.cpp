@@ -94,9 +94,11 @@ void testApp::update(){
 			// loads a file from a url and saves it with a specific name
 			// the resulting file can be loaded into a ofImage for display
 			sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
-			if(imageLoader.loadFromUrl(cameraUrl,imgPath)) {
-				printf("%s\n", imgPath);
-			}
+
+			HttpThread.imageLoader = imageLoader;
+			HttpThread.cameraUrl = cameraUrl;
+			HttpThread.imgPath = imgPath;
+			HttpThread.updateOnce();
 			
 		}
 		
@@ -108,7 +110,6 @@ void testApp::update(){
 		}
 		
 	}
-	HttpThread.updateOnce();
 	
 	
 	time++;

@@ -15,6 +15,7 @@ Addons used:
 ofxFileLoader https://github.com/vtron/ofxVtron/tree/master/ofxFileLoader
 ofxImageSequence https://github.com/Flightphase/ofxImageSequence
 ofxXmlSettings https://github.com/openframeworks/ofxXmlSettings
+ofxRuiThread http://code.google.com/p/ruicode/
 ofxOpenCv standard addon
 ofxDirList standard addon
 
