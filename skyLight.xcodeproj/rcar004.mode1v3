@@ -268,14 +268,15 @@
 								<string>CBF69AA91481CE3300F8881D</string>
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>CBF6953D147DEBDC00F8881D</string>
+								<string>CBF699D01481C53D00F8881D</string>
+								<string>CBF69A721481C53E00F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>8</integer>
-									<integer>5</integer>
+									<integer>3</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -317,7 +318,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>skylight.xml</string>
+								<string>README</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,18 +326,17 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>skylight.xml</string>
+										<string>README</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF69F1C1484CF2900F8881D</string>
+										<string>CBF69F2614857E4600F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
 											<string>CBF69882147F38AE00F8881D</string>
 											<string>CBF6997D1480953000F8881D</string>
 											<string>CBF69B021481DA0400F8881D</string>
-											<string>CBF69B0E1481DCFC00F8881D</string>
 											<string>CBF69BD914822BF800F8881D</string>
 											<string>CBF69BEA14822C7A00F8881D</string>
 											<string>CBF69BEB14822C7A00F8881D</string>
@@ -344,13 +344,17 @@
 											<string>CBF69C601482371300F8881D</string>
 											<string>CBF69CA014823B4E00F8881D</string>
 											<string>CBF69CDE14823EC100F8881D</string>
-											<string>CBF69DD1148243A800F8881D</string>
 											<string>CBF69E25148465F100F8881D</string>
 											<string>CBF69E26148465F100F8881D</string>
 											<string>CBF69EA314846CFC00F8881D</string>
 											<string>CBF69EFA1484CBD600F8881D</string>
 											<string>CBF69F1B1484CF2900F8881D</string>
-											<string>CBF69F111484CE4D00F8881D</string>
+											<string>CBF69F2014857E4600F8881D</string>
+											<string>CBF69F2114857E4600F8881D</string>
+											<string>CBF69F2214857E4600F8881D</string>
+											<string>CBF69F2314857E4600F8881D</string>
+											<string>CBF69F2414857E4600F8881D</string>
+											<string>CBF69F2514857E4600F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -548,7 +552,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CBF69F1D1484CF2900F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>

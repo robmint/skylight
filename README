@@ -7,6 +7,9 @@ http://createrevolutionaryart.net
 An interactive installation for the The Edge, Auckland. 
 Part of Digital Art Live, in association with the Aotea Centre, CoLab and AUT University.
 
+Made using openframeworks
+http://www.openframeworks.cc
+
 Addons used:
 
 ofxFileLoader https://github.com/vtron/ofxVtron/tree/master/ofxFileLoader
@@ -25,5 +28,6 @@ Christine Probert
 Kim Newall
 Nolwenn Hugain-Lacire
 
-This work is licensed under the LGPL. See the LICENSE file.
+This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+http://creativecommons.org/licenses/by-nc-sa/3.0/
 
