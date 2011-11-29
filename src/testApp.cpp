@@ -54,7 +54,7 @@ void testApp::setup(){
 
 	
 	// initialise imageSequence
-	sequence.loadSequence(storagePath+"/images/2011/11/29/21/ironsand", "jpg", 1, 80, 4);
+	sequence.loadSequence(files);
 	sequence.preloadAllFrames();
 	sequence.setFrameRate(4);
 	
