@@ -27,6 +27,7 @@ void testApp::setup(){
 	lockAspect = xmlConfig.getValue("config:display:lockaspect", true);
 	startHour = xmlConfig.getValue("config:display:starthour", 6);
 	endHour = xmlConfig.getValue("config:display:endhour", 21);
+	newSequence = xmlConfig.getValue("config:display:newsequence", 21);
 	
 	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", true);
 	
@@ -43,18 +44,20 @@ void testApp::setup(){
 	// load font
 	font.loadFont(fontPath, 12);
 	
-	seqPath = "/images/2011/11/30/11/";
+	seqPath = "/images/2011/11/30/13";
 	
 	// directory listing
 	dir.allowExt("jpg");	
 	int numFiles = dir.listDir(storagePath+seqPath);
-	if(numFiles==0) cout<<"ERROR: no files found in "<<storagePath<<seqPath;
+	if(numFiles==0) { 
+		cout<<"ERROR: no files found in "<<storagePath<<seqPath;
+		exit();
+	}
 
 	// push the file names into a vector of strings
 	for(int i = 0; i < numFiles; i++){
 		files.push_back(dir.getPath(i));
 	}
-
 	
 	// initialise imageSequence
 	sequence.loadSequence(files);
@@ -103,12 +106,16 @@ void testApp::update(){
 			HttpThread.imgPath = imgPath;
 			HttpThread.updateOnce();
 			
-		}
-		
-		if(webcamCapture) {
-			//camera.grabFrame();
-//			myImage.saveImage("partOfTheScreen.png");
-
+		} else if (webcamCapture) {
+			camera.grabFrame();
+			sprintf(path, "%s/images/%i/%i/%i/%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+			sprintf(buffer, "mkdir -p %s", path);
+			system(buffer);
+			sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+			
+			webcam.grabScreen(20,20,camWidth, camHeight);
+			p = imgPath;
+			webcam.saveImage(p);
 
 		}
 		
@@ -123,7 +130,6 @@ void testApp::update(){
 void testApp::draw(){
 	ofBackground(0,0,0);
 
-	//videoPlayer.draw(0,0,displayWidth,displayHeight);
 
 	frameTexture = sequence.getFrame(time%sequence.getTotalFrames());
 	frameTexture->draw(xpos, ypos, frameTexture->getWidth()*xscale, frameTexture->getHeight()*yscale );

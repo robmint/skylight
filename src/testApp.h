@@ -39,10 +39,11 @@ class testApp : public ofBaseApp{
 		bool lockAspect, networkCapture, webcamCapture;
 		
 		string cameraUrl, fontPath, storagePath, seqPath;
+		string p;
 
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
-		int startHour, endHour;
+		int startHour, endHour, newSequence;
 	
 		int xpos, ypos;
 		double xscale, yscale;
@@ -65,6 +66,7 @@ class testApp : public ofBaseApp{
 		ofxImageSequence sequence;
 		ofxXmlSettings xmlConfig;
 		ofxDirList dir;
+		ofImage webcam;
 		
 		ofTrueTypeFont font;
 
