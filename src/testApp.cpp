@@ -52,24 +52,6 @@ void testApp::setup(){
 	
 	seqPath = "/images/2011-11-30-13";
 	
-	// directory listing
-	dir.allowExt("jpg");	
-	int numFiles = dir.listDir(storagePath+seqPath);
-	if(numFiles==0) { 
-		cout<<"ERROR: no files found in "<<storagePath<<seqPath;
-		exit();
-	}
-
-	// push the file names into a vector of strings
-	for(int i = 0; i < numFiles; i++){
-		files.push_back(dir.getPath(i));
-	}
-	
-	// initialise imageSequence
-	sequence.loadSequence(files);
-	sequence.preloadAllFrames();
-	sequence.setFrameRate(25);
-	
 	
 	// get list of sequences - currently 1 hour time frame
 	updateSequenceList(storagePath);
@@ -89,7 +71,9 @@ void testApp::setup(){
 }
 
 void testApp::updateSequenceList( string s ) {
-
+	
+	sequenceDir.clear();
+	
 	// directory listing
 	dir.allowExt("*");	
 	int numFiles = dir.listDir(s+"/images");
@@ -101,8 +85,34 @@ void testApp::updateSequenceList( string s ) {
 	for(int i = 0; i < numFiles; i++){
 		sequenceDir.push_back(dir.getPath(i));
 	}
-	message = "Sequence update: "+ofToString(numFiles)+" sequences available";
+	message = "Sequence update: "+ofToString(numFiles)+" sequences available\n";
 	
+	int size = sequenceDir.size();
+	int r = ofRandom(0,size);
+	message += sequenceDir[r]+"\n";
+	
+	files.clear();
+	
+	// file listing
+	dir.allowExt("jpg");	
+	numFiles = dir.listDir(sequenceDir[r]);
+	if(numFiles==0) { 
+		cout<<"ERROR: no files found in "<<sequenceDir[r];
+		exit();
+	}
+	
+	// hard limit for testing
+	if(numFiles>120) numFiles=120;
+	
+	// push the file names into a vector of strings
+	for(int i = 0; i < numFiles; i++){
+		files.push_back(dir.getPath(i));
+	}
+	
+	// initialise imageSequence
+	sequence.loadSequence(files);
+//	sequence.preloadAllFrames();
+//	sequence.setFrameRate(25);
 	
 }
 
