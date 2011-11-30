@@ -1,7 +1,6 @@
 #ifndef _TEST_APP
 #define _TEST_APP
 
-
 #include "ofMain.h"
 #include "ofxFileLoader.h"
 #include "ofxDirList.h"
@@ -9,14 +8,13 @@
 #include "ofxOpenCv.h"
 #include "ofxThread.h"
 
-
 #include "httpThread.h"
-#include "util.h"
+//#include "imageLoaderThread.h"
 
+#include "util.h"
 
 #include <string.h>
 #include <vector.h>
-
 
 #define CONFIG_FILE "data/skylight.xml"
 
@@ -51,7 +49,8 @@ class testApp : public ofBaseApp{
 		int xpos, ypos;
 		double xscale, yscale;
 			
-		SimpleThread HttpThread;
+		HttpThread Http;
+		//ImageLoaderThread ImageLoader;
 
 
 		vector<string> files;

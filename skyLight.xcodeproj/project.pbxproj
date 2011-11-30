@@ -159,6 +159,7 @@
 		CBF69FE1148598EE00F8881D /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
 		CBF69FE8148598EE00F8881D /* ofxRuiThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxRuiThread.cpp; sourceTree = "<group>"; };
 		CBF69FE9148598EE00F8881D /* ofxRuiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxRuiThread.h; sourceTree = "<group>"; };
+		CBF6A2081485D68700F8881D /* imageLoaderThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageLoaderThread.h; sourceTree = "<group>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -695,6 +696,7 @@
 				CBF69535147DEB8300F8881D /* util.h */,
 				CBF69536147DEB8300F8881D /* util.cpp */,
 				CBF69F9F1485923D00F8881D /* httpThread.h */,
+				CBF6A2081485D68700F8881D /* imageLoaderThread.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;

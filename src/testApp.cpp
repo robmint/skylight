@@ -65,7 +65,8 @@ void testApp::setup(){
 	ofSetFrameRate(30);
 	
 	// start thread
-	HttpThread.initAndSleep();
+	Http.initAndSleep();
+	//ImageLoader.initAndSleep();
 	
 
 }
@@ -110,7 +111,7 @@ void testApp::updateSequenceList( string s ) {
 	}
 	
 	// initialise imageSequence
-	sequence.loadSequence(files);
+//	sequence.loadSequence(files);
 //	sequence.preloadAllFrames();
 //	sequence.setFrameRate(25);
 	
@@ -140,10 +141,10 @@ void testApp::update(){
 				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
 				
 				message = "Trigger: Network camera capture";
-				HttpThread.imageLoader = imageLoader;
-				HttpThread.cameraUrl = cameraUrl;
-				HttpThread.imgPath = imgPath;
-				HttpThread.updateOnce();
+				Http.imageLoader = imageLoader;
+				Http.cameraUrl = cameraUrl;
+				Http.imgPath = imgPath;
+				Http.updateOnce();
 				
 			} else if (webcamCapture) {
 				camera.grabFrame();
@@ -164,7 +165,12 @@ void testApp::update(){
 	
 	if(time%newSequence==0) {
 		updateSequenceList(storagePath);
-		
+		/*
+		 ImageLoader.files = files;
+		ImageLoader.sequence = sequence;
+		ImageLoader.start();
+		 */
+		cout<<"Just called ImageLoader.start()\n";
 	}
 	
 	time++;
