@@ -51,7 +51,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 23";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1375;
 		rType = 0;
 		vrLen = 371;
 		vrLoc = 119;
@@ -61,7 +61,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 7077;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 375;
 		vrLoc = 637;
@@ -131,7 +131,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 6";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
@@ -141,7 +141,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 21";
 		rLen = 0;
-		rLoc = 1356;
+		rLoc = 1375;
 		rType = 0;
 		vrLen = 435;
 		vrLoc = 0;
@@ -155,7 +155,7 @@
 	};
 	CBF69535147DEB8300F8881D /* util.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {571, 563}}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 623}}";
 			sepNavSelRange = "{231, 0}";
 			sepNavVisRange = "{0, 231}";
 		};
@@ -212,7 +212,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 6";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 579;
 		vrLoc = 0;
@@ -292,7 +292,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 1;
-		rLoc = 7077;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 232;
 		vrLoc = 583;
@@ -371,7 +371,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 7077;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 0;
@@ -444,7 +444,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 7077;
+		rLoc = 7234;
 		rType = 0;
 		vrLen = 939;
 		vrLoc = 0;
@@ -475,7 +475,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 69;
+		rLoc = 70;
 		rType = 1;
 	};
 	CBF695B2147DFBB700F8881D /* PBXTextBookmark */ = {
@@ -483,7 +483,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1345;
+		rLoc = 1364;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 36;
@@ -493,7 +493,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1345;
+		rLoc = 1364;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 36;
@@ -503,7 +503,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1349;
+		rLoc = 1368;
 		rType = 0;
 		vrLen = 998;
 		vrLoc = 0;
@@ -553,7 +553,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 183;
 		vrLoc = 662;
@@ -633,7 +633,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 79;
+		rLoc = 83;
 		rType = 1;
 	};
 	CBF695E8147E368A00F8881D /* PBXTextBookmark */ = {
@@ -641,7 +641,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 10";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 334;
 		vrLoc = 111;
@@ -671,7 +671,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 32";
 		rLen = 0;
-		rLoc = 1284;
+		rLoc = 1303;
 		rType = 0;
 		vrLen = 972;
 		vrLoc = 38;
@@ -830,7 +830,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 11";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1005;
 		vrLoc = 0;
@@ -850,7 +850,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 19";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1240;
 		vrLoc = 21;
@@ -860,7 +860,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 27";
 		rLen = 0;
-		rLoc = 797;
+		rLoc = 816;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 38;
@@ -870,7 +870,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 19";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 0;
@@ -880,7 +880,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 18";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 0;
@@ -920,7 +920,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 19";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 111;
@@ -930,7 +930,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 19";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 186;
@@ -940,7 +940,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 27";
 		rLen = 0;
-		rLoc = 797;
+		rLoc = 816;
 		rType = 0;
 		vrLen = 961;
 		vrLoc = 38;
@@ -950,7 +950,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 0;
@@ -960,7 +960,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1089;
 		vrLoc = 21;
@@ -970,7 +970,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 19";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 87;
@@ -1060,7 +1060,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 1333;
+		rLoc = 1352;
 		rType = 0;
 		vrLen = 984;
 		vrLoc = 38;
@@ -1070,7 +1070,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1124;
 		vrLoc = 0;
@@ -1080,7 +1080,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 4206;
+		rLoc = 4275;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 21;
@@ -1090,7 +1090,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 28";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1004;
 		vrLoc = 110;
@@ -1100,7 +1100,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 38";
 		rLen = 0;
-		rLoc = 4395;
+		rLoc = 4464;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 156;
@@ -1110,7 +1110,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 38";
 		rLen = 0;
-		rLoc = 4395;
+		rLoc = 4464;
 		rType = 0;
 		vrLen = 1115;
 		vrLoc = 156;
@@ -1120,7 +1120,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 38";
 		rLen = 0;
-		rLoc = 4395;
+		rLoc = 4464;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 186;
@@ -1130,7 +1130,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 156;
@@ -1140,7 +1140,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1138;
 		vrLoc = 199;
@@ -1150,7 +1150,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 110;
@@ -1170,7 +1170,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 20";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 0;
@@ -1180,7 +1180,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 68";
 		rLen = 0;
-		rLoc = 7531;
+		rLoc = 7688;
 		rType = 0;
 		vrLen = 934;
 		vrLoc = 813;
@@ -1210,7 +1210,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 68";
 		rLen = 0;
-		rLoc = 7531;
+		rLoc = 7688;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 0;
@@ -1230,7 +1230,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 24";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1142;
 		vrLoc = 87;
@@ -1330,7 +1330,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 32";
 		rLen = 0;
-		rLoc = 1266;
+		rLoc = 1285;
 		rType = 0;
 		vrLen = 880;
 		vrLoc = 18;
@@ -1350,7 +1350,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 859;
 		vrLoc = 178;
@@ -1360,7 +1360,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1370,7 +1370,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 1193;
 		vrLoc = 21;
@@ -1390,7 +1390,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1400,7 +1400,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 42";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 87;
@@ -1410,7 +1410,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 28";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 21;
@@ -1420,7 +1420,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 0;
@@ -1430,7 +1430,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 21;
@@ -1440,7 +1440,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1470,7 +1470,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 35";
 		rLen = 0;
-		rLoc = 1330;
+		rLoc = 1349;
 		rType = 0;
 		vrLen = 929;
 		vrLoc = 101;
@@ -1480,7 +1480,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 21;
@@ -1490,7 +1490,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 4327;
+		rLoc = 4396;
 		rType = 0;
 		vrLen = 1110;
 		vrLoc = 192;
@@ -1500,7 +1500,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 232;
@@ -1510,7 +1510,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 38";
 		rLen = 0;
-		rLoc = 4206;
+		rLoc = 4275;
 		rType = 0;
 		vrLen = 1158;
 		vrLoc = 253;
@@ -1520,7 +1520,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 26";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1191;
 		vrLoc = 287;
@@ -1530,7 +1530,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 4206;
+		rLoc = 4275;
 		rType = 0;
 		vrLen = 1141;
 		vrLoc = 378;
@@ -1540,7 +1540,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 43";
 		rLen = 4;
-		rLoc = 1350;
+		rLoc = 1369;
 		rType = 0;
 		vrLen = 895;
 		vrLoc = 142;
@@ -1550,7 +1550,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 25";
 		rLen = 0;
-		rLoc = 1656;
+		rLoc = 1725;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 192;
@@ -1560,7 +1560,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 28";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 231;
@@ -1570,7 +1570,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 44";
 		rLen = 0;
-		rLoc = 4206;
+		rLoc = 4275;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 739;
@@ -1580,7 +1580,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 4259;
+		rLoc = 4328;
 		rType = 0;
 		vrLen = 995;
 		vrLoc = 739;
@@ -1590,7 +1590,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 4279;
+		rLoc = 4348;
 		rType = 0;
 		vrLen = 960;
 		vrLoc = 798;
@@ -1600,7 +1600,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 4205;
+		rLoc = 4274;
 		rType = 0;
 		vrLen = 969;
 		vrLoc = 812;
@@ -1610,7 +1610,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 4326;
+		rLoc = 4395;
 		rType = 0;
 		vrLen = 973;
 		vrLoc = 619;
@@ -1620,7 +1620,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 4013;
+		rLoc = 4082;
 		rType = 0;
 		vrLen = 905;
 		vrLoc = 739;
@@ -1630,7 +1630,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 4013;
+		rLoc = 4082;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 0;
@@ -1640,7 +1640,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 43";
 		rLen = 4;
-		rLoc = 1350;
+		rLoc = 1369;
 		rType = 0;
 		vrLen = 898;
 		vrLoc = 0;
@@ -1690,7 +1690,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 4220;
+		rLoc = 4289;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 796;
@@ -1734,7 +1734,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1217;
 		vrLoc = 287;
@@ -1744,7 +1744,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1171;
 		vrLoc = 333;
@@ -1755,7 +1755,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 79;
+		rLoc = 83;
 		rType = 1;
 	};
 	CBF6989B147F3C6600F8881D /* PBXTextBookmark */ = {
@@ -1763,7 +1763,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 163;
 		vrLoc = 916;
@@ -1800,7 +1800,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1161;
 		vrLoc = 333;
@@ -1810,7 +1810,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1126;
 		vrLoc = 378;
@@ -1820,7 +1820,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 11;
-		rLoc = 1224;
+		rLoc = 1243;
 		rType = 0;
 		vrLen = 982;
 		vrLoc = 0;
@@ -1830,7 +1830,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 35";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1213;
 		vrLoc = 0;
@@ -1840,7 +1840,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 0;
@@ -1860,7 +1860,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1383;
 		vrLoc = 0;
@@ -1870,7 +1870,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 11;
-		rLoc = 1224;
+		rLoc = 1243;
 		rType = 0;
 		vrLen = 1050;
 		vrLoc = 0;
@@ -1880,7 +1880,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 0;
-		rLoc = 1235;
+		rLoc = 1254;
 		rType = 0;
 		vrLen = 1029;
 		vrLoc = 58;
@@ -1890,7 +1890,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 30";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 931;
 		rType = 0;
 		vrLen = 1055;
 		vrLoc = 38;
@@ -1900,7 +1900,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 4;
-		rLoc = 2619;
+		rLoc = 2688;
 		rType = 0;
 		vrLen = 1216;
 		vrLoc = 539;
@@ -1910,7 +1910,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 21;
@@ -1930,7 +1930,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 30";
 		rLen = 0;
-		rLoc = 912;
+		rLoc = 931;
 		rType = 0;
 		vrLen = 1083;
 		vrLoc = 0;
@@ -1950,7 +1950,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 978;
 		vrLoc = 913;
@@ -1960,7 +1960,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 989;
 		vrLoc = 915;
@@ -1970,7 +1970,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1108;
 		vrLoc = 915;
@@ -1980,7 +1980,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 915;
@@ -1990,7 +1990,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1120;
 		vrLoc = 915;
@@ -2000,7 +2000,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 915;
@@ -2010,7 +2010,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1131;
 		vrLoc = 915;
@@ -2020,7 +2020,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1085;
 		vrLoc = 938;
@@ -2030,7 +2030,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1159;
 		vrLoc = 938;
@@ -2040,7 +2040,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1090;
 		vrLoc = 938;
@@ -2050,7 +2050,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1144;
 		vrLoc = 951;
@@ -2060,7 +2060,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 954;
@@ -2070,7 +2070,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 7;
-		rLoc = 1111;
+		rLoc = 1130;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 0;
@@ -2080,7 +2080,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1097;
 		vrLoc = 913;
@@ -2090,7 +2090,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 915;
@@ -2100,7 +2100,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1088;
 		vrLoc = 938;
@@ -2110,7 +2110,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 812;
@@ -2120,7 +2120,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 842;
@@ -2159,7 +2159,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1112;
 		vrLoc = 842;
@@ -2189,7 +2189,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 1113;
 		vrLoc = 842;
@@ -2199,7 +2199,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1187;
 		vrLoc = 843;
@@ -2209,7 +2209,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 915;
@@ -2219,7 +2219,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 53";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 1260;
@@ -2229,7 +2229,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 62";
 		rLen = 0;
-		rLoc = 3982;
+		rLoc = 4051;
 		rType = 0;
 		vrLen = 1234;
 		vrLoc = 1260;
@@ -2279,7 +2279,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1477;
 		vrLoc = 232;
@@ -2289,7 +2289,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1494;
 		vrLoc = 232;
@@ -2299,7 +2299,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 2323;
+		rLoc = 2392;
 		rType = 0;
 		vrLen = 229;
 		vrLoc = 192;
@@ -2372,7 +2372,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1507;
 		vrLoc = 287;
@@ -2418,7 +2418,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 36";
 		rLen = 0;
-		rLoc = 1109;
+		rLoc = 1128;
 		rType = 0;
 		vrLen = 1049;
 		vrLoc = 0;
@@ -2429,7 +2429,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 123;
+		rLoc = 127;
 		rType = 1;
 	};
 	CBF699801480953000F8881D /* PBXTextBookmark */ = {
@@ -2437,7 +2437,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 56";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 699;
@@ -2447,7 +2447,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 67";
 		rLen = 0;
-		rLoc = 4013;
+		rLoc = 4082;
 		rType = 0;
 		vrLen = 1434;
 		vrLoc = 421;
@@ -2457,7 +2457,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 53";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1310;
 		vrLoc = 819;
@@ -2478,7 +2478,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 123;
+		rLoc = 127;
 		rType = 1;
 	};
 	CBF6998C148096F300F8881D /* PBXTextBookmark */ = {
@@ -2486,7 +2486,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 59";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 353;
 		vrLoc = 1303;
@@ -2506,7 +2506,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 53";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 819;
@@ -2516,7 +2516,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 54";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 481;
@@ -2526,7 +2526,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 57";
 		rLen = 0;
-		rLoc = 3878;
+		rLoc = 3947;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 619;
@@ -2536,7 +2536,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 60";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 226;
 		vrLoc = 1685;
@@ -2556,7 +2556,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 57";
 		rLen = 0;
-		rLoc = 3878;
+		rLoc = 3947;
 		rType = 0;
 		vrLen = 1285;
 		vrLoc = 878;
@@ -2566,7 +2566,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 60";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 228;
 		vrLoc = 1685;
@@ -2586,7 +2586,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 57";
 		rLen = 0;
-		rLoc = 3878;
+		rLoc = 3947;
 		rType = 0;
 		vrLen = 1272;
 		vrLoc = 892;
@@ -2596,7 +2596,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1274;
 		vrLoc = 892;
@@ -2606,7 +2606,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 922;
@@ -2616,7 +2616,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 60";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 249;
 		vrLoc = 1654;
@@ -2636,7 +2636,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1248;
 		vrLoc = 922;
@@ -2646,7 +2646,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 925;
@@ -2656,7 +2656,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1292;
 		vrLoc = 997;
@@ -2666,7 +2666,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 60";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 397;
 		vrLoc = 1303;
@@ -2686,7 +2686,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 997;
@@ -2696,7 +2696,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 58";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 1035;
@@ -2706,7 +2706,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 355;
 		vrLoc = 1175;
@@ -2726,7 +2726,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1198;
 		vrLoc = 1035;
@@ -2736,7 +2736,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1180;
 		vrLoc = 1022;
@@ -2746,7 +2746,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1197;
 		vrLoc = 1035;
@@ -2756,7 +2756,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 73";
 		rLen = 0;
-		rLoc = 4250;
+		rLoc = 4319;
 		rType = 0;
 		vrLen = 996;
 		vrLoc = 1596;
@@ -2770,9 +2770,9 @@
 	};
 	CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1153, 3263}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1153, 3302}}";
 			sepNavSelRange = "{3891, 0}";
-			sepNavVisRange = "{3151, 945}";
+			sepNavVisRange = "{884, 1657}";
 		};
 	};
 	CBF69A741481C53E00F8881D /* ofxImageSequence.h */ = {
@@ -2787,7 +2787,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 925;
@@ -2827,7 +2827,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 421;
 		vrLoc = 1175;
@@ -2867,7 +2867,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 925;
@@ -2877,7 +2877,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 925;
@@ -2887,7 +2887,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2273;
+		rLoc = 2342;
 		rType = 0;
 		vrLen = 1202;
 		vrLoc = 925;
@@ -2897,7 +2897,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 39";
 		rLen = 122;
-		rLoc = 1208;
+		rLoc = 1227;
 		rType = 0;
 		vrLen = 1016;
 		vrLoc = 257;
@@ -2947,7 +2947,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 48";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1347;
 		vrLoc = 698;
@@ -2957,7 +2957,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 31";
 		rLen = 0;
-		rLoc = 774;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 196;
@@ -2967,7 +2967,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 1079;
+		rLoc = 1098;
 		rType = 0;
 		vrLen = 1103;
 		vrLoc = 196;
@@ -2977,7 +2977,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1130;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 196;
@@ -2994,9 +2994,10 @@
 	};
 	CBF69AAF1481CE3300F8881D /* skylight.xml */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 646}}";
-			sepNavSelRange = "{251, 0}";
-			sepNavVisRange = "{0, 539}";
+			sepNavIntBoundsRect = "{{0, 0}, {1055, 611}}";
+			sepNavSelRange = "{602, 0}";
+			sepNavVisRange = "{0, 602}";
+			sepNavWindowFrame = "{{65, 92}, {1114, 739}}";
 		};
 	};
 	CBF69AB01481CF4A00F8881D /* PBXTextBookmark */ = {
@@ -3004,7 +3005,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 1111;
+		rLoc = 1130;
 		rType = 0;
 		vrLen = 1104;
 		vrLoc = 196;
@@ -3024,7 +3025,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 8";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 0;
@@ -3054,7 +3055,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 62";
 		rLen = 0;
-		rLoc = 3881;
+		rLoc = 3950;
 		rType = 0;
 		vrLen = 510;
 		vrLoc = 422;
@@ -3114,7 +3115,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1529;
 		vrLoc = 408;
@@ -3124,7 +3125,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1329;
 		vrLoc = 874;
@@ -3134,7 +3135,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 62";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 874;
@@ -3144,7 +3145,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 754;
@@ -3154,7 +3155,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 63";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1393;
 		vrLoc = 754;
@@ -3174,7 +3175,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 63";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1340;
 		vrLoc = 946;
@@ -3184,7 +3185,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 63";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 977;
@@ -3194,7 +3195,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 63";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1312;
 		vrLoc = 977;
@@ -3204,7 +3205,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 62";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 977;
@@ -3214,7 +3215,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 8";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 275;
 		vrLoc = 0;
@@ -3224,7 +3225,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 8";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 276;
 		vrLoc = 0;
@@ -3234,7 +3235,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 8";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 276;
 		vrLoc = 0;
@@ -3254,7 +3255,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 65";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1508;
 		vrLoc = 977;
@@ -3294,7 +3295,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 36";
 		rLen = 0;
-		rLoc = 2079;
+		rLoc = 2148;
 		rType = 0;
 		vrLen = 1471;
 		vrLoc = 0;
@@ -3304,7 +3305,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 2158;
+		rLoc = 2227;
 		rType = 0;
 		vrLen = 1413;
 		vrLoc = 0;
@@ -3321,7 +3322,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 2158;
+		rLoc = 2227;
 		rType = 0;
 		vrLen = 1479;
 		vrLoc = 0;
@@ -3412,7 +3413,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 36";
 		rLen = 0;
-		rLoc = 2090;
+		rLoc = 2159;
 		rType = 0;
 		vrLen = 1828;
 		vrLoc = 408;
@@ -3482,7 +3483,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 36";
 		rLen = 0;
-		rLoc = 2090;
+		rLoc = 2159;
 		rType = 0;
 		vrLen = 1810;
 		vrLoc = 408;
@@ -3492,7 +3493,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 36";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 408;
@@ -3503,7 +3504,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 62;
+		rLoc = 66;
 		rType = 1;
 	};
 	CBF69B2A1481E0BF00F8881D /* PBXTextBookmark */ = {
@@ -3511,7 +3512,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 1026;
@@ -3531,7 +3532,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 181;
 		vrLoc = 1026;
@@ -3552,7 +3553,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 62;
+		rLoc = 66;
 		rType = 1;
 	};
 	CBF69B5A1481E21D00F8881D /* PBXTextBookmark */ = {
@@ -3560,7 +3561,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 246;
 		vrLoc = 1026;
@@ -3611,7 +3612,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 62;
+		rLoc = 66;
 		rType = 1;
 	};
 	CBF69B601481E22400F8881D /* PBXTextBookmark */ = {
@@ -3619,7 +3620,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 1918;
 		vrLoc = 232;
@@ -3659,7 +3660,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 2155;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 1617;
 		vrLoc = 192;
@@ -3669,7 +3670,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 80";
 		rLen = 0;
-		rLoc = 3884;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 1049;
@@ -3680,7 +3681,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 62;
+		rLoc = 66;
 		rType = 1;
 	};
 	CBF69B8A148226F300F8881D /* PBXTextBookmark */ = {
@@ -3688,7 +3689,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2070;
+		rLoc = 2139;
 		rType = 0;
 		vrLen = 314;
 		vrLoc = 1026;
@@ -3708,7 +3709,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 79";
 		rLen = 0;
-		rLoc = 3884;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 1607;
 		vrLoc = 1049;
@@ -3748,7 +3749,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 79";
 		rLen = 0;
-		rLoc = 3884;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 1420;
 		vrLoc = 1810;
@@ -3758,7 +3759,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 813;
@@ -3768,7 +3769,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1522;
 		vrLoc = 1390;
@@ -3778,7 +3779,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 4324;
+		rLoc = 4393;
 		rType = 0;
 		vrLen = 1524;
 		vrLoc = 1390;
@@ -3788,7 +3789,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 91";
 		rLen = 0;
-		rLoc = 4205;
+		rLoc = 4274;
 		rType = 0;
 		vrLen = 1472;
 		vrLoc = 1390;
@@ -3798,7 +3799,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 2273;
+		rLoc = 2342;
 		rType = 0;
 		vrLen = 1736;
 		vrLoc = 418;
@@ -3808,7 +3809,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1831;
 		vrLoc = 418;
@@ -3838,7 +3839,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 91";
 		rLen = 0;
-		rLoc = 4062;
+		rLoc = 4131;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 1425;
@@ -3848,7 +3849,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 91";
 		rLen = 0;
-		rLoc = 4078;
+		rLoc = 4147;
 		rType = 0;
 		vrLen = 1488;
 		vrLoc = 1425;
@@ -3858,7 +3859,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 94";
 		rLen = 0;
-		rLoc = 4286;
+		rLoc = 4355;
 		rType = 0;
 		vrLen = 1195;
 		vrLoc = 2159;
@@ -3868,7 +3869,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 27";
 		rLen = 0;
-		rLoc = 1642;
+		rLoc = 1711;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 378;
@@ -3878,7 +3879,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 29";
 		rLen = 0;
-		rLoc = 1684;
+		rLoc = 1753;
 		rType = 0;
 		vrLen = 1714;
 		vrLoc = 378;
@@ -3908,7 +3909,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 45";
 		rLen = 0;
-		rLoc = 1310;
+		rLoc = 1329;
 		rType = 0;
 		vrLen = 1099;
 		vrLoc = 277;
@@ -3918,7 +3919,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 29";
 		rLen = 0;
-		rLoc = 1684;
+		rLoc = 1753;
 		rType = 0;
 		vrLen = 1754;
 		vrLoc = 378;
@@ -3928,7 +3929,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 29";
 		rLen = 0;
-		rLoc = 1684;
+		rLoc = 1753;
 		rType = 0;
 		vrLen = 1754;
 		vrLoc = 378;
@@ -3938,7 +3939,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1652;
 		vrLoc = 0;
@@ -3988,7 +3989,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 45";
 		rLen = 0;
-		rLoc = 1299;
+		rLoc = 1318;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 0;
@@ -3998,7 +3999,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 1030;
+		rLoc = 1049;
 		rType = 0;
 		vrLen = 1125;
 		vrLoc = 0;
@@ -4007,7 +4008,7 @@
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		rLen = 0;
-		rLoc = 66;
+		rLoc = 70;
 		rType = 1;
 	};
 	CBF69BE414822C3500F8881D /* PBXTextBookmark */ = {
@@ -4015,7 +4016,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 333;
@@ -4045,7 +4046,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 333;
@@ -4055,7 +4056,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1491;
 		vrLoc = 333;
@@ -4065,7 +4066,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 2000;
+		rLoc = 2069;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 333;
@@ -4075,7 +4076,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 2000;
+		rLoc = 2069;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 333;
@@ -4086,7 +4087,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 58;
+		rLoc = 62;
 		rType = 1;
 	};
 	CBF69BFC14822DD300F8881D /* PBXTextBookmark */ = {
@@ -4094,7 +4095,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 41";
 		rLen = 0;
-		rLoc = 2072;
+		rLoc = 2141;
 		rType = 0;
 		vrLen = 581;
 		vrLoc = 1120;
@@ -4114,7 +4115,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 2000;
+		rLoc = 2069;
 		rType = 0;
 		vrLen = 1504;
 		vrLoc = 333;
@@ -4124,7 +4125,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 1;
-		rLoc = 2237;
+		rLoc = 2306;
 		rType = 0;
 		vrLen = 1510;
 		vrLoc = 333;
@@ -4134,7 +4135,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 40";
 		rLen = 0;
-		rLoc = 2000;
+		rLoc = 2069;
 		rType = 0;
 		vrLen = 1665;
 		vrLoc = 333;
@@ -4144,7 +4145,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 2157;
+		rLoc = 2226;
 		rType = 0;
 		vrLen = 1560;
 		vrLoc = 333;
@@ -4194,7 +4195,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 115";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 2415;
@@ -4204,7 +4205,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 115";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 2415;
@@ -4214,7 +4215,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 115";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1181;
 		vrLoc = 2415;
@@ -4224,7 +4225,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 37";
 		rLen = 0;
-		rLoc = 1771;
+		rLoc = 1840;
 		rType = 0;
 		vrLen = 1517;
 		vrLoc = 0;
@@ -4234,7 +4235,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 1060;
+		rLoc = 1079;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 58;
@@ -4244,7 +4245,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 116";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 2687;
@@ -4254,7 +4255,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 117";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1140;
 		vrLoc = 2365;
@@ -4274,7 +4275,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 57";
 		rLen = 0;
-		rLoc = 2249;
+		rLoc = 2318;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 874;
@@ -4284,7 +4285,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 118";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1146;
 		vrLoc = 2496;
@@ -4295,7 +4296,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 273;
+		rLoc = 280;
 		rType = 1;
 	};
 	CBF69C2F1482327100F8881D /* PBXTextBookmark */ = {
@@ -4303,7 +4304,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 148";
 		rLen = 0;
-		rLoc = 7557;
+		rLoc = 7714;
 		rType = 0;
 		vrLen = 356;
 		vrLoc = 3640;
@@ -4323,7 +4324,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 122";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 1076;
 		vrLoc = 2867;
@@ -4333,7 +4334,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 6967;
+		rLoc = 7124;
 		rType = 0;
 		vrLen = 966;
 		vrLoc = 2867;
@@ -4343,7 +4344,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 112";
 		rLen = 0;
-		rLoc = 5205;
+		rLoc = 5362;
 		rType = 0;
 		vrLen = 958;
 		vrLoc = 2757;
@@ -4353,7 +4354,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 112";
 		rLen = 0;
-		rLoc = 5205;
+		rLoc = 5362;
 		rType = 0;
 		vrLen = 959;
 		vrLoc = 2757;
@@ -4363,7 +4364,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 7";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 309;
 		vrLoc = 0;
@@ -4373,7 +4374,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 4";
 		rLen = 18;
-		rLoc = 339;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 0;
@@ -4383,7 +4384,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 4";
 		rLen = 18;
-		rLoc = 339;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 379;
 		vrLoc = 0;
@@ -4393,7 +4394,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 43;
-		rLoc = 955;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 58;
@@ -4433,7 +4434,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 38";
 		rLen = 0;
-		rLoc = 981;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 58;
@@ -4453,7 +4454,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1771;
+		rLoc = 1840;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 1756;
@@ -4464,7 +4465,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 198;
+		rLoc = 205;
 		rType = 1;
 	};
 	CBF69C4E1482353100F8881D /* PBXTextBookmark */ = {
@@ -4472,7 +4473,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 126";
 		rLen = 0;
-		rLoc = 5691;
+		rLoc = 5848;
 		rType = 0;
 		vrLen = 274;
 		vrLoc = 3452;
@@ -4492,7 +4493,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 38";
 		rLen = 0;
-		rLoc = 981;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 37;
@@ -4502,7 +4503,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 45";
 		rLen = 0;
-		rLoc = 1771;
+		rLoc = 1840;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 1756;
@@ -4512,7 +4513,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4179;
+		rLoc = 4248;
 		rType = 0;
 		vrLen = 1569;
 		vrLoc = 1944;
@@ -4522,7 +4523,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1452;
 		vrLoc = 378;
@@ -4532,7 +4533,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 3334;
@@ -4572,7 +4573,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 126";
 		rLen = 0;
-		rLoc = 5691;
+		rLoc = 5848;
 		rType = 0;
 		vrLen = 347;
 		vrLoc = 3484;
@@ -4592,7 +4593,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 18";
 		rLen = 0;
-		rLoc = 339;
+		rLoc = 384;
 		rType = 0;
 		vrLen = 294;
 		vrLoc = 0;
@@ -4602,7 +4603,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 44";
 		rLen = 0;
-		rLoc = 1770;
+		rLoc = 1839;
 		rType = 0;
 		vrLen = 1066;
 		vrLoc = 3334;
@@ -4612,7 +4613,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 27";
 		rLen = 0;
-		rLoc = 1214;
+		rLoc = 1212;
 		rType = 0;
 		vrLen = 1679;
 		vrLoc = 87;
@@ -4622,7 +4623,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 27";
 		rLen = 0;
-		rLoc = 1214;
+		rLoc = 1212;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 0;
@@ -4631,7 +4632,7 @@
 		isa = PBXTextBookmark;
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 1";
-		rLen = 420;
+		rLen = 465;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 467;
@@ -4662,7 +4663,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 573;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 0;
@@ -4682,7 +4683,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 573;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 0;
@@ -4692,7 +4693,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 573;
+		rLoc = 618;
 		rType = 0;
 		vrLen = 489;
 		vrLoc = 0;
@@ -4712,7 +4713,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 575;
+		rLoc = 620;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -4722,7 +4723,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 575;
+		rLoc = 620;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -4732,7 +4733,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 575;
+		rLoc = 620;
 		rType = 0;
 		vrLen = 479;
 		vrLoc = 0;
@@ -4742,7 +4743,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 27";
 		rLen = 0;
-		rLoc = 1214;
+		rLoc = 1212;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 0;
@@ -4752,7 +4753,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 127";
 		rLen = 0;
-		rLoc = 5678;
+		rLoc = 5835;
 		rType = 0;
 		vrLen = 946;
 		vrLoc = 3294;
@@ -4762,7 +4763,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 38";
 		rLen = 0;
-		rLoc = 981;
+		rLoc = 1000;
 		rType = 0;
 		vrLen = 1059;
 		vrLoc = 37;
@@ -4772,7 +4773,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 0;
-		rLoc = 5652;
+		rLoc = 5809;
 		rType = 0;
 		vrLen = 1043;
 		vrLoc = 3294;
@@ -4782,7 +4783,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 0;
-		rLoc = 5648;
+		rLoc = 5805;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 3054;
@@ -4792,7 +4793,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 133";
 		rLen = 0;
-		rLoc = 5749;
+		rLoc = 5906;
 		rType = 0;
 		vrLen = 406;
 		vrLoc = 3574;
@@ -4813,7 +4814,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 133;
+		rLoc = 137;
 		rType = 1;
 	};
 	CBF69C9A14823B2000F8881D /* PBXTextBookmark */ = {
@@ -4821,7 +4822,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 107";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4083;
 		rType = 0;
 		vrLen = 460;
 		vrLoc = 3054;
@@ -4877,7 +4878,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 48";
 		rLen = 0;
-		rLoc = 1208;
+		rLoc = 1227;
 		rType = 0;
 		vrLen = 988;
 		vrLoc = 195;
@@ -4888,7 +4889,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 133;
+		rLoc = 137;
 		rType = 1;
 	};
 	CBF69CA414823B4E00F8881D /* PBXTextBookmark */ = {
@@ -4896,7 +4897,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 65";
 		rLen = 0;
-		rLoc = 2253;
+		rLoc = 2322;
 		rType = 0;
 		vrLen = 1453;
 		vrLoc = 1637;
@@ -4916,7 +4917,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 48";
 		rLen = 0;
-		rLoc = 1208;
+		rLoc = 1227;
 		rType = 0;
 		vrLen = 1062;
 		vrLoc = 122;
@@ -4926,7 +4927,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 64";
 		rLen = 0;
-		rLoc = 2252;
+		rLoc = 2321;
 		rType = 0;
 		vrLen = 1732;
 		vrLoc = 1300;
@@ -4936,7 +4937,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4229;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 2714;
@@ -4946,7 +4947,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4160;
+		rLoc = 4229;
 		rType = 0;
 		vrLen = 1269;
 		vrLoc = 2714;
@@ -4956,7 +4957,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 475;
 		vrLoc = 0;
@@ -4966,7 +4967,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 571;
+		rLoc = 616;
 		rType = 0;
 		vrLen = 475;
 		vrLoc = 0;
@@ -4976,7 +4977,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 572;
+		rLoc = 617;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 0;
@@ -4986,7 +4987,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 572;
+		rLoc = 617;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 0;
@@ -4996,7 +4997,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 140";
 		rLen = 0;
-		rLoc = 6034;
+		rLoc = 6191;
 		rType = 0;
 		vrLen = 1107;
 		vrLoc = 3446;
@@ -5006,7 +5007,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4124;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1227;
 		vrLoc = 3036;
@@ -5016,7 +5017,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4124;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1220;
 		vrLoc = 3036;
@@ -5026,7 +5027,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 4124;
+		rLoc = 4193;
 		rType = 0;
 		vrLen = 1637;
 		vrLoc = 0;
@@ -5036,7 +5037,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 572;
+		rLoc = 617;
 		rType = 0;
 		vrLen = 476;
 		vrLoc = 0;
@@ -5076,7 +5077,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 48";
 		rLen = 0;
-		rLoc = 1208;
+		rLoc = 1227;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 122;
@@ -5086,7 +5087,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 48";
 		rLen = 0;
-		rLoc = 1208;
+		rLoc = 1227;
 		rType = 0;
 		vrLen = 1054;
 		vrLoc = 122;
@@ -5096,7 +5097,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 39";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1081;
 		vrLoc = 122;
@@ -5116,7 +5117,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 139";
 		rLen = 0;
-		rLoc = 5870;
+		rLoc = 6027;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 3505;
@@ -5126,7 +5127,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 139";
 		rLen = 0;
-		rLoc = 5870;
+		rLoc = 6027;
 		rType = 0;
 		vrLen = 1170;
 		vrLoc = 3475;
@@ -5176,7 +5177,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 139";
 		rLen = 0;
-		rLoc = 5870;
+		rLoc = 6027;
 		rType = 0;
 		vrLen = 1143;
 		vrLoc = 3984;
@@ -5186,7 +5187,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 0;
-		rLoc = 5563;
+		rLoc = 5720;
 		rType = 0;
 		vrLen = 1136;
 		vrLoc = 3505;
@@ -5196,7 +5197,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 0;
-		rLoc = 5563;
+		rLoc = 5720;
 		rType = 0;
 		vrLen = 1139;
 		vrLoc = 3505;
@@ -5226,7 +5227,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 955;
+		rLoc = 974;
 		rType = 0;
 		vrLen = 1074;
 		vrLoc = 122;
@@ -5236,7 +5237,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 2;
-		rLoc = 5557;
+		rLoc = 5714;
 		rType = 0;
 		vrLen = 1137;
 		vrLoc = 3505;
@@ -5246,7 +5247,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 132";
 		rLen = 0;
-		rLoc = 5685;
+		rLoc = 5842;
 		rType = 0;
 		vrLen = 1186;
 		vrLoc = 3475;
@@ -5256,7 +5257,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 132";
 		rLen = 0;
-		rLoc = 5685;
+		rLoc = 5842;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 3475;
@@ -5276,7 +5277,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 631;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 0;
@@ -5286,7 +5287,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 631;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 0;
@@ -5326,7 +5327,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 119";
 		rLen = 0;
-		rLoc = 4014;
+		rLoc = 4083;
 		rType = 0;
 		vrLen = 795;
 		vrLoc = 2319;
@@ -5347,7 +5348,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 66;
+		rLoc = 70;
 		rType = 1;
 	};
 	CBF69D1B1482410700F8881D /* PBXTextBookmark */ = {
@@ -5355,7 +5356,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 64";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 304;
 		vrLoc = 1872;
@@ -5375,7 +5376,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 51";
 		rLen = 0;
-		rLoc = 1157;
+		rLoc = 1176;
 		rType = 0;
 		vrLen = 1100;
 		vrLoc = 122;
@@ -5386,7 +5387,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 66;
+		rLoc = 70;
 		rType = 1;
 	};
 	CBF69D211482410D00F8881D /* PBXTextBookmark */ = {
@@ -5394,7 +5395,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 64";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1408;
 		vrLoc = 1430;
@@ -5404,7 +5405,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 64";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1469;
 		vrLoc = 1454;
@@ -5414,7 +5415,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 59";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1405;
 		vrLoc = 1640;
@@ -5424,7 +5425,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 2160;
+		rLoc = 2229;
 		rType = 0;
 		vrLen = 1470;
 		vrLoc = 1642;
@@ -5454,7 +5455,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 51";
 		rLen = 0;
-		rLoc = 1157;
+		rLoc = 1176;
 		rType = 0;
 		vrLen = 1007;
 		vrLoc = 215;
@@ -5464,7 +5465,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 51";
 		rLen = 0;
-		rLoc = 1157;
+		rLoc = 1176;
 		rType = 0;
 		vrLen = 1051;
 		vrLoc = 195;
@@ -5545,7 +5546,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 83;
+		rLoc = 87;
 		rType = 1;
 	};
 	CBF69DE3148245DA00F8881D /* PBXTextBookmark */ = {
@@ -5553,7 +5554,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2415;
+		rLoc = 2484;
 		rType = 0;
 		vrLen = 707;
 		vrLoc = 1900;
@@ -5573,7 +5574,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 60";
 		rLen = 0;
-		rLoc = 1333;
+		rLoc = 1352;
 		rType = 0;
 		vrLen = 952;
 		vrLoc = 299;
@@ -5593,7 +5594,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 39";
 		rLen = 0;
-		rLoc = 1727;
+		rLoc = 1796;
 		rType = 0;
 		vrLen = 1710;
 		vrLoc = 21;
@@ -5603,7 +5604,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 2112;
+		rLoc = 2181;
 		rType = 0;
 		vrLen = 1546;
 		vrLoc = 1806;
@@ -5613,7 +5614,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 586;
+		rLoc = 631;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 0;
@@ -5623,7 +5624,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 369;
+		rLoc = 414;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 0;
@@ -5633,7 +5634,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 106";
 		rLen = 0;
-		rLoc = 4081;
+		rLoc = 4150;
 		rType = 0;
 		vrLen = 1315;
 		vrLoc = 2669;
@@ -5643,7 +5644,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 369;
+		rLoc = 414;
 		rType = 0;
 		vrLen = 488;
 		vrLoc = 0;
@@ -5653,7 +5654,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 421;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 0;
@@ -5663,7 +5664,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 376;
+		rLoc = 421;
 		rType = 0;
 		vrLen = 471;
 		vrLoc = 0;
@@ -5673,7 +5674,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 106";
 		rLen = 0;
-		rLoc = 4081;
+		rLoc = 4150;
 		rType = 0;
 		vrLen = 1304;
 		vrLoc = 2669;
@@ -5683,7 +5684,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 56";
 		rLen = 0;
-		rLoc = 2205;
+		rLoc = 2274;
 		rType = 0;
 		vrLen = 1619;
 		vrLoc = 222;
@@ -5693,7 +5694,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 49";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1657;
 		vrLoc = 222;
@@ -5703,7 +5704,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1630;
 		vrLoc = 412;
@@ -5713,7 +5714,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1528;
 		vrLoc = 422;
@@ -5733,7 +5734,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 60";
 		rLen = 0;
-		rLoc = 1333;
+		rLoc = 1352;
 		rType = 0;
 		vrLen = 992;
 		vrLoc = 259;
@@ -5743,7 +5744,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1683;
 		vrLoc = 147;
@@ -5753,7 +5754,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 131";
 		rLen = 0;
-		rLoc = 5498;
+		rLoc = 5655;
 		rType = 0;
 		vrLen = 1121;
 		vrLoc = 3541;
@@ -5763,7 +5764,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1636;
 		vrLoc = 222;
@@ -5773,7 +5774,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1577;
 		vrLoc = 0;
@@ -5813,7 +5814,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 51";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1646;
 		vrLoc = 0;
@@ -5823,7 +5824,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 65";
 		rLen = 0;
-		rLoc = 2238;
+		rLoc = 2307;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 1643;
@@ -5853,7 +5854,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 65";
 		rLen = 0;
-		rLoc = 2238;
+		rLoc = 2307;
 		rType = 0;
 		vrLen = 1416;
 		vrLoc = 1643;
@@ -5863,7 +5864,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 131";
 		rLen = 0;
-		rLoc = 5249;
+		rLoc = 5406;
 		rType = 0;
 		vrLen = 1252;
 		vrLoc = 3430;
@@ -5873,7 +5874,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 184";
 		rLen = 0;
-		rLoc = 6829;
+		rLoc = 6986;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 4251;
@@ -5883,7 +5884,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 132";
 		rLen = 0;
-		rLoc = 5291;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1403;
 		vrLoc = 3184;
@@ -5893,7 +5894,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 132";
 		rLen = 0;
-		rLoc = 5291;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1289;
 		vrLoc = 3305;
@@ -5903,7 +5904,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 132";
 		rLen = 0;
-		rLoc = 5291;
+		rLoc = 5448;
 		rType = 0;
 		vrLen = 1313;
 		vrLoc = 3305;
@@ -5933,7 +5934,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 916;
+		rLoc = 935;
 		rType = 0;
 		vrLen = 1011;
 		vrLoc = 259;
@@ -5953,7 +5954,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 333;
+		rLoc = 378;
 		rType = 0;
 		vrLen = 553;
 		vrLoc = 0;
@@ -5963,7 +5964,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -5997,7 +5998,7 @@
 		vrLen = 415;
 		vrLoc = 131;
 	};
-	CBF69E421484688F00F8881D /* testApp.cpp:181 */ = {
+	CBF69E421484688F00F8881D /* testApp.cpp:188 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -6009,7 +6010,7 @@
 		functionName = "testApp::keyPressed(int key)";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 181;
+		lineNumber = 188;
 		location = skyLightDebug;
 		modificationTime = 344301679.113284;
 		originalNumberOfMultipleMatches = 1;
@@ -6020,7 +6021,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -6030,7 +6031,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 37";
 		rLen = 0;
-		rLoc = 935;
+		rLoc = 954;
 		rType = 0;
 		vrLen = 1012;
 		vrLoc = 258;
@@ -6040,7 +6041,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 5205;
+		rLoc = 5362;
 		rType = 0;
 		vrLen = 1342;
 		vrLoc = 3198;
@@ -6050,7 +6051,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 5205;
+		rLoc = 5362;
 		rType = 0;
 		vrLen = 1254;
 		vrLoc = 3286;
@@ -6060,7 +6061,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -6070,7 +6071,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 5205;
+		rLoc = 5362;
 		rType = 0;
 		vrLen = 1301;
 		vrLoc = 3286;
@@ -6080,7 +6081,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 128";
 		rLen = 0;
-		rLoc = 4673;
+		rLoc = 4830;
 		rType = 0;
 		vrLen = 1366;
 		vrLoc = 3308;
@@ -6090,7 +6091,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 554;
 		vrLoc = 0;
@@ -6130,7 +6131,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 14";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 500;
 		vrLoc = 0;
@@ -6140,7 +6141,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 14";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 500;
 		vrLoc = 0;
@@ -6150,7 +6151,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 41";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 259;
@@ -6170,7 +6171,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 68";
 		rLen = 0;
-		rLoc = 2238;
+		rLoc = 2307;
 		rType = 0;
 		vrLen = 1810;
 		vrLoc = 222;
@@ -6191,7 +6192,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 42;
+		rLoc = 43;
 		rType = 1;
 	};
 	CBF69E6414846A9F00F8881D /* PBXTextBookmark */ = {
@@ -6199,7 +6200,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 67;
-		rLoc = 774;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 463;
 		vrLoc = 533;
@@ -6219,7 +6220,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 259;
@@ -6229,7 +6230,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 129";
 		rLen = 0;
-		rLoc = 4673;
+		rLoc = 4830;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 3430;
@@ -6239,7 +6240,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 105";
 		rLen = 0;
-		rLoc = 3887;
+		rLoc = 3956;
 		rType = 0;
 		vrLen = 1481;
 		vrLoc = 2409;
@@ -6250,7 +6251,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 157;
+		rLoc = 164;
 		rType = 1;
 	};
 	CBF69E6E14846BBC00F8881D /* PBXTextBookmark */ = {
@@ -6258,7 +6259,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 4528;
+		rLoc = 4672;
 		rType = 0;
 		vrLen = 1378;
 		vrLoc = 3458;
@@ -6268,7 +6269,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 67;
-		rLoc = 774;
+		rLoc = 793;
 		rType = 0;
 		vrLen = 478;
 		vrLoc = 533;
@@ -6279,7 +6280,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 157;
+		rLoc = 164;
 		rType = 1;
 	};
 	CBF69E7214846BCA00F8881D /* PBXTextBookmark */ = {
@@ -6287,7 +6288,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 134";
 		rLen = 0;
-		rLoc = 4530;
+		rLoc = 4674;
 		rType = 0;
 		vrLen = 574;
 		vrLoc = 3815;
@@ -6307,7 +6308,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 140";
 		rLen = 0;
-		rLoc = 4762;
+		rLoc = 4919;
 		rType = 0;
 		vrLen = 1345;
 		vrLoc = 3813;
@@ -6317,7 +6318,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 151";
 		rLen = 0;
-		rLoc = 5080;
+		rLoc = 5237;
 		rType = 0;
 		vrLen = 1311;
 		vrLoc = 3868;
@@ -6337,7 +6338,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 151";
 		rLen = 0;
-		rLoc = 5080;
+		rLoc = 5237;
 		rType = 0;
 		vrLen = 1587;
 		vrLoc = 1252;
@@ -6347,7 +6348,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 14";
 		rLen = 0;
-		rLoc = 324;
+		rLoc = 369;
 		rType = 0;
 		vrLen = 541;
 		vrLoc = 0;
@@ -6357,7 +6358,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 624;
 		rType = 0;
 		vrLen = 540;
 		vrLoc = 0;
@@ -6377,7 +6378,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 624;
 		rType = 0;
 		vrLen = 540;
 		vrLoc = 0;
@@ -6387,7 +6388,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 22";
 		rLen = 0;
-		rLoc = 579;
+		rLoc = 624;
 		rType = 0;
 		vrLen = 540;
 		vrLoc = 0;
@@ -6397,7 +6398,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6417,7 +6418,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 135";
 		rLen = 0;
-		rLoc = 4635;
+		rLoc = 4779;
 		rType = 0;
 		vrLen = 1317;
 		vrLoc = 3933;
@@ -6427,7 +6428,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 135";
 		rLen = 0;
-		rLoc = 4635;
+		rLoc = 4779;
 		rType = 0;
 		vrLen = 1574;
 		vrLoc = 2239;
@@ -6437,7 +6438,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 135";
 		rLen = 0;
-		rLoc = 4635;
+		rLoc = 4779;
 		rType = 0;
 		vrLen = 1573;
 		vrLoc = 2240;
@@ -6447,7 +6448,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 104";
 		rLen = 0;
-		rLoc = 3879;
+		rLoc = 3948;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 0;
@@ -6457,7 +6458,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 420;
+		rLoc = 465;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6467,7 +6468,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 19";
 		rLen = 0;
-		rLoc = 578;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6477,7 +6478,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 12;
-		rLoc = 1406;
+		rLoc = 1404;
 		rType = 0;
 		vrLen = 1765;
 		vrLoc = 0;
@@ -6487,7 +6488,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 19";
 		rLen = 0;
-		rLoc = 578;
+		rLoc = 623;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6497,7 +6498,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 549;
+		rLoc = 594;
 		rType = 0;
 		vrLen = 547;
 		vrLoc = 0;
@@ -6507,7 +6508,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6517,7 +6518,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6527,7 +6528,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 12;
-		rLoc = 1406;
+		rLoc = 1404;
 		rType = 0;
 		vrLen = 1848;
 		vrLoc = 0;
@@ -6537,7 +6538,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1903;
 		vrLoc = 222;
@@ -6547,7 +6548,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1381;
 		vrLoc = 2044;
@@ -6557,7 +6558,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1381;
 		vrLoc = 2044;
@@ -6567,7 +6568,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 507;
 		vrLoc = 0;
@@ -6577,7 +6578,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 360;
+		rLoc = 405;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6587,7 +6588,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 360;
+		rLoc = 405;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6597,7 +6598,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1335;
 		vrLoc = 2103;
@@ -6607,7 +6608,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 31";
 		rLen = 5;
-		rLoc = 1205;
+		rLoc = 1203;
 		rType = 0;
 		vrLen = 1803;
 		vrLoc = 21;
@@ -6617,7 +6618,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 15";
 		rLen = 0;
-		rLoc = 360;
+		rLoc = 405;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6627,7 +6628,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 92";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1316;
 		vrLoc = 2119;
@@ -6637,7 +6638,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1804;
 		vrLoc = 21;
@@ -6647,7 +6648,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 88";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1375;
 		vrLoc = 2144;
@@ -6657,7 +6658,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 137";
 		rLen = 0;
-		rLoc = 4699;
+		rLoc = 4856;
 		rType = 0;
 		vrLen = 1360;
 		vrLoc = 3788;
@@ -6667,7 +6668,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 85";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1300;
 		vrLoc = 2142;
@@ -6677,7 +6678,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1392;
 		vrLoc = 2146;
@@ -6687,7 +6688,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 87;
@@ -6727,7 +6728,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6737,7 +6738,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 18";
 		rLen = 0;
-		rLoc = 515;
+		rLoc = 560;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6747,7 +6748,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 18";
 		rLen = 0;
-		rLoc = 515;
+		rLoc = 560;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6757,7 +6758,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 147";
 		rLen = 0;
-		rLoc = 4835;
+		rLoc = 4992;
 		rType = 0;
 		vrLen = 1900;
 		vrLoc = 145;
@@ -6767,7 +6768,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 986;
 		vrLoc = 299;
@@ -6777,7 +6778,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 0;
@@ -6787,7 +6788,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 147";
 		rLen = 0;
-		rLoc = 4835;
+		rLoc = 4992;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 1258;
@@ -6797,7 +6798,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 18";
 		rLen = 0;
-		rLoc = 515;
+		rLoc = 560;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6807,7 +6808,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6817,7 +6818,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6827,7 +6828,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1767;
 		vrLoc = 390;
@@ -6837,7 +6838,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 85";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1338;
 		vrLoc = 2107;
@@ -6857,7 +6858,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 85";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1337;
 		vrLoc = 2107;
@@ -6867,7 +6868,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1840;
 		vrLoc = 147;
@@ -6877,7 +6878,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 20";
 		rLen = 0;
-		rLoc = 539;
+		rLoc = 584;
 		rType = 0;
 		vrLen = 505;
 		vrLoc = 0;
@@ -6887,7 +6888,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 34";
 		rLen = 0;
-		rLoc = 1439;
+		rLoc = 1437;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 297;
@@ -6897,7 +6898,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 94";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1513;
 		vrLoc = 2304;
@@ -6907,7 +6908,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1402;
 		vrLoc = 2408;
@@ -6917,7 +6918,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1485;
 		vrLoc = 2408;
@@ -6927,7 +6928,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -6937,7 +6938,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -7047,7 +7048,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 93";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1485;
 		vrLoc = 2408;
@@ -7057,7 +7058,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1888;
 		vrLoc = 864;
@@ -7067,12 +7068,12 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 2092;
+		rLoc = 2161;
 		rType = 0;
 		vrLen = 1813;
 		vrLoc = 434;
 	};
-	CBF69F32148583B200F8881D /* testApp.cpp:66 */ = {
+	CBF69F32148583B200F8881D /* testApp.cpp:70 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -7084,7 +7085,7 @@
 		functionName = "testApp::setup()";
 		hitCount = 0;
 		ignoreCount = 0;
-		lineNumber = 66;
+		lineNumber = 70;
 		location = skyLightDebug;
 		modificationTime = 344301679.140039;
 		originalNumberOfMultipleMatches = 1;
@@ -7111,7 +7112,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1748;
+		rLoc = 1817;
 		rType = 0;
 		vrLen = 1747;
 		vrLoc = 500;
@@ -7121,7 +7122,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1748;
+		rLoc = 1817;
 		rType = 0;
 		vrLen = 1837;
 		vrLoc = 565;
@@ -7131,7 +7132,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 0;
@@ -7141,7 +7142,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1748;
+		rLoc = 1817;
 		rType = 0;
 		vrLen = 1859;
 		vrLoc = 0;
@@ -7151,7 +7152,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1748;
+		rLoc = 1817;
 		rType = 0;
 		vrLen = 1843;
 		vrLoc = 21;
@@ -7201,7 +7202,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1748;
+		rLoc = 1817;
 		rType = 0;
 		vrLen = 1861;
 		vrLoc = 864;
@@ -7211,7 +7212,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1812;
+		rLoc = 1881;
 		rType = 0;
 		vrLen = 1825;
 		vrLoc = 928;
@@ -7221,7 +7222,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1812;
+		rLoc = 1881;
 		rType = 0;
 		vrLen = 1827;
 		vrLoc = 500;
@@ -7231,7 +7232,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 40";
 		rLen = 0;
-		rLoc = 998;
+		rLoc = 1017;
 		rType = 0;
 		vrLen = 1061;
 		vrLoc = 0;
@@ -7261,7 +7262,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 50";
 		rLen = 0;
-		rLoc = 2034;
+		rLoc = 2103;
 		rType = 0;
 		vrLen = 1769;
 		vrLoc = 565;
@@ -7271,7 +7272,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 52";
 		rLen = 0;
-		rLoc = 2039;
+		rLoc = 2108;
 		rType = 0;
 		vrLen = 1841;
 		vrLoc = 619;
@@ -7281,7 +7282,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 33";
 		rLen = 7;
-		rLoc = 820;
+		rLoc = 839;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 259;
@@ -7291,7 +7292,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 112";
 		rLen = 0;
-		rLoc = 4009;
+		rLoc = 4078;
 		rType = 0;
 		vrLen = 1791;
 		vrLoc = 565;
@@ -7301,7 +7302,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1725;
 		vrLoc = 565;
@@ -7311,7 +7312,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1760;
 		vrLoc = 565;
@@ -7321,7 +7322,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1728;
 		vrLoc = 619;
@@ -7331,7 +7332,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1826;
 		vrLoc = 500;
@@ -7341,7 +7342,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 55";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1790;
 		vrLoc = 500;
@@ -7361,7 +7362,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 54";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1532;
 		vrLoc = 1081;
@@ -7371,7 +7372,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 57";
 		rLen = 0;
-		rLoc = 2097;
+		rLoc = 2166;
 		rType = 0;
 		vrLen = 1527;
 		vrLoc = 1258;
@@ -7391,7 +7392,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 59";
 		rLen = 0;
-		rLoc = 2153;
+		rLoc = 2222;
 		rType = 0;
 		vrLen = 1555;
 		vrLoc = 1258;
@@ -7401,7 +7402,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 59";
 		rLen = 0;
-		rLoc = 2155;
+		rLoc = 2224;
 		rType = 0;
 		vrLen = 1494;
 		vrLoc = 1320;
@@ -7411,7 +7412,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 69";
 		rLen = 0;
-		rLoc = 2254;
+		rLoc = 2323;
 		rType = 0;
 		vrLen = 1421;
 		vrLoc = 1399;
@@ -7421,7 +7422,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 67";
 		rLen = 0;
-		rLoc = 2237;
+		rLoc = 2306;
 		rType = 0;
 		vrLen = 1358;
 		vrLoc = 2070;
@@ -7431,7 +7432,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1779;
 		vrLoc = 434;
@@ -7441,7 +7442,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1780;
 		vrLoc = 434;
@@ -7478,7 +7479,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1783;
 		vrLoc = 433;
@@ -7536,9 +7537,9 @@
 	};
 	CBF69F9F1485923D00F8881D /* httpThread.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 646}}";
-			sepNavSelRange = "{149, 28}";
-			sepNavVisRange = "{0, 384}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 325}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{61, 320}";
 		};
 	};
 	CBF69FA01485925900F8881D /* PBXBookmark */ = {
@@ -7610,7 +7611,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1282;
 		vrLoc = 1258;
@@ -7640,7 +7641,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7660,7 +7661,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 962;
 		vrLoc = 3330;
@@ -7690,7 +7691,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7710,7 +7711,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7720,7 +7721,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1853;
 		vrLoc = 0;
@@ -7780,7 +7781,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7800,7 +7801,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7820,7 +7821,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 43";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1903;
 		vrLoc = 0;
@@ -7830,7 +7831,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 111";
 		rLen = 0;
-		rLoc = 3885;
+		rLoc = 3954;
 		rType = 0;
 		vrLen = 1346;
 		vrLoc = 2247;
@@ -7840,7 +7841,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1162;
 		vrLoc = 1258;
@@ -7870,7 +7871,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -7890,7 +7891,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 84";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1098;
 		vrLoc = 2255;
@@ -7900,7 +7901,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 101";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1360;
 		vrLoc = 2255;
@@ -7910,7 +7911,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 71";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1290;
 		vrLoc = 1258;
@@ -7921,7 +7922,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 0;
-		rLoc = 108;
+		rLoc = 112;
 		rType = 1;
 	};
 	CBF69FF11485997B00F8881D /* PBXTextBookmark */ = {
@@ -7929,7 +7930,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 101";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 546;
 		vrLoc = 2854;
@@ -7949,7 +7950,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 50";
 		rLen = 0;
-		rLoc = 1016;
+		rLoc = 1035;
 		rType = 0;
 		vrLen = 1028;
 		vrLoc = 38;
@@ -7969,7 +7970,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 101";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 1487;
 		vrLoc = 2348;
@@ -7979,7 +7980,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 111";
 		rLen = 0;
-		rLoc = 3884;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 2217;
@@ -7989,7 +7990,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 73";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1258;
@@ -7999,7 +8000,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 111";
 		rLen = 0;
-		rLoc = 3884;
+		rLoc = 3953;
 		rType = 0;
 		vrLen = 1382;
 		vrLoc = 2217;
@@ -8019,7 +8020,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 73";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1258;
@@ -8029,7 +8030,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 101";
 		rLen = 0;
-		rLoc = 3468;
+		rLoc = 3537;
 		rType = 0;
 		vrLen = 748;
 		vrLoc = 2605;
@@ -8078,7 +8079,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 50";
 		rLen = 0;
-		rLoc = 1016;
+		rLoc = 1035;
 		rType = 0;
 		vrLen = 1056;
 		vrLoc = 273;
@@ -8088,7 +8089,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 101";
 		rLen = 0;
-		rLoc = 3463;
+		rLoc = 3532;
 		rType = 0;
 		vrLen = 1415;
 		vrLoc = 2234;
@@ -8117,7 +8118,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 73";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1258;
@@ -8166,7 +8167,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 73";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1177;
 		vrLoc = 1258;
@@ -8186,7 +8187,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 1139;
+		rLoc = 1137;
 		rType = 0;
 		vrLen = 1751;
 		vrLoc = 420;
@@ -8196,7 +8197,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8206,7 +8207,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8216,12 +8217,12 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 75";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 991;
 	};
-	CBF6A02B14859F3F00F8881D /* testApp.cpp:37 */ = {
+	CBF6A02B14859F3F00F8881D /* testApp.cpp:36 */ = {
 		isa = PBXFileBreakpoint;
 		actions = (
 		);
@@ -8233,7 +8234,7 @@
 		functionName = "testApp::setup()";
 		hitCount = 1;
 		ignoreCount = 0;
-		lineNumber = 37;
+		lineNumber = 36;
 		location = skyLightDebug;
 		modificationTime = 344301681.779403;
 		originalNumberOfMultipleMatches = 1;
@@ -8244,7 +8245,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 13";
 		rLen = 0;
-		rLoc = 359;
+		rLoc = 404;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8254,7 +8255,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 1139;
+		rLoc = 1137;
 		rType = 0;
 		vrLen = 1741;
 		vrLoc = 430;
@@ -8264,7 +8265,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 1139;
+		rLoc = 1137;
 		rType = 0;
 		vrLen = 1737;
 		vrLoc = 434;
@@ -8274,7 +8275,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 75";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 991;
@@ -8284,7 +8285,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 1139;
+		rLoc = 1137;
 		rType = 0;
 		vrLen = 1737;
 		vrLoc = 434;
@@ -8294,7 +8295,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 16";
 		rLen = 0;
-		rLoc = 456;
+		rLoc = 501;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8304,7 +8305,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 498;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 513;
 		vrLoc = 0;
@@ -8314,7 +8315,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 75";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 991;
@@ -8324,7 +8325,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 498;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 513;
 		vrLoc = 0;
@@ -8364,7 +8365,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 75";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 991;
@@ -8374,7 +8375,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 498;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8404,7 +8405,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 75";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1278;
 		vrLoc = 991;
@@ -8414,7 +8415,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 49";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1018;
 		rType = 0;
 		vrLen = 999;
 		vrLoc = 314;
@@ -8444,7 +8445,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 33";
 		rLen = 0;
-		rLoc = 1205;
+		rLoc = 1203;
 		rType = 0;
 		vrLen = 1708;
 		vrLoc = 434;
@@ -8454,7 +8455,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 991;
@@ -8464,7 +8465,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 17";
 		rLen = 0;
-		rLoc = 498;
+		rLoc = 543;
 		rType = 0;
 		vrLen = 506;
 		vrLoc = 0;
@@ -8474,7 +8475,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 3849;
+		rLoc = 3918;
 		rType = 0;
 		vrLen = 1475;
 		vrLoc = 2192;
@@ -8484,7 +8485,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3852;
 		rType = 0;
 		vrLen = 1474;
 		vrLoc = 2192;
@@ -8494,7 +8495,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 991;
@@ -8504,7 +8505,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3852;
 		rType = 0;
 		vrLen = 1435;
 		vrLoc = 2237;
@@ -8514,7 +8515,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 991;
@@ -8524,7 +8525,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 109";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3852;
 		rType = 0;
 		vrLen = 1448;
 		vrLoc = 2237;
@@ -8534,7 +8535,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 991;
@@ -8544,7 +8545,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 108";
 		rLen = 0;
-		rLoc = 3783;
+		rLoc = 3852;
 		rType = 0;
 		vrLen = 1440;
 		vrLoc = 2237;
@@ -8554,7 +8555,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 991;
@@ -8564,7 +8565,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 110";
 		rLen = 0;
-		rLoc = 3870;
+		rLoc = 3939;
 		rType = 0;
 		vrLen = 1149;
 		vrLoc = 2836;
@@ -8574,7 +8575,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 991;
@@ -8584,7 +8585,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 111";
 		rLen = 0;
-		rLoc = 3870;
+		rLoc = 3939;
 		rType = 0;
 		vrLen = 1145;
 		vrLoc = 2840;
@@ -8594,7 +8595,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 991;
@@ -8604,7 +8605,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 111";
 		rLen = 0;
-		rLoc = 3870;
+		rLoc = 3939;
 		rType = 0;
 		vrLen = 1215;
 		vrLoc = 2840;
@@ -8614,7 +8615,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1250;
 		vrLoc = 991;
@@ -8624,7 +8625,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 49";
 		rLen = 0;
-		rLoc = 999;
+		rLoc = 1018;
 		rType = 0;
 		vrLen = 1040;
 		vrLoc = 274;
@@ -8634,7 +8635,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 110";
 		rLen = 0;
-		rLoc = 3849;
+		rLoc = 3918;
 		rType = 0;
 		vrLen = 1534;
 		vrLoc = 2330;
@@ -8644,7 +8645,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 112";
 		rLen = 0;
-		rLoc = 3849;
+		rLoc = 3918;
 		rType = 0;
 		vrLen = 1323;
 		vrLoc = 2530;
@@ -8654,7 +8655,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 991;
@@ -8684,7 +8685,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 57";
 		rLen = 47;
-		rLoc = 1079;
+		rLoc = 1098;
 		rType = 0;
 		vrLen = 976;
 		vrLoc = 349;
@@ -8704,7 +8705,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 103";
 		rLen = 7;
-		rLoc = 3427;
+		rLoc = 3496;
 		rType = 0;
 		vrLen = 1460;
 		vrLoc = 2485;
@@ -8714,7 +8715,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 116";
 		rLen = 0;
-		rLoc = 3840;
+		rLoc = 3909;
 		rType = 0;
 		vrLen = 1414;
 		vrLoc = 2530;
@@ -8724,7 +8725,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1247;
 		vrLoc = 991;
@@ -8734,7 +8735,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 46";
 		rLen = 0;
-		rLoc = 1701;
+		rLoc = 1770;
 		rType = 0;
 		vrLen = 1314;
 		vrLoc = 991;
@@ -8744,7 +8745,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1246;
 		vrLoc = 991;
@@ -8754,7 +8755,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 115";
 		rLen = 7;
-		rLoc = 3840;
+		rLoc = 3909;
 		rType = 0;
 		vrLen = 1609;
 		vrLoc = 2329;
@@ -8764,7 +8765,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 68";
 		rLen = 15;
-		rLoc = 1314;
+		rLoc = 1333;
 		rType = 0;
 		vrLen = 987;
 		vrLoc = 349;
@@ -8774,7 +8775,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 42";
 		rLen = 0;
-		rLoc = 829;
+		rLoc = 848;
 		rType = 0;
 		vrLen = 1034;
 		vrLoc = 315;
@@ -8784,7 +8785,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 991;
@@ -8794,7 +8795,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 42";
 		rLen = 0;
-		rLoc = 839;
+		rLoc = 858;
 		rType = 0;
 		vrLen = 1032;
 		vrLoc = 315;
@@ -8804,7 +8805,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 115";
 		rLen = 0;
-		rLoc = 3870;
+		rLoc = 3939;
 		rType = 0;
 		vrLen = 1599;
 		vrLoc = 2329;
@@ -8814,7 +8815,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 76";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1249;
 		vrLoc = 991;
@@ -8844,7 +8845,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 47";
 		rLen = 0;
-		rLoc = 954;
+		rLoc = 973;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 349;
@@ -8854,7 +8855,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 77";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1288;
 		vrLoc = 989;
@@ -8864,7 +8865,7 @@
 		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
 		name = "testApp.h: 47";
 		rLen = 0;
-		rLoc = 954;
+		rLoc = 973;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 349;
@@ -8894,7 +8895,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 1722;
+		rLoc = 1791;
 		rType = 0;
 		vrLen = 1459;
 		vrLoc = 795;
@@ -8904,7 +8905,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 80";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1265;
 		vrLoc = 989;
@@ -8934,7 +8935,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 47";
 		rLen = 0;
-		rLoc = 1722;
+		rLoc = 1791;
 		rType = 0;
 		vrLen = 1459;
 		vrLoc = 795;
@@ -8944,7 +8945,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 61";
 		rLen = 0;
-		rLoc = 2038;
+		rLoc = 2107;
 		rType = 0;
 		vrLen = 1221;
 		vrLoc = 1444;
@@ -8954,10 +8955,180 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 79";
 		rLen = 0;
-		rLoc = 2322;
+		rLoc = 2391;
 		rType = 0;
 		vrLen = 1285;
 		vrLoc = 989;
+	};
+	CBF6A0CC1485B6EB00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 61";
+		rLen = 0;
+		rLoc = 2107;
+		rType = 0;
+		vrLen = 1221;
+		vrLoc = 1444;
+	};
+	CBF6A0CD1485B6EB00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 111";
+		rLen = 0;
+		rLoc = 3627;
+		rType = 0;
+		vrLen = 1580;
+		vrLoc = 2322;
+	};
+	CBF6A0CE1485B6EB00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 79";
+		rLen = 0;
+		rLoc = 2391;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 989;
+	};
+	CBF6A0D51485B76900F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */;
+		name = "ofxImageSequence.cpp: 134";
+		rLen = 0;
+		rLoc = 3891;
+		rType = 0;
+		vrLen = 1657;
+		vrLoc = 884;
+	};
+	CBF6A0D61485B76900F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69535147DEB8300F8881D /* util.h */;
+		name = "util.h: 20";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 231;
+		vrLoc = 0;
+	};
+	CBF6A0D71485B76900F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 111";
+		rLen = 0;
+		rLoc = 3627;
+		rType = 0;
+		vrLen = 1643;
+		vrLoc = 2325;
+	};
+	CBF6A0D81485B76900F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 47";
+		rLen = 0;
+		rLoc = 1789;
+		rType = 0;
+		vrLen = 1641;
+		vrLoc = 565;
+	};
+	CBF6A0DC1485B79C00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 47";
+		rLen = 0;
+		rLoc = 1789;
+		rType = 0;
+		vrLen = 1662;
+		vrLoc = 565;
+	};
+	CBF6A0DD1485B79C00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
+		name = "skylight.xml: 12";
+		rLen = 0;
+		rLoc = 302;
+		rType = 0;
+		vrLen = 590;
+		vrLoc = 0;
+	};
+	CBF6A0DF1485B7B200F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
+		name = "skylight.xml: 23";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	CBF6A0E51485B8AC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
+		name = "skylight.xml: 23";
+		rLen = 0;
+		rLoc = 602;
+		rType = 0;
+		vrLen = 602;
+		vrLoc = 0;
+	};
+	CBF6A0E61485B8AC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */;
+		name = "main.cpp: 9";
+		rLen = 0;
+		rLoc = 231;
+		rType = 0;
+		vrLen = 414;
+		vrLoc = 0;
+	};
+	CBF6A0E71485B8AC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 155";
+		rLen = 10;
+		rLoc = 4574;
+		rType = 0;
+		vrLen = 1184;
+		vrLoc = 4289;
+	};
+	CBF6A0E81485B8AC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 47";
+		rLen = 0;
+		rLoc = 973;
+		rType = 0;
+		vrLen = 1042;
+		vrLoc = 315;
+	};
+	CBF6A0E91485B8AC00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 47";
+		rLen = 0;
+		rLoc = 971;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 349;
+	};
+	CBF6A0ED1485B90700F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1F0A3A1BDC003C02F2 /* testApp.h */;
+		name = "testApp.h: 47";
+		rLen = 0;
+		rLoc = 971;
+		rType = 0;
+		vrLen = 1030;
+		vrLoc = 349;
+	};
+	CBF6A0EE1485B90700F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 45";
+		rLen = 0;
+		rLoc = 1661;
+		rType = 0;
+		vrLen = 1413;
+		vrLoc = 864;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -8967,9 +9138,9 @@
 			E4B69B5A0A3A1756003C02F2 /* skyLight */,
 		);
 		breakpoints = (
-			CBF69E421484688F00F8881D /* testApp.cpp:181 */,
-			CBF69F32148583B200F8881D /* testApp.cpp:66 */,
-			CBF6A02B14859F3F00F8881D /* testApp.cpp:37 */,
+			CBF69E421484688F00F8881D /* testApp.cpp:188 */,
+			CBF69F32148583B200F8881D /* testApp.cpp:70 */,
+			CBF6A02B14859F3F00F8881D /* testApp.cpp:36 */,
 		);
 		codeSenseManager = CB2A43EE11A7D541007D3DBC /* Code sense */;
 		executables = (
@@ -8977,7 +9148,7 @@
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
-				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
@@ -9906,6 +10077,23 @@
 			CBF6A0C31485ABD500F8881D /* PBXTextBookmark */ = CBF6A0C31485ABD500F8881D /* PBXTextBookmark */;
 			CBF6A0C41485ABD500F8881D /* PBXTextBookmark */ = CBF6A0C41485ABD500F8881D /* PBXTextBookmark */;
 			CBF6A0C51485ABD500F8881D /* PBXTextBookmark */ = CBF6A0C51485ABD500F8881D /* PBXTextBookmark */;
+			CBF6A0CC1485B6EB00F8881D /* PBXTextBookmark */ = CBF6A0CC1485B6EB00F8881D /* PBXTextBookmark */;
+			CBF6A0CD1485B6EB00F8881D /* PBXTextBookmark */ = CBF6A0CD1485B6EB00F8881D /* PBXTextBookmark */;
+			CBF6A0CE1485B6EB00F8881D /* PBXTextBookmark */ = CBF6A0CE1485B6EB00F8881D /* PBXTextBookmark */;
+			CBF6A0D51485B76900F8881D /* PBXTextBookmark */ = CBF6A0D51485B76900F8881D /* PBXTextBookmark */;
+			CBF6A0D61485B76900F8881D /* PBXTextBookmark */ = CBF6A0D61485B76900F8881D /* PBXTextBookmark */;
+			CBF6A0D71485B76900F8881D /* PBXTextBookmark */ = CBF6A0D71485B76900F8881D /* PBXTextBookmark */;
+			CBF6A0D81485B76900F8881D /* PBXTextBookmark */ = CBF6A0D81485B76900F8881D /* PBXTextBookmark */;
+			CBF6A0DC1485B79C00F8881D /* PBXTextBookmark */ = CBF6A0DC1485B79C00F8881D /* PBXTextBookmark */;
+			CBF6A0DD1485B79C00F8881D /* PBXTextBookmark */ = CBF6A0DD1485B79C00F8881D /* PBXTextBookmark */;
+			CBF6A0DF1485B7B200F8881D /* PBXTextBookmark */ = CBF6A0DF1485B7B200F8881D /* PBXTextBookmark */;
+			CBF6A0E51485B8AC00F8881D /* PBXTextBookmark */ = CBF6A0E51485B8AC00F8881D /* PBXTextBookmark */;
+			CBF6A0E61485B8AC00F8881D /* PBXTextBookmark */ = CBF6A0E61485B8AC00F8881D /* PBXTextBookmark */;
+			CBF6A0E71485B8AC00F8881D /* PBXTextBookmark */ = CBF6A0E71485B8AC00F8881D /* PBXTextBookmark */;
+			CBF6A0E81485B8AC00F8881D /* PBXTextBookmark */ = CBF6A0E81485B8AC00F8881D /* PBXTextBookmark */;
+			CBF6A0E91485B8AC00F8881D /* PBXTextBookmark */ = CBF6A0E91485B8AC00F8881D /* PBXTextBookmark */;
+			CBF6A0ED1485B90700F8881D /* PBXTextBookmark */ = CBF6A0ED1485B90700F8881D /* PBXTextBookmark */;
+			CBF6A0EE1485B90700F8881D /* PBXTextBookmark */ = CBF6A0EE1485B90700F8881D /* PBXTextBookmark */;
 		};
 		sourceControlManager = CB2A43ED11A7D541007D3DBC /* Source Control */;
 		userBuildSettings = {
@@ -9926,17 +10114,17 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1055, 3432}}";
-			sepNavSelRange = "{2322, 0}";
-			sepNavVisRange = "{989, 1285}";
-			sepNavWindowFrame = "{{19, 134}, {1114, 739}}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 3536}}";
+			sepNavSelRange = "{1661, 0}";
+			sepNavVisRange = "{864, 1413}";
+			sepNavWindowFrame = "{{222, -352}, {1114, 739}}";
 		};
 	};
 	E4B69E1F0A3A1BDC003C02F2 /* testApp.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 988}}";
-			sepNavSelRange = "{954, 0}";
-			sepNavVisRange = "{349, 1008}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 1001}}";
+			sepNavSelRange = "{971, 0}";
+			sepNavVisRange = "{349, 1030}";
 			sepNavWindowFrame = "{{65, 273}, {750, 558}}";
 		};
 	};

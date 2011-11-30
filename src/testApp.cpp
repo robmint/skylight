@@ -30,7 +30,6 @@ void testApp::setup(){
 	newSequence = xmlConfig.getValue("config:display:newsequence", 21);
 	
 	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", true);
-	
 	webcamCapture = xmlConfig.getValue("config:camera:webcamcapture", false);
 	
 	cameraUrl = xmlConfig.getValue("config:camera:url", "http://192.168.0.6/jpeg.cgi?0");
@@ -39,12 +38,17 @@ void testApp::setup(){
 
 	displayWidth = xmlConfig.getValue("config:display:width", 1280);
 	displayHeight = xmlConfig.getValue("config:display:height", 1024);
+	
 	fontPath = xmlConfig.getValue("config:font:path", "mono.ttf");
 
+	
+	// display size
+	ofSetWindowShape(displayWidth, displayHeight);
+	
 	// load font
 	font.loadFont(fontPath, 12);
 	
-	seqPath = "/images/2011/11/30/13";
+	seqPath = "/images/2011-11-30-13";
 	
 	// directory listing
 	dir.allowExt("jpg");	
@@ -87,7 +91,7 @@ void testApp::update(){
 	if(time%captureFreq==0) {
 		if(networkCapture) {
 			// for this to work you need to set finder permissions for the user to read/write on the external drive path
-			sprintf(path, "%s/images/%i/%i/%i/%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+			sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
 			//printf("%s\n",buffer);
 			
 			sprintf(buffer, "mkdir -p %s", path);
@@ -108,7 +112,7 @@ void testApp::update(){
 			
 		} else if (webcamCapture) {
 			camera.grabFrame();
-			sprintf(path, "%s/images/%i/%i/%i/%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+			sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
 			sprintf(buffer, "mkdir -p %s", path);
 			system(buffer);
 			sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
@@ -150,13 +154,16 @@ void testApp::keyPressed(int key){
 		message = "Play new sequence";
 		
 	}
-	
-	
+
+	if(key=='f') {
+		fullscreen = !fullscreen;
+		ofSetFullscreen(fullscreen);
+	}
 	
 	if(key=='h') {
 		if(message=="") {
 			message = "Help: [s]ave config, lock[a]spect, [arrows] position, [shift+arrows] xy scale\n";
-			message += "Network [c]apture [w]ebcam capture";
+			message += "Network [c]apture [w]ebcam capture [f]ullscreen";
 		} else { message = ""; }
 	}
 

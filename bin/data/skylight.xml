@@ -4,10 +4,12 @@
         <chat>1</chat>
         <xpos>1</xpos>
         <ypos>-7</ypos>
-        <xscale>1.200000</xscale>
-        <yscale>1.200000</yscale>
+        <xscale>3.800000</xscale>
+        <yscale>3.800000</yscale>
         <lockaspect>1</lockaspect>
-		<newsequence>600</newsequence>
+        <newsequence>600</newsequence>
+        <width>1600</width>
+        <height>900</height>
     </display>
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
