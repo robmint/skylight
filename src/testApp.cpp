@@ -70,18 +70,39 @@ void testApp::setup(){
 	sequence.setFrameRate(25);
 	
 	
+	// get list of sequences - currently 1 hour time frame
+	updateSequenceList(storagePath);
+
 	// set bg to black
 	ofBackground(0,0,0);
-	
 	
 	// initial values
 	time = 0;
 	message = "";
 	ofSetFrameRate(30);
-		
+	
 	// start thread
 	HttpThread.initAndSleep();
+	
 
+}
+
+void testApp::updateSequenceList( string s ) {
+
+	// directory listing
+	dir.allowExt("*");	
+	int numFiles = dir.listDir(s+"/images");
+	if(numFiles==0) { 
+		cout<<"ERROR: no dirs found in "<<s<<"/images\n";
+		return;
+	}
+	// push the file names into a vector of strings
+	for(int i = 0; i < numFiles; i++){
+		sequenceDir.push_back(dir.getPath(i));
+		cout<<"dir: "<<dir.getPath(i)<<"\n";
+	}
+	
+	
 }
 
 //--------------------------------------------------------------

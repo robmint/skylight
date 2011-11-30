@@ -34,6 +34,8 @@ class testApp : public ofBaseApp{
 		void mousePressed(int x, int y, int button);
 		void mouseReleased(int x, int y, int button);
 		void resized(int w, int h);
+
+		void updateSequenceList( string storagePath );
 		
 		bool displayTests, displayChat, moviePlaying;
 		bool lockAspect, networkCapture, webcamCapture;
@@ -53,6 +55,7 @@ class testApp : public ofBaseApp{
 
 
 		vector<string> files;
+		vector<string> sequenceDir;
 		
 		string message;
 		

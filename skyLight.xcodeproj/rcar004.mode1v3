@@ -269,6 +269,9 @@
 								<string>E4B69E1C0A3A1BDC003C02F2</string>
 								<string>CBF6953D147DEBDC00F8881D</string>
 								<string>CBF69FE0148598EE00F8881D</string>
+								<string>CBF69920147F59F700F8881D</string>
+								<string>CBF69921147F59F700F8881D</string>
+								<string>CBF69924147F59F700F8881D</string>
 								<string>CBF69545147DEC0200F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
 							</array>
@@ -300,7 +303,7 @@
 							<real>231</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>262 71 1152 768 0 0 1440 878 </string>
+						<string>241 63 1152 768 0 0 1440 878 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -330,7 +333,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF6A1301485BE5200F8881D</string>
+										<string>CBF6A1C21485C7D500F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
@@ -341,10 +344,7 @@
 											<string>CBF69F2114857E4600F8881D</string>
 											<string>CBF69F2414857E4600F8881D</string>
 											<string>CBF69F36148583C100F8881D</string>
-											<string>CBF69F471485855700F8881D</string>
 											<string>CBF69F481485855800F8881D</string>
-											<string>CBF69F4A1485855800F8881D</string>
-											<string>CBF69F94148591A700F8881D</string>
 											<string>CBF69FA21485926F00F8881D</string>
 											<string>CBF69FA31485926F00F8881D</string>
 											<string>CBF69FA41485926F00F8881D</string>
@@ -358,9 +358,12 @@
 											<string>CBF6A0D61485B76900F8881D</string>
 											<string>CBF6A0E61485B8AC00F8881D</string>
 											<string>CBF6A0FF1485BB2E00F8881D</string>
-											<string>CBF6A11C1485BD7100F8881D</string>
-											<string>CBF6A1281485BDF900F8881D</string>
-											<string>CBF6A1291485BDF900F8881D</string>
+											<string>CBF6A13B1485C06900F8881D</string>
+											<string>CBF6A13C1485C06900F8881D</string>
+											<string>CBF6A1591485C12600F8881D</string>
+											<string>CBF6A1B01485C73500F8881D</string>
+											<string>CBF6A1C01485C7D500F8881D</string>
+											<string>CBF6A1C11485C7D500F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -374,7 +377,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {899, 703}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 71 1152 768 0 0 1440 878 </string>
+								<string>241 63 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -394,7 +397,7 @@
 								<key>Frame</key>
 								<string>{{0, 708}, {899, 19}}</string>
 								<key>RubberWindowFrame</key>
-								<string>262 71 1152 768 0 0 1440 878 </string>
+								<string>241 63 1152 768 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -558,6 +561,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CBF6A1C31485C7D500F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>
@@ -567,7 +571,7 @@
 		<string>/Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/skyLight.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>262 71 1152 768 0 0 1440 878 </string>
+	<string>241 63 1152 768 0 0 1440 878 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
@@ -907,7 +911,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1036, 218}}</string>
 								<key>RubberWindowFrame</key>
-								<string>-3 88 1036 259 0 0 1440 878 </string>
+								<string>-2 39 1036 259 0 0 1440 878 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -936,7 +940,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>-3 88 1036 259 0 0 1440 878 </string>
+			<string>-2 39 1036 259 0 0 1440 878 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
