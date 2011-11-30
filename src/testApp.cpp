@@ -19,6 +19,7 @@ void testApp::setup(){
 	}
 
 	osd = xmlConfig.getValue("config:display:osd", false);
+	
 	xpos = xmlConfig.getValue("config:display:xpos", 0);
 	ypos = xmlConfig.getValue("config:display:ypos", 0);
 	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
@@ -28,7 +29,7 @@ void testApp::setup(){
 	startHour = xmlConfig.getValue("config:camera:starthour", 6);
 	endHour = xmlConfig.getValue("config:camera:endhour", 21);
 
-	newSequence = xmlConfig.getValue("config:display:newsequence", 21);
+	newSequence = xmlConfig.getValue("config:display:newsequence", 600);
 	
 	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", true);
 	webcamCapture = xmlConfig.getValue("config:camera:webcamcapture", false);
@@ -99,8 +100,8 @@ void testApp::updateSequenceList( string s ) {
 	// push the file names into a vector of strings
 	for(int i = 0; i < numFiles; i++){
 		sequenceDir.push_back(dir.getPath(i));
-		cout<<"dir: "<<dir.getPath(i)<<"\n";
 	}
+	message = "Sequence update: "+ofToString(numFiles)+" sequences available";
 	
 	
 }
@@ -151,6 +152,10 @@ void testApp::update(){
 		}
 	}
 	
+	if(time%newSequence==0) {
+		updateSequenceList(storagePath);
+		
+	}
 	
 	time++;
 		
