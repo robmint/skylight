@@ -14,7 +14,7 @@
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
         <freq>100</freq>
-        <starthour>7</starthour>
+        <starthour>18</starthour>
         <endhour>21</endhour>
         <networkcapture>0</networkcapture>
         <webcamcapture>1</webcamcapture>

@@ -25,8 +25,10 @@ void testApp::setup(){
 	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
 	yscale = xmlConfig.getValue("config:display:yscale", 1.0f);
 	lockAspect = xmlConfig.getValue("config:display:lockaspect", true);
-	startHour = xmlConfig.getValue("config:display:starthour", 6);
-	endHour = xmlConfig.getValue("config:display:endhour", 21);
+
+	startHour = xmlConfig.getValue("config:camera:starthour", 6);
+	endHour = xmlConfig.getValue("config:camera:endhour", 21);
+
 	newSequence = xmlConfig.getValue("config:display:newsequence", 21);
 	
 	networkCapture	= xmlConfig.getValue("config:camera:networkcapture", true);
@@ -88,41 +90,45 @@ void testApp::update(){
 	/* TODO captureFreq relates to how often update() is called (ie framerate) but
 	   should be related to time (elapsed millis) so it is the same frequency
 	   regardless of a fast or slow computer */
-	if(time%captureFreq==0) {
-		if(networkCapture) {
-			// for this to work you need to set finder permissions for the user to read/write on the external drive path
-			sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-			//printf("%s\n",buffer);
-			
-			sprintf(buffer, "mkdir -p %s", path);
-			printf("%s\n",buffer);
-			
-			// TODO this should probably done in a non-blocking way
-			// eg ofDirectory using of007
-			system(buffer);
-			
-			// loads a file from a url and saves it with a specific name
-			// the resulting file can be loaded into a ofImage for display
-			sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+	
+	// check time 
+	if(ofGetHours()>=startHour && ofGetHours()<=endHour) {
+		if(time%captureFreq==0) {
+			if(networkCapture) {
+				// for this to work you need to set finder permissions for the user to read/write on the external drive path
+				sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+				
+				sprintf(buffer, "mkdir -p %s", path);
+				
+				// TODO this should probably done in a non-blocking way
+				// eg ofDirectory using of007
+				system(buffer);
+				
+				// loads a file from a url and saves it with a specific name
+				// the resulting file can be loaded into a ofImage for display
+				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+				
+				message = "Trigger: Network camera capture";
+				HttpThread.imageLoader = imageLoader;
+				HttpThread.cameraUrl = cameraUrl;
+				HttpThread.imgPath = imgPath;
+				HttpThread.updateOnce();
+				
+			} else if (webcamCapture) {
+				camera.grabFrame();
+				sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+				sprintf(buffer, "mkdir -p %s", path);
+				system(buffer);
+				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+				
+				webcam.grabScreen(20,20,camWidth, camHeight);
+				p = imgPath;
+				webcam.saveImage(p);
+				message = "Save: Webcam capture";
 
-			HttpThread.imageLoader = imageLoader;
-			HttpThread.cameraUrl = cameraUrl;
-			HttpThread.imgPath = imgPath;
-			HttpThread.updateOnce();
+			}
 			
-		} else if (webcamCapture) {
-			camera.grabFrame();
-			sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-			sprintf(buffer, "mkdir -p %s", path);
-			system(buffer);
-			sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
-			
-			webcam.grabScreen(20,20,camWidth, camHeight);
-			p = imgPath;
-			webcam.saveImage(p);
-
 		}
-		
 	}
 	
 	

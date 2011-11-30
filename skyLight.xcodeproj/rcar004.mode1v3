@@ -271,7 +271,6 @@
 								<string>CBF69FE0148598EE00F8881D</string>
 								<string>CBF69545147DEC0200F8881D</string>
 								<string>1C37FBAC04509CD000000102</string>
-								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
@@ -282,7 +281,7 @@
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 16}, {231, 709}}</string>
+							<string>{{0, 0}, {231, 709}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -331,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF6A0EE1485B90700F8881D</string>
+										<string>CBF6A1181485BC2300F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF695D2147DFD9A00F8881D</string>
@@ -354,14 +353,14 @@
 											<string>CBF6A01714859CAC00F8881D</string>
 											<string>CBF6A03F14859FE500F8881D</string>
 											<string>CBF6A0501485A13300F8881D</string>
-											<string>CBF6A09B1485A6FE00F8881D</string>
 											<string>CBF6A0C21485ABD500F8881D</string>
 											<string>CBF6A0D51485B76900F8881D</string>
 											<string>CBF6A0D61485B76900F8881D</string>
-											<string>CBF6A0E51485B8AC00F8881D</string>
 											<string>CBF6A0E61485B8AC00F8881D</string>
 											<string>CBF6A0ED1485B90700F8881D</string>
-											<string>CBF6A0E71485B8AC00F8881D</string>
+											<string>CBF6A0FF1485BB2E00F8881D</string>
+											<string>CBF6A1141485BBF700F8881D</string>
+											<string>CBF6A1151485BBF700F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -559,7 +558,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>CBF6A0EF1485B90700F8881D</string>
 		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>CBF69517147DC8DF00F8881D</string>
 		<string>CBF69518147DC8DF00F8881D</string>
