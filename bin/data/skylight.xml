@@ -10,13 +10,14 @@
         <newsequence>600</newsequence>
         <width>1600</width>
         <height>900</height>
+        <osd>1</osd>
     </display>
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
         <freq>100</freq>
-        <starthour>18</starthour>
-        <endhour>21</endhour>
-        <networkcapture>0</networkcapture>
-        <webcamcapture>1</webcamcapture>
+        <starthour>5</starthour>
+        <endhour>22</endhour>
+        <networkcapture>1</networkcapture>
+        <webcamcapture>0</webcamcapture>
     </camera>
 </config>

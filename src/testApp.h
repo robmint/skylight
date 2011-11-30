@@ -37,7 +37,7 @@ class testApp : public ofBaseApp{
 		
 		bool displayTests, displayChat, moviePlaying;
 		bool lockAspect, networkCapture, webcamCapture;
-		bool fullscreen;
+		bool fullscreen, osd;
 		
 		string cameraUrl, fontPath, storagePath, seqPath;
 		string p;

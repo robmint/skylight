@@ -18,8 +18,7 @@ void testApp::setup(){
 		exit();
 	}
 
-	displayTests = xmlConfig.getValue("config:display:test", false);
-	displayChat = xmlConfig.getValue("config:display:chat", false);
+	osd = xmlConfig.getValue("config:display:osd", false);
 	xpos = xmlConfig.getValue("config:display:xpos", 0);
 	ypos = xmlConfig.getValue("config:display:ypos", 0);
 	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
@@ -144,11 +143,12 @@ void testApp::draw(){
 	frameTexture = sequence.getFrame(time%sequence.getTotalFrames());
 	frameTexture->draw(xpos, ypos, frameTexture->getWidth()*xscale, frameTexture->getHeight()*yscale );
 
-	camera.draw(20,20);
-	
-	string str = ofToString(ofGetFrameRate(), 0)+"fps";
-	font.drawString(str, 5, 18);
-	font.drawString(message, 5, 600);
+	if(osd) {
+		camera.draw(20,20);
+		string str = ofToString(ofGetFrameRate(), 0)+"fps";
+		font.drawString(str, 5, 18);
+		font.drawString(message, 5, 600);
+	}
 	
 
 }
@@ -161,6 +161,12 @@ void testApp::keyPressed(int key){
 		
 	}
 
+	if(key=='d') {
+		osd = !osd;
+		message = "";
+		xmlConfig.setValue("config:display:osd", osd, 0);
+	}
+	
 	if(key=='f') {
 		fullscreen = !fullscreen;
 		ofSetFullscreen(fullscreen);
@@ -169,8 +175,9 @@ void testApp::keyPressed(int key){
 	if(key=='h') {
 		if(message=="") {
 			message = "Help: [s]ave config, lock[a]spect, [arrows] position, [shift+arrows] xy scale\n";
-			message += "Network [c]apture [w]ebcam capture [f]ullscreen";
+			message += "Network [c]apture, [w]ebcam capture, [f]ullscreen, on screen [d]isplay";
 		} else { message = ""; }
+		osd = true;
 	}
 
 	if(key=='s') {
