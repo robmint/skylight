@@ -2,22 +2,26 @@
     <display>
         <test>1</test>
         <chat>1</chat>
-        <xpos>1</xpos>
+        <xpos>0</xpos>
         <ypos>-7</ypos>
-        <xscale>0.900000</xscale>
-        <yscale>0.900000</yscale>
+        <xscale>1.300000</xscale>
+        <yscale>1.300000</yscale>
         <lockaspect>1</lockaspect>
-        <newsequence>300</newsequence>
+        <newsequence>200</newsequence>
         <width>1600</width>
         <height>900</height>
-        <osd>1</osd>
+        <osd>0</osd>
+        <fullscreen>1</fullscreen>
     </display>
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
         <freq>100</freq>
-        <starthour>5</starthour>
-        <endhour>22</endhour>
+        <starthour>0</starthour>
+        <endhour>23</endhour>
         <networkcapture>1</networkcapture>
         <webcamcapture>0</webcamcapture>
     </camera>
+    <storage>
+        <path>/Volumes/skylight</path>
+    </storage>
 </config>

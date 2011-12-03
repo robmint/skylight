@@ -11,7 +11,11 @@ void testApp::setup(){
 	
 //	camera.setVerbose(true);
 	camera.initGrabber(camWidth,camHeight);
-	
+
+	grayImageDiff.allocate(camWidth,camHeight);
+	grayImageThen.allocate(camWidth,camHeight);
+	grayImageNow.allocate(camWidth,camHeight);
+
 	// get config values from XML file in ./data
 	if( !xmlConfig.loadFile("skylight.xml") ) {
 		printf("config not found");
@@ -25,6 +29,7 @@ void testApp::setup(){
 	xscale = xmlConfig.getValue("config:display:xscale", 1.0f);
 	yscale = xmlConfig.getValue("config:display:yscale", 1.0f);
 	lockAspect = xmlConfig.getValue("config:display:lockaspect", true);
+	fullscreen = xmlConfig.getValue("config:display:fullscreen", true);
 
 	startHour = xmlConfig.getValue("config:camera:starthour", 6);
 	endHour = xmlConfig.getValue("config:camera:endhour", 21);
@@ -46,6 +51,7 @@ void testApp::setup(){
 	
 	// display size
 	ofSetWindowShape(displayWidth, displayHeight);
+	ofSetFullscreen(fullscreen);
 	
 	// load font
 	font.loadFont(fontPath, 12);
@@ -54,7 +60,11 @@ void testApp::setup(){
 	
 	
 	// get list of sequences - currently 1 hour time frame
-	updateSequenceList(storagePath);
+	updateSequenceList();
+
+	// TODO make into a config option
+	sequenceLength = 50;
+	sequenceFrame = 0;
 
 	// set bg to black
 	ofBackground(0,0,0);
@@ -62,24 +72,94 @@ void testApp::setup(){
 	// initial values
 	time = 0;
 	message = "";
-	ofSetFrameRate(30);
+	ofSetFrameRate(25);
 	
 	// start thread
 	Http.initAndSleep();
-	//ImageLoader.initAndSleep();
 	
 
 }
 
-void testApp::updateSequenceList( string s ) {
+//--------------------------------------------------------------
+void testApp::update(){
+	/* TODO captureFreq relates to how often update() is called (ie framerate) but
+	   should be related to time (elapsed millis) so it is the same frequency
+	   regardless of a fast or slow computer */
+	
+	// look for movement
+	camera.grabFrame();
+	if(camera.isFrameNew()) {
+		grayImageThen = grayImageNow;
+		grayImageNow.setFromPixels(camera.getPixels(), camWidth,camHeight);
+		grayImageDiff.absDiff(grayImageNow, grayImageThen);
+		
+	}
+
+	
+	// check time 
+	if(ofGetHours()>=startHour && ofGetHours()<=endHour) {
+		// time to capture?
+		if(time%captureFreq==0) {
+			// net cam capture on?
+			if(networkCapture) {
+				// for this to work you need to set finder permissions for the user to read/write on the external drive path
+				sprintf(path, "%s/images/%i-%02i-%02i-%02i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+				
+				sprintf(buffer, "mkdir -p %s", path);
+				
+				// TODO this should probably done in a non-blocking way
+				// eg ofDirectory using of007
+				system(buffer);
+				
+				// loads a file from a url and saves it with a specific name
+				// the resulting file can be loaded into a ofImage for display
+				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+				
+				message = "Thread: Network camera capture";
+				Http.imageLoader = imageLoader;
+				Http.cameraUrl = cameraUrl;
+				Http.imgPath = imgPath;
+				Http.updateOnce();
+
+				// webcam capture on?
+			} else if (webcamCapture) {
+				sprintf(path, "%s/images/%i-%02i-%02i-%02i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
+				sprintf(buffer, "mkdir -p %s", path);
+				system(buffer);
+				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
+				
+				webcam.grabScreen(20,20,camWidth, camHeight);
+				p = imgPath;
+				webcam.saveImage(p);
+				message = "Save: Webcam capture";
+
+			}
+		}
+	}
+	
+	if(time%newSequence==0) {
+//		newSequence = ofRandom(int(newSequence*0.5), newSequence);
+		updateSequenceList();
+		//ImageLoader.files = files;
+		//ImageLoader.sequence = sequence;
+		//ImageLoader.start();
+		//cout<<"Just called ImageLoader.start()\n";
+	}
+	
+	time++;
+		
+}
+
+//--------------------------------------------------------------
+void testApp::updateSequenceList() {
 	
 	sequenceDir.clear();
 	
 	// directory listing
 	dir.allowExt("*");	
-	int numFiles = dir.listDir(s+"/images");
+	int numFiles = dir.listDir(storagePath+"/images");
 	if(numFiles==0) { 
-		cout<<"ERROR: no dirs found in "<<s<<"/images\n";
+		cout<<"ERROR: no dirs found in "<<storagePath<<"/images\n";
 		return;
 	}
 	// push the file names into a vector of strings
@@ -92,114 +172,67 @@ void testApp::updateSequenceList( string s ) {
 	int r = ofRandom(0,size);
 	message += sequenceDir[r]+"\n";
 	
-	files.clear();
 	
 	// file listing
 	dir.allowExt("jpg");	
 	numFiles = dir.listDir(sequenceDir[r]);
-	if(numFiles==0) { 
-		cout<<"ERROR: no files found in "<<sequenceDir[r];
-		exit();
-	}
-	
-	// hard limit for testing
-	if(numFiles>120) numFiles=120;
-	
-	// push the file names into a vector of strings
-	for(int i = 0; i < numFiles; i++){
-		files.push_back(dir.getPath(i));
-	}
-	
-	// initialise imageSequence
-//	sequence.loadSequence(files);
-//	sequence.preloadAllFrames();
-//	sequence.setFrameRate(25);
-	
-}
-
-//--------------------------------------------------------------
-void testApp::update(){
-	/* TODO captureFreq relates to how often update() is called (ie framerate) but
-	   should be related to time (elapsed millis) so it is the same frequency
-	   regardless of a fast or slow computer */
-	
-	// check time 
-	if(ofGetHours()>=startHour && ofGetHours()<=endHour) {
-		if(time%captureFreq==0) {
-			if(networkCapture) {
-				// for this to work you need to set finder permissions for the user to read/write on the external drive path
-				sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-				
-				sprintf(buffer, "mkdir -p %s", path);
-				
-				// TODO this should probably done in a non-blocking way
-				// eg ofDirectory using of007
-				system(buffer);
-				
-				// loads a file from a url and saves it with a specific name
-				// the resulting file can be loaded into a ofImage for display
-				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
-				
-				message = "Trigger: Network camera capture";
-				Http.imageLoader = imageLoader;
-				Http.cameraUrl = cameraUrl;
-				Http.imgPath = imgPath;
-				Http.updateOnce();
-				
-			} else if (webcamCapture) {
-				camera.grabFrame();
-				sprintf(path, "%s/images/%i-%i-%i-%i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-				sprintf(buffer, "mkdir -p %s", path);
-				system(buffer);
-				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
-				
-				webcam.grabScreen(20,20,camWidth, camHeight);
-				p = imgPath;
-				webcam.saveImage(p);
-				message = "Save: Webcam capture";
-
-			}
-			
+	// TODO should not die if no files found
+	if(numFiles!=0) { 
+		files.clear();
+		// push the file names into a vector of strings
+		for(int i = 0; i < numFiles; i++){
+			files.push_back(dir.getPath(i));
 		}
 	}
 	
-	if(time%newSequence==0) {
-		updateSequenceList(storagePath);
-		/*
-		 ImageLoader.files = files;
-		ImageLoader.sequence = sequence;
-		ImageLoader.start();
-		 */
-		cout<<"Just called ImageLoader.start()\n";
-	}
+	// initialise imageSequence
+	//sequence.loadSequence(files);
+	//	sequence.preloadAllFrames();
+	//	sequence.setFrameRate(25);
 	
-	time++;
-		
 }
+
 
 //--------------------------------------------------------------
 void testApp::draw(){
 	ofBackground(0,0,0);
-
-
-	frameTexture = sequence.getFrame(time%sequence.getTotalFrames());
-	frameTexture->draw(xpos, ypos, frameTexture->getWidth()*xscale, frameTexture->getHeight()*yscale );
-
-	if(osd) {
-		camera.draw(20,20);
-		string str = ofToString(ofGetFrameRate(), 0)+"fps";
-		font.drawString(str, 5, 18);
-		font.drawString(message, 5, 600);
+	int f = files.size();
+	if(f>0) {
+		int p = time%(files.size());
+		cout<<"file index:"<<p<<" of "<<files.size()<<" "<<files[p]<<"\n";
+		
+		texture.clear();
+		if(loader.loadImage(files[time%files.size()]) ) {
+			texture.allocate( loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );				
+			texture.loadData( loader.getPixels(), loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );
+		} else {
+			cout<<"ERROR: couldn't load image\n";
+		}
+		
+		texture.draw(xpos, ypos, texture.getWidth()*xscale, texture.getHeight()*yscale );
 	}
-	
+
+		if(osd) {
+			camera.draw(20,20);
+			grayImageDiff.draw(360,20);
+			string str = ofToString(ofGetFrameRate(), 0)+"fps";
+			font.drawString(str, 5, 18);
+			font.drawString(message, 5, 600);
+		}
+		printf("Time: %i:%i:%i\n",ofGetHours(),ofGetMinutes(),ofGetSeconds());
 
 }
+//int sequenceLength, sequenceFrame;
+
 
 //--------------------------------------------------------------
 void testApp::keyPressed(int key){
 
 	if(key=='p') {
 		message = "Play new sequence";
+		//newSequence = ofRandom(newSequence*0.5, newSequence);
+		updateSequenceList();
+
 		
 	}
 
@@ -212,6 +245,8 @@ void testApp::keyPressed(int key){
 	if(key=='f') {
 		fullscreen = !fullscreen;
 		ofSetFullscreen(fullscreen);
+		xmlConfig.setValue("config:display:fullscreen", fullscreen, 0);
+
 	}
 	
 	if(key=='h') {
@@ -333,3 +368,17 @@ void testApp::resized(int w, int h){
 
 }
 
+int testApp::imageTypeToGLType(int imageType)
+{
+switch (imageType) {
+	case OF_IMAGE_GRAYSCALE:
+		return GL_LUMINANCE;
+	case OF_IMAGE_COLOR:
+		return GL_RGB;
+	case OF_IMAGE_COLOR_ALPHA:
+		return GL_RGBA;
+	default:
+		ofLog(OF_LOG_ERROR, "ofxImageSequence - unsupported image type for image");
+		break;
+}
+}

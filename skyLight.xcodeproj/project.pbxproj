@@ -344,18 +344,10 @@
 			isa = PBXGroup;
 			children = (
 				CBF69AAA1481CE3300F8881D /* mono.ttf */,
-				CBF69AAB1481CE3300F8881D /* movies */,
 				CBF69AAF1481CE3300F8881D /* skylight.xml */,
 			);
 			name = data;
 			path = bin/data;
-			sourceTree = "<group>";
-		};
-		CBF69AAB1481CE3300F8881D /* movies */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = movies;
 			sourceTree = "<group>";
 		};
 		CBF69D9A148242F900F8881D /* ofxOpenCv */ = {
