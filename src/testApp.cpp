@@ -153,6 +153,9 @@ void testApp::update(){
 //--------------------------------------------------------------
 void testApp::updateSequenceList() {
 	
+	// check lock so we don't access files while they are beng written
+	if(Http.loading) return;
+	
 	sequenceDir.clear();
 	
 	// directory listing
@@ -199,7 +202,7 @@ void testApp::draw(){
 	int f = files.size();
 	if(f>0) {
 		int p = time%(files.size());
-		cout<<"file index:"<<p<<" of "<<files.size()<<" "<<files[p]<<"\n";
+		//cout<<"file index:"<<p<<" of "<<files.size()<<" "<<files[p]<<"\n";
 		
 		texture.clear();
 		if(loader.loadImage(files[time%files.size()]) ) {
@@ -219,7 +222,9 @@ void testApp::draw(){
 			font.drawString(str, 5, 18);
 			font.drawString(message, 5, 600);
 		}
-		printf("Time: %i:%i:%i\n",ofGetHours(),ofGetMinutes(),ofGetSeconds());
+		//printf("Time: %i:%i:%i\n",ofGetHours(),ofGetMinutes(),ofGetSeconds());
+	string updating = Http.loading ? "true" : "false";
+		cout<<"HttpThread: Updating: "<<updating<<"\n";
 
 }
 //int sequenceLength, sequenceFrame;
