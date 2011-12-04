@@ -13,7 +13,6 @@
 		CBF69552147DEC0200F8881D /* ofxXmlSettings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954D147DEC0200F8881D /* ofxXmlSettings.cpp */; };
 		CBF6988A147F3B4C00F8881D /* ofxFileLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69888147F3B4C00F8881D /* ofxFileLoader.cpp */; };
 		CBF69927147F59F700F8881D /* ofxDirList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69925147F59F700F8881D /* ofxDirList.cpp */; };
-		CBF69A771481C53E00F8881D /* ofxImageSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */; };
 		CBF69DC3148242FA00F8881D /* openCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF69DB1148242F900F8881D /* openCV.a */; };
 		CBF69DC4148242FA00F8881D /* ofxCvColorImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69DB4148242F900F8881D /* ofxCvColorImage.cpp */; };
 		CBF69DC5148242FA00F8881D /* ofxCvContourFinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69DB7148242F900F8881D /* ofxCvContourFinder.cpp */; };
@@ -108,9 +107,6 @@
 		CBF69923147F59F700F8881D /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		CBF69925147F59F700F8881D /* ofxDirList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDirList.cpp; sourceTree = "<group>"; };
 		CBF69926147F59F700F8881D /* ofxDirList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDirList.h; sourceTree = "<group>"; };
-		CBF69A711481C53E00F8881D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxImageSequence.cpp; sourceTree = "<group>"; };
-		CBF69A741481C53E00F8881D /* ofxImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxImageSequence.h; sourceTree = "<group>"; };
 		CBF69AAA1481CE3300F8881D /* mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = mono.ttf; sourceTree = "<group>"; };
 		CBF69AAF1481CE3300F8881D /* skylight.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = skylight.xml; sourceTree = "<group>"; };
 		CBF69AFE1481D8EC00F8881D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -239,7 +235,6 @@
 				CBF69FE0148598EE00F8881D /* ofxRuiThread */,
 				CBF69F97148591B000F8881D /* ofxThread */,
 				CBF69D9A148242F900F8881D /* ofxOpenCv */,
-				CBF699D01481C53D00F8881D /* ofxImageSequence */,
 				CBF69920147F59F700F8881D /* ofxDirList */,
 				CBF69887147F3B4C00F8881D /* ofxFileLoader */,
 				CBF69545147DEC0200F8881D /* ofxXmlSettings */,
@@ -313,25 +308,6 @@
 			children = (
 				CBF69925147F59F700F8881D /* ofxDirList.cpp */,
 				CBF69926147F59F700F8881D /* ofxDirList.h */,
-			);
-			path = src;
-			sourceTree = "<group>";
-		};
-		CBF699D01481C53D00F8881D /* ofxImageSequence */ = {
-			isa = PBXGroup;
-			children = (
-				CBF69A711481C53E00F8881D /* README */,
-				CBF69A721481C53E00F8881D /* src */,
-			);
-			name = ofxImageSequence;
-			path = ../../../addons/ofxImageSequence;
-			sourceTree = SOURCE_ROOT;
-		};
-		CBF69A721481C53E00F8881D /* src */ = {
-			isa = PBXGroup;
-			children = (
-				CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */,
-				CBF69A741481C53E00F8881D /* ofxImageSequence.h */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -858,7 +834,6 @@
 				CBF69552147DEC0200F8881D /* ofxXmlSettings.cpp in Sources */,
 				CBF6988A147F3B4C00F8881D /* ofxFileLoader.cpp in Sources */,
 				CBF69927147F59F700F8881D /* ofxDirList.cpp in Sources */,
-				CBF69A771481C53E00F8881D /* ofxImageSequence.cpp in Sources */,
 				CBF69DC4148242FA00F8881D /* ofxCvColorImage.cpp in Sources */,
 				CBF69DC5148242FA00F8881D /* ofxCvContourFinder.cpp in Sources */,
 				CBF69DC6148242FA00F8881D /* ofxCvFloatImage.cpp in Sources */,

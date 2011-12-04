@@ -187,6 +187,12 @@
 		vrLoc = 2710;
 	};
 	CBF69A711481C53E00F8881D /* README */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = text;
+		name = README;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/addons/ofxImageSequence/README;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {838, 646}}";
 			sepNavSelRange = "{0, 0}";
@@ -194,6 +200,12 @@
 		};
 	};
 	CBF69A731481C53E00F8881D /* ofxImageSequence.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ofxImageSequence.cpp;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/addons/ofxImageSequence/src/ofxImageSequence.cpp;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1153, 3692}}";
 			sepNavSelRange = "{6554, 8}";
@@ -201,6 +213,12 @@
 		};
 	};
 	CBF69A741481C53E00F8881D /* ofxImageSequence.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = ofxImageSequence.h;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/addons/ofxImageSequence/src/ofxImageSequence.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1153, 1924}}";
 			sepNavSelRange = "{5075, 32}";
