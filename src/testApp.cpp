@@ -194,16 +194,16 @@ void testApp::draw(){
 	if(f>0) {
 		int p = time%(files.size());
 		//cout<<"file index:"<<p<<" of "<<files.size()<<" "<<files[p]<<"\n";
-		
 		texture.clear();
+		texture.push_back(ofTexture());
 		if(loader.loadImage(files[time%files.size()]) ) {
-			texture.allocate( loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );				
-			texture.loadData( loader.getPixels(), loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );
+			texture[0].allocate( loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );				
+			texture[0].loadData( loader.getPixels(), loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );
+			texture[0].draw(xpos, ypos, texture[0].getWidth()*xscale, texture[0].getHeight()*yscale );
 		} else {
 			cout<<"ERROR: couldn't load image\n";
 		}
 		
-		texture.draw(xpos, ypos, texture.getWidth()*xscale, texture.getHeight()*yscale );
 	}
 
 		if(osd) {
@@ -215,7 +215,7 @@ void testApp::draw(){
 		}
 		//printf("Time: %i:%i:%i\n",ofGetHours(),ofGetMinutes(),ofGetSeconds());
 	string updating = Http.loading ? "true" : "false";
-		cout<<"HttpThread: Updating: "<<updating<<"\n";
+	cout<<"HttpThread: Updating: "<<updating<<"\n";
 
 }
 

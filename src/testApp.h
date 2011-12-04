@@ -5,15 +5,11 @@
 #include "ofMain.h"
 #include "ofxFileLoader.h"
 #include "ofxDirList.h"
-//#include "ofxImageSequence.h" 
 #include "ofxOpenCv.h"
 #include "ofxThread.h"
-
+#include "ofxXmlSettings.h"
 
 #include "httpThread.h"
-//#include "imageLoaderThread.h"
-
-#include "util.h"
 
 #include <string.h>
 #include <vector.h>
@@ -61,8 +57,8 @@ class testApp : public ofBaseApp{
 		
 		char buffer[1024], path[500], imgPath[1000];
 
-		ofTexture frameTexture;
-		ofTexture texture;
+		ofTexture* tex;
+		vector <ofTexture> texture;
 
 		ofxCvGrayscaleImage grayImageNow, grayImageThen, grayImageDiff;
 		ofVideoGrabber camera;
@@ -73,7 +69,7 @@ class testApp : public ofBaseApp{
 		void updateSequenceList();
 		int imageTypeToGLType(int imageType);
 		//ofxImageSequence sequence;
-		vector<ofTexture*> sequence;
+		//vector<ofTexture*> sequence;
 		ofImage	loader;
 
 
