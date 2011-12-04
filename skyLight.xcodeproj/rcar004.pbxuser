@@ -79,13 +79,25 @@
 		};
 	};
 	CBF69535147DEB8300F8881D /* util.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = util.h;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/src/util.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 642}}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
 			sepNavSelRange = "{231, 0}";
 			sepNavVisRange = "{0, 231}";
 		};
 	};
 	CBF69536147DEB8300F8881D /* util.cpp */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = util.cpp;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/src/util.cpp;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavFolds = "{\n    c =     (\n                {\n            l = message;\n            r = \"{206, 11}\";\n            s = 1;\n        }\n    );\n    r = \"{0, 222}\";\n    s = 0;\n}";
 			sepNavIntBoundsRect = "{{0, 0}, {838, 646}}";
@@ -198,9 +210,9 @@
 	};
 	CBF69AAF1481CE3300F8881D /* skylight.xml */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 645}}";
-			sepNavSelRange = "{726, 0}";
-			sepNavVisRange = "{0, 726}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
+			sepNavSelRange = "{477, 0}";
+			sepNavVisRange = "{0, 725}";
 			sepNavWindowFrame = "{{65, 92}, {1114, 739}}";
 		};
 	};
@@ -444,6 +456,12 @@
 		vrLoc = 0;
 	};
 	CBF6A2081485D68700F8881D /* imageLoaderThread.h */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.h;
+		name = imageLoaderThread.h;
+		path = /Users/rcar004/wip/openframeworks/of_preRelease_v0061_osxSL_FAT/apps/examples/skyLight/src/imageLoaderThread.h;
+		sourceTree = "<absolute>";
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
 			sepNavSelRange = "{487, 0}";
@@ -593,7 +611,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 19";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 623;
 		vrLoc = 0;
@@ -624,7 +642,7 @@
 		isa = PBXTextBookmark;
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		rLen = 0;
-		rLoc = 203;
+		rLoc = 194;
 		rType = 1;
 	};
 	CBF6A3A91486BFE700F8881D /* PBXTextBookmark */ = {
@@ -659,7 +677,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 19";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -689,7 +707,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 208";
 		rLen = 0;
-		rLoc = 6335;
+		rLoc = 6052;
 		rType = 0;
 		vrLen = 1391;
 		vrLoc = 5244;
@@ -699,7 +717,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 208";
 		rLen = 0;
-		rLoc = 6335;
+		rLoc = 6052;
 		rType = 0;
 		vrLen = 1427;
 		vrLoc = 5244;
@@ -709,7 +727,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 228";
 		rLen = 0;
-		rLoc = 6906;
+		rLoc = 6586;
 		rType = 0;
 		vrLen = 1179;
 		vrLoc = 5971;
@@ -719,7 +737,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 228";
 		rLen = 0;
-		rLoc = 6906;
+		rLoc = 6586;
 		rType = 0;
 		vrLen = 1209;
 		vrLoc = 5982;
@@ -739,7 +757,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 199";
 		rLen = 0;
-		rLoc = 5927;
+		rLoc = 5644;
 		rType = 0;
 		vrLen = 1776;
 		vrLoc = 0;
@@ -749,7 +767,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 199";
 		rLen = 0;
-		rLoc = 5927;
+		rLoc = 5644;
 		rType = 0;
 		vrLen = 1286;
 		vrLoc = 5101;
@@ -759,7 +777,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 199";
 		rLen = 0;
-		rLoc = 5927;
+		rLoc = 5644;
 		rType = 0;
 		vrLen = 1349;
 		vrLoc = 5076;
@@ -769,7 +787,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 19";
 		rLen = 0;
-		rLoc = 504;
+		rLoc = 503;
 		rType = 0;
 		vrLen = 658;
 		vrLoc = 0;
@@ -778,7 +796,7 @@
 		isa = PBXTextBookmark;
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 1";
-		rLen = 707;
+		rLen = 706;
 		rLoc = 0;
 		rType = 0;
 		vrLen = 707;
@@ -819,7 +837,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 28";
 		rLen = 0;
-		rLoc = 726;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 0;
@@ -834,7 +852,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 238;
+		rLoc = 228;
 		rType = 1;
 	};
 	CBF6A409148A1D2C00F8881D /* PBXTextBookmark */ = {
@@ -842,7 +860,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 234";
 		rLen = 0;
-		rLoc = 6981;
+		rLoc = 6661;
 		rType = 0;
 		vrLen = 387;
 		vrLoc = 6435;
@@ -852,7 +870,7 @@
 		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
 		name = "skylight.xml: 28";
 		rLen = 0;
-		rLoc = 726;
+		rLoc = 725;
 		rType = 0;
 		vrLen = 726;
 		vrLoc = 0;
@@ -881,7 +899,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 142";
 		rLen = 0;
-		rLoc = 4334;
+		rLoc = 4271;
 		rType = 0;
 		vrLen = 1367;
 		vrLoc = 3595;
@@ -941,7 +959,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 222";
 		rLen = 0;
-		rLoc = 6533;
+		rLoc = 6250;
 		rType = 0;
 		vrLen = 1332;
 		vrLoc = 5561;
@@ -951,7 +969,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 234";
 		rLen = 0;
-		rLoc = 6981;
+		rLoc = 6661;
 		rType = 0;
 		vrLen = 328;
 		vrLoc = 6508;
@@ -961,7 +979,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 234";
 		rLen = 0;
-		rLoc = 6981;
+		rLoc = 6661;
 		rType = 0;
 		vrLen = 328;
 		vrLoc = 6508;
@@ -972,7 +990,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		fallbackIsa = XCBuildMessageTextBookmark;
 		rLen = 1;
-		rLoc = 225;
+		rLoc = 216;
 		rType = 1;
 	};
 	CBF6A445148ADB2000F8881D /* PBXTextBookmark */ = {
@@ -980,7 +998,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 223";
 		rLen = 0;
-		rLoc = 6615;
+		rLoc = 6332;
 		rType = 0;
 		vrLen = 578;
 		vrLoc = 6276;
@@ -1070,7 +1088,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 223";
 		rLen = 0;
-		rLoc = 6632;
+		rLoc = 6349;
 		rType = 0;
 		vrLen = 1445;
 		vrLoc = 5351;
@@ -1080,7 +1098,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 224";
 		rLen = 0;
-		rLoc = 6708;
+		rLoc = 6425;
 		rType = 0;
 		vrLen = 1388;
 		vrLoc = 5630;
@@ -1110,7 +1128,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 223";
 		rLen = 0;
-		rLoc = 6639;
+		rLoc = 6356;
 		rType = 0;
 		vrLen = 1490;
 		vrLoc = 5264;
@@ -1120,7 +1138,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 202";
 		rLen = 0;
-		rLoc = 5839;
+		rLoc = 5556;
 		rType = 0;
 		vrLen = 1365;
 		vrLoc = 5561;
@@ -1130,7 +1148,7 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 202";
 		rLen = 0;
-		rLoc = 5839;
+		rLoc = 5556;
 		rType = 0;
 		vrLen = 1432;
 		vrLoc = 5565;
@@ -1140,10 +1158,40 @@
 		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
 		name = "testApp.cpp: 159";
 		rLen = 0;
-		rLoc = 4718;
+		rLoc = 4562;
 		rType = 0;
 		vrLen = 1268;
 		vrLoc = 4389;
+	};
+	CBF6A46A148AF36E00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */;
+		name = "testApp.cpp: 159";
+		rLen = 0;
+		rLoc = 4562;
+		rType = 0;
+		vrLen = 1268;
+		vrLoc = 4389;
+	};
+	CBF6A46B148AF36E00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF6A2081485D68700F8881D /* imageLoaderThread.h */;
+		name = "imageLoaderThread.h: 30";
+		rLen = 0;
+		rLoc = 487;
+		rType = 0;
+		vrLen = 517;
+		vrLoc = 0;
+	};
+	CBF6A46C148AF36E00F8881D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = CBF69AAF1481CE3300F8881D /* skylight.xml */;
+		name = "skylight.xml: 18";
+		rLen = 0;
+		rLoc = 477;
+		rType = 0;
+		vrLen = 725;
+		vrLoc = 0;
 	};
 	E4B69B4C0A3A1720003C02F2 /* Project object */ = {
 		activeBuildConfigurationName = Debug;
@@ -1305,6 +1353,9 @@
 			CBF6A461148AE53300F8881D /* PBXTextBookmark */ = CBF6A461148AE53300F8881D /* PBXTextBookmark */;
 			CBF6A465148AE55300F8881D /* PBXTextBookmark */ = CBF6A465148AE55300F8881D /* PBXTextBookmark */;
 			CBF6A467148AE5AA00F8881D /* PBXTextBookmark */ = CBF6A467148AE5AA00F8881D /* PBXTextBookmark */;
+			CBF6A46A148AF36E00F8881D /* PBXTextBookmark */ = CBF6A46A148AF36E00F8881D /* PBXTextBookmark */;
+			CBF6A46B148AF36E00F8881D /* PBXTextBookmark */ = CBF6A46B148AF36E00F8881D /* PBXTextBookmark */;
+			CBF6A46C148AF36E00F8881D /* PBXTextBookmark */ = CBF6A46C148AF36E00F8881D /* PBXTextBookmark */;
 		};
 		sourceControlManager = CB2A43ED11A7D541007D3DBC /* Source Control */;
 		userBuildSettings = {
@@ -1326,9 +1377,9 @@
 	};
 	E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {950, 5148}}";
-			sepNavSelRange = "{4718, 0}";
-			sepNavVisRange = "{4389, 1268}";
+			sepNavIntBoundsRect = "{{0, 0}, {1070, 5057}}";
+			sepNavSelRange = "{6332, 0}";
+			sepNavVisRange = "{6507, 513}";
 			sepNavWindowFrame = "{{222, 0}, {1114, 739}}";
 		};
 	};
@@ -1336,7 +1387,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {838, 1183}}";
 			sepNavSelRange = "{1467, 0}";
-			sepNavVisRange = "{711, 1014}";
+			sepNavVisRange = "{707, 1018}";
 			sepNavWindowFrame = "{{65, 273}, {750, 558}}";
 		};
 	};

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CBF69537147DEB8300F8881D /* util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69536147DEB8300F8881D /* util.cpp */; };
 		CBF6954F147DEC0200F8881D /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69548147DEC0200F8881D /* tinyxml.cpp */; };
 		CBF69550147DEC0200F8881D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954A147DEC0200F8881D /* tinyxmlerror.cpp */; };
 		CBF69551147DEC0200F8881D /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954B147DEC0200F8881D /* tinyxmlparser.cpp */; };
@@ -96,8 +95,6 @@
 
 /* Begin PBXFileReference section */
 		CBF69525147DE77000F8881D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
-		CBF69535147DEB8300F8881D /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
-		CBF69536147DEB8300F8881D /* util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = util.cpp; sourceTree = "<group>"; };
 		CBF69546147DEC0200F8881D /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		CBF69548147DEC0200F8881D /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
 		CBF69549147DEC0200F8881D /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tinyxml.h; sourceTree = "<group>"; };
@@ -159,7 +156,6 @@
 		CBF69FE1148598EE00F8881D /* COPYING.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING.txt; sourceTree = "<group>"; };
 		CBF69FE8148598EE00F8881D /* ofxRuiThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxRuiThread.cpp; sourceTree = "<group>"; };
 		CBF69FE9148598EE00F8881D /* ofxRuiThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxRuiThread.h; sourceTree = "<group>"; };
-		CBF6A2081485D68700F8881D /* imageLoaderThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageLoaderThread.h; sourceTree = "<group>"; };
 		E45BE0390E8CC647009D7055 /* FreeImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeImage.h; path = ../../../libs/freeimage/include/FreeImage.h; sourceTree = SOURCE_ROOT; };
 		E45BE03F0E8CC650009D7055 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod.h; path = ../../../libs/fmodex/include/fmod.h; sourceTree = SOURCE_ROOT; };
 		E45BE0400E8CC650009D7055 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = fmod.hpp; path = ../../../libs/fmodex/include/fmod.hpp; sourceTree = SOURCE_ROOT; };
@@ -685,10 +681,7 @@
 				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
 				E4B69E1E0A3A1BDC003C02F2 /* testApp.cpp */,
 				E4B69E1F0A3A1BDC003C02F2 /* testApp.h */,
-				CBF69535147DEB8300F8881D /* util.h */,
-				CBF69536147DEB8300F8881D /* util.cpp */,
 				CBF69F9F1485923D00F8881D /* httpThread.h */,
-				CBF6A2081485D68700F8881D /* imageLoaderThread.h */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -859,7 +852,6 @@
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* testApp.cpp in Sources */,
-				CBF69537147DEB8300F8881D /* util.cpp in Sources */,
 				CBF6954F147DEC0200F8881D /* tinyxml.cpp in Sources */,
 				CBF69550147DEC0200F8881D /* tinyxmlerror.cpp in Sources */,
 				CBF69551147DEC0200F8881D /* tinyxmlparser.cpp in Sources */,

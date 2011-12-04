@@ -281,8 +281,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>10</integer>
-									<integer>8</integer>
+									<integer>7</integer>
+									<integer>5</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -324,7 +324,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>testApp.cpp</string>
+								<string>skylight.xml</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>testApp.cpp</string>
+										<string>skylight.xml</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>CBF6A467148AE5AA00F8881D</string>
+										<string>CBF6A46C148AF36E00F8881D</string>
 										<key>history</key>
 										<array>
 											<string>CBF6997D1480953000F8881D</string>
@@ -364,16 +364,16 @@
 											<string>CBF6A2C914862AAA00F8881D</string>
 											<string>CBF6A35B1486471600F8881D</string>
 											<string>CBF6A35D1486471600F8881D</string>
-											<string>CBF6A40E148A1D5000F8881D</string>
 											<string>CBF6A450148ADBA400F8881D</string>
 											<string>CBF6A451148ADBA400F8881D</string>
 											<string>CBF6A452148ADBA400F8881D</string>
 											<string>CBF6A453148ADBA400F8881D</string>
 											<string>CBF6A454148ADBA400F8881D</string>
-											<string>CBF6A456148ADBA400F8881D</string>
 											<string>CBF6A45E148AE53300F8881D</string>
 											<string>CBF6A45F148AE53300F8881D</string>
-											<string>CBF6A460148AE53300F8881D</string>
+											<string>CBF6A46A148AF36E00F8881D</string>
+											<string>CBF6A46B148AF36E00F8881D</string>
+											<string>CBF6A40E148A1D5000F8881D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -571,6 +571,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>CBF6A46D148AF36E00F8881D</string>
 		<string>CBF6A3C81486CA0200F8881D</string>
 		<string>CBF6A3C91486CA0200F8881D</string>
 		<string>1CD10A99069EF8BA00B06720</string>

@@ -138,11 +138,7 @@ void testApp::update(){
 	}
 	
 	if(time%newSequence==0) {
-//		newSequence = ofRandom(int(newSequence*0.5), newSequence);
 		updateSequenceList();
-		//ImageLoader.files = files;
-		//ImageLoader.sequence = sequence;
-		//ImageLoader.start();
 		//cout<<"Just called ImageLoader.start()\n";
 	}
 	
@@ -187,12 +183,7 @@ void testApp::updateSequenceList() {
 			files.push_back(dir.getPath(i));
 		}
 	}
-	
-	// initialise imageSequence
-	//sequence.loadSequence(files);
-	//	sequence.preloadAllFrames();
-	//	sequence.setFrameRate(25);
-	
+		
 }
 
 
@@ -227,7 +218,6 @@ void testApp::draw(){
 		cout<<"HttpThread: Updating: "<<updating<<"\n";
 
 }
-//int sequenceLength, sequenceFrame;
 
 
 //--------------------------------------------------------------
