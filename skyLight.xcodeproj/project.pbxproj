@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBEB915F148E144E00A35222 /* ofxImageSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBEB915B148E144E00A35222 /* ofxImageSequence.cpp */; };
 		CBF6954F147DEC0200F8881D /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF69548147DEC0200F8881D /* tinyxml.cpp */; };
 		CBF69550147DEC0200F8881D /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954A147DEC0200F8881D /* tinyxmlerror.cpp */; };
 		CBF69551147DEC0200F8881D /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CBF6954B147DEC0200F8881D /* tinyxmlparser.cpp */; };
@@ -93,6 +94,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CBEB9159148E144E00A35222 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		CBEB915B148E144E00A35222 /* ofxImageSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxImageSequence.cpp; sourceTree = "<group>"; };
+		CBEB915C148E144E00A35222 /* ofxImageSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxImageSequence.h; sourceTree = "<group>"; };
 		CBF69525147DE77000F8881D /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		CBF69546147DEC0200F8881D /* install.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = install.xml; sourceTree = "<group>"; };
 		CBF69548147DEC0200F8881D /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyxml.cpp; sourceTree = "<group>"; };
@@ -229,9 +233,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CBEB90B8148E144E00A35222 /* ofxImageSequence */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB9159148E144E00A35222 /* README */,
+				CBEB915A148E144E00A35222 /* src */,
+			);
+			name = ofxImageSequence;
+			path = ../../../addons/ofxImageSequence;
+			sourceTree = SOURCE_ROOT;
+		};
+		CBEB915A148E144E00A35222 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CBEB915B148E144E00A35222 /* ofxImageSequence.cpp */,
+				CBEB915C148E144E00A35222 /* ofxImageSequence.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		CBF6953D147DEBDC00F8881D /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				CBEB90B8148E144E00A35222 /* ofxImageSequence */,
 				CBF69FE0148598EE00F8881D /* ofxRuiThread */,
 				CBF69F97148591B000F8881D /* ofxThread */,
 				CBF69D9A148242F900F8881D /* ofxOpenCv */,
@@ -842,6 +866,7 @@
 				CBF69DC9148242FA00F8881D /* ofxCvShortImage.cpp in Sources */,
 				CBF69F9E148591B000F8881D /* ofxThread.cpp in Sources */,
 				CBF69FEC148598EE00F8881D /* ofxRuiThread.cpp in Sources */,
+				CBEB915F148E144E00A35222 /* ofxImageSequence.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

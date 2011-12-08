@@ -2,19 +2,6 @@
 
 //--------------------------------------------------------------
 void testApp::setup(){
-	camWidth = 320;
-	camHeight = 240;
-	
-//	camera.videoSettings();
-//	camera.listDevices();
-//	camera.videoSettings();
-	
-//	camera.setVerbose(true);
-	camera.initGrabber(camWidth,camHeight);
-
-	grayImageDiff.allocate(camWidth,camHeight);
-	grayImageThen.allocate(camWidth,camHeight);
-	grayImageNow.allocate(camWidth,camHeight);
 
 	// get config values from XML file in ./data
 	if( !xmlConfig.loadFile("skylight.xml") ) {
@@ -54,17 +41,17 @@ void testApp::setup(){
 	ofSetFullscreen(fullscreen);
 	
 	// load font
-	font.loadFont(fontPath, 12);
-	
-	seqPath = "/images/2011-11-30-13";
-	
+	font.loadFont(fontPath, 12, true, true);
 	
 	// get list of sequences - currently 1 hour time frame
+	
 	updateSequenceList();
-
-	// TODO make into a config option
-	sequenceLength = 50;
-	sequenceFrame = 0;
+	
+	// setup texture buffer
+	texture.resize(50);
+	for(int i=0; i<50; i++) { texture[i] = new ofTexture(); }
+	
+	loader.setUseTexture(false);
 
 	// set bg to black
 	ofBackground(0,0,0);
@@ -75,6 +62,9 @@ void testApp::setup(){
 	ofSetFrameRate(25);
 	
 	// start thread
+	Http.imageLoader = imageLoader;
+	Http.cameraUrl = cameraUrl;
+
 	Http.initAndSleep();
 	
 
@@ -85,16 +75,6 @@ void testApp::update(){
 	/* TODO captureFreq relates to how often update() is called (ie framerate) but
 	   should be related to time (elapsed millis) so it is the same frequency
 	   regardless of a fast or slow computer */
-	
-	// look for movement
-	camera.grabFrame();
-	if(camera.isFrameNew()) {
-		grayImageThen = grayImageNow;
-		grayImageNow.setFromPixels(camera.getPixels(), camWidth,camHeight);
-		grayImageDiff.absDiff(grayImageNow, grayImageThen);
-		
-	}
-
 	
 	// check time 
 	if(ofGetHours()>=startHour && ofGetHours()<=endHour) {
@@ -116,22 +96,8 @@ void testApp::update(){
 				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
 				
 				message = "Thread: Network camera capture";
-				Http.imageLoader = imageLoader;
-				Http.cameraUrl = cameraUrl;
 				Http.imgPath = imgPath;
 				Http.updateOnce();
-
-				// webcam capture on?
-			} else if (webcamCapture) {
-				sprintf(path, "%s/images/%i-%02i-%02i-%02i", storagePath.c_str(), ofGetYear(),ofGetMonth(),ofGetDay(), ofGetHours() );
-				sprintf(buffer, "mkdir -p %s", path);
-				system(buffer);
-				sprintf(imgPath, "%s/sky-%02i-%02i.jpg", path, ofGetMinutes(), ofGetSeconds());
-				
-				webcam.grabScreen(20,20,camWidth, camHeight);
-				p = imgPath;
-				webcam.saveImage(p);
-				message = "Save: Webcam capture";
 
 			}
 		}
@@ -139,7 +105,6 @@ void testApp::update(){
 	
 	if(time%newSequence==0) {
 		updateSequenceList();
-		//cout<<"Just called ImageLoader.start()\n";
 	}
 	
 	time++;
@@ -148,37 +113,36 @@ void testApp::update(){
 
 //--------------------------------------------------------------
 void testApp::updateSequenceList() {
-	
-	// check lock so we don't access files while they are beng written
+	message.clear();
+	// check lock so we don't access files while they are being written
 	if(Http.loading) return;
 	
-	sequenceDir.clear();
-	
 	// directory listing
+	dir.reset();
 	dir.allowExt("*");	
 	int numFiles = dir.listDir(storagePath+"/images");
 	if(numFiles==0) { 
 		cout<<"ERROR: no dirs found in "<<storagePath<<"/images\n";
 		return;
 	}
+	sequenceDir.clear();
+
 	// push the file names into a vector of strings
 	for(int i = 0; i < numFiles; i++){
 		sequenceDir.push_back(dir.getPath(i));
 	}
-	message = "Sequence update: "+ofToString(numFiles)+" sequences available\n";
 	
 	int size = sequenceDir.size();
-	int r = ofRandom(0,size);
-	message += sequenceDir[r]+"\n";
-	
+	int r = ofRandom(0,size-1);
+	message = "Sequence update: "+ofToString(numFiles)+" sequences available\n"+sequenceDir[r]+"\n";
 	
 	// file listing
+	dir.reset();
 	dir.allowExt("jpg");	
 	numFiles = dir.listDir(sequenceDir[r]);
-	// TODO should not die if no files found
+
 	if(numFiles!=0) { 
 		files.clear();
-		// push the file names into a vector of strings
 		for(int i = 0; i < numFiles; i++){
 			files.push_back(dir.getPath(i));
 		}
@@ -193,13 +157,11 @@ void testApp::draw(){
 	int f = files.size();
 	if(f>0) {
 		int p = time%(files.size());
-		//cout<<"file index:"<<p<<" of "<<files.size()<<" "<<files[p]<<"\n";
-		texture.clear();
-		texture.push_back(ofTexture());
-		if(loader.loadImage(files[time%files.size()]) ) {
-			texture[0].allocate( loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );				
-			texture[0].loadData( loader.getPixels(), loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );
-			texture[0].draw(xpos, ypos, texture[0].getWidth()*xscale, texture[0].getHeight()*yscale );
+
+		if(loader.loadImage(files[p]) ) {
+			texture[0]->allocate( loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );				
+			texture[0]->loadData( loader.getPixels(), loader.getWidth(), loader.getHeight(), imageTypeToGLType(loader.type) );
+			texture[0]->draw(xpos, ypos, texture[0]->getWidth()*xscale, texture[0]->getHeight()*yscale );
 		} else {
 			cout<<"ERROR: couldn't load image\n";
 		}
@@ -207,15 +169,13 @@ void testApp::draw(){
 	}
 
 		if(osd) {
-			camera.draw(20,20);
-			grayImageDiff.draw(360,20);
 			string str = ofToString(ofGetFrameRate(), 0)+"fps";
 			font.drawString(str, 5, 18);
 			font.drawString(message, 5, 600);
 		}
 		//printf("Time: %i:%i:%i\n",ofGetHours(),ofGetMinutes(),ofGetSeconds());
 	string updating = Http.loading ? "true" : "false";
-	cout<<"HttpThread: Updating: "<<updating<<"\n";
+	// cout<<"HttpThread: Updating: "<<updating<<"\n";
 
 }
 

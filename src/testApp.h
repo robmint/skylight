@@ -11,8 +11,8 @@
 
 #include "httpThread.h"
 
-#include <string.h>
-#include <vector.h>
+#include <string>
+#include <vector>
 
 #define CONFIG_FILE "data/skylight.xml"
 
@@ -37,7 +37,7 @@ class testApp : public ofBaseApp{
 		bool fullscreen, osd;
 		
 		string cameraUrl, fontPath, storagePath, seqPath;
-		string p;
+		string p, message;
 
 		int displayWidth, displayHeight, captureFreq;
 		int yCursor, m, time;
@@ -47,18 +47,14 @@ class testApp : public ofBaseApp{
 		double xscale, yscale;
 			
 		HttpThread Http;
-		//ImageLoaderThread ImageLoader;
-
 
 		vector<string> files;
 		vector<string> sequenceDir;
-		
-		string message;
-		
+				
 		char buffer[1024], path[500], imgPath[1000];
 
-		ofTexture* tex;
-		vector <ofTexture> texture;
+		ofTexture tex;
+		vector<ofTexture*> texture;
 
 		ofxCvGrayscaleImage grayImageNow, grayImageThen, grayImageDiff;
 		ofVideoGrabber camera;
@@ -68,18 +64,17 @@ class testApp : public ofBaseApp{
 	
 		void updateSequenceList();
 		int imageTypeToGLType(int imageType);
-		//ofxImageSequence sequence;
-		//vector<ofTexture*> sequence;
 		ofImage	loader;
-
 
 		int sequenceLength, sequenceFrame;
 	
 		ofxXmlSettings xmlConfig;
 		ofxDirList dir;
 		ofImage webcam;
-		
+
+	private:
 		ofTrueTypeFont font;
+	
 
 };
 

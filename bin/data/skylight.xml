@@ -10,8 +10,8 @@
         <newsequence>200</newsequence>
         <width>1600</width>
         <height>900</height>
-        <osd>0</osd>
-        <fullscreen>1</fullscreen>
+        <osd>1</osd>
+        <fullscreen>0</fullscreen>
     </display>
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
