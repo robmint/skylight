@@ -7,11 +7,11 @@
         <xscale>1.300000</xscale>
         <yscale>1.300000</yscale>
         <lockaspect>1</lockaspect>
-        <newsequence>200</newsequence>
+        <newsequence>50</newsequence>
         <width>1600</width>
         <height>900</height>
-        <osd>1</osd>
-        <fullscreen>0</fullscreen>
+        <osd>0</osd>
+        <fullscreen>1</fullscreen>
     </display>
     <camera>
         <url>http://localhost/rcar004/skylight/image.php</url>
